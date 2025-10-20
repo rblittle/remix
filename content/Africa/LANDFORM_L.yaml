@@ -1,0 +1,71 @@
+poster_id: Africa_LANDFORM_L
+station: Africa
+poster_type: LANDFORM_L
+title: "Rift Valley Spine"
+copy:
+  hook: "Follow the continent’s tectonic heartbeat."
+  short: "The East African Rift splits plates, lifts volcanoes, and creates life-giving lakes. Walk the Rift’s north-to-south panels to see how Afar’s triple junction, the Kenyan dome, and the Malawi graben shape water, soils, and settlements."
+  depth:
+    - "Cross-sections compare active rifts with dormant segments and associated aquifers."
+    - "Profiles highlight geothermal power, obsidian trade, and lake fisheries."
+    - "Community case studies show how pastoralists and city planners adapt to seismic risk."
+maps:
+  projection: "Azimuthal equidistant centered on Rift Valley"
+  layers:
+    - "Fault lines and spreading rates"
+    - "Volcano locations and eruption history"
+    - "Rift lakes with depth gradients"
+  legend:
+    - "Line styles for active vs. inactive faults"
+    - "Color ramp for lake depth"
+  labels:
+    - "Key features: Afar Depression, Mount Kenya, Lake Turkana, Ngorongoro, Lake Malawi"
+    - "Cities: Addis Ababa, Nairobi, Arusha, Lilongwe"
+  insets:
+    - title: "Afar Triple Junction"
+      projection: "Perspective cross-section"
+      focus: "Three-plate meeting point"
+      notes: "Show Red Sea and Gulf of Aden arms"
+graphs:
+  - title: "Rift Opening Rates"
+    type: "bar"
+    metrics:
+      - label: "Afar"
+        value: 6
+        unit: "mm/yr"
+      - label: "Kenya Rift"
+        value: 3
+        unit: "mm/yr"
+      - label: "Malawi Rift"
+        value: 2
+        unit: "mm/yr"
+    notes: "Bars paired with timeline of notable quakes"
+images:
+  prompts:
+    - text: "Drone photo of Rift Valley escarpment with Maasai community and volcanic cones"
+      style: "Photo-real"
+      cultural_context: "Kenya/Tanzania"
+    - text: "Scientific illustration of rift cross-section showing magma plume and lakes"
+      style: "Cutaway diagram"
+      cultural_context: "Geologic"
+  selection_criteria:
+    - "Respect land rights and cultural presence"
+    - "Highlight both natural beauty and community life"
+    - "Ensure geological accuracy"
+design:
+  layout:
+    columns: 2
+    gutters: "1.3 in"
+    keylines: "Vertical rift schematic spanning both columns"
+  typography:
+    heading_pt: 145
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Raised relief along fault lines"
+    - "Audio explanation in Swahili and English"
+    - "Icons with text for hazard tips"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact spreading rates"

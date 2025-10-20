@@ -1,0 +1,78 @@
+poster_id: Asia_LANDFORM_L
+station: Asia
+poster_type: LANDFORM_L
+title: "Himalayan Water Towers"
+copy:
+  hook: "Where ice feeds billions downstream."
+  short: "Follow the Himalayan arc from the Pamir Knot to the Eastern Himalaya. Glaciers, debris-covered tongues, and monsoon-fed snowfields store water that flows into the Indus, Ganges, Brahmaputra, Mekong, and Yangtze. Communities engineer terraces and warning systems to live with this vertical reservoir."
+  depth:
+    - "Cross-sections compare high, middle, and lower valley profiles with sediment loads."
+    - "Icons show glacial lake outburst paths and mitigation dams."
+    - "Case studies feature Sherpa engineers, Ladakhi farmers, and Bhutanese foresters."
+maps:
+  projection: "Transverse Mercator Himalayan belt"
+  layers:
+    - "30 m DEM shaded relief with glacier outlines"
+    - "River networks with discharge gradients"
+    - "Hazard zones: glacial lakes, landslide corridors"
+  legend:
+    - "Hypsometric tint plus contour lines"
+    - "Symbols for monasteries, terraces, hydropower sites"
+  labels:
+    - "Peaks: Everest/Qomolangma, K2, Kangchenjunga, Namcha Barwa"
+    - "Valleys: Hunza, Khumbu, Arun, Tsangpo gorge"
+  insets:
+    - title: "Glacial Lake Change"
+      projection: "Small multiples"
+      focus: "Tsho Rolpa, Imja Tsho"
+      notes: "1990 vs 2020 extents"
+    - title: "Downstream Dependence"
+      projection: "Arrow diagram"
+      focus: "Major river basins"
+      notes: "Population reliant on meltwater"
+graphs:
+  - title: "Seasonal Discharge Mix"
+    type: "stacked_area"
+    metrics:
+      - label: "Spring melt"
+        value: 35
+        unit: "%"
+      - label: "Summer monsoon"
+        value: 50
+        unit: "%"
+      - label: "Autumn baseflow"
+        value: 10
+        unit: "%"
+      - label: "Winter baseflow"
+        value: 5
+        unit: "%"
+    notes: "Approximate share for eastern basins"
+images:
+  prompts:
+    - text: "Photo-real panorama of Himalayan village with terraced fields, prayer flags, and glacier-fed river"
+      style: "Documentary"
+      cultural_context: "Nepal"
+    - text: "Technical illustration cutaway of glacier, moraine dam, early warning sensors"
+      style: "Scientific illustration"
+      cultural_context: "High Himalaya"
+  selection_criteria:
+    - "Show human-environment harmony and safety work"
+    - "Avoid climber tourism tropes"
+    - "High detail for educational annotations"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Central ridge silhouette anchors top, with callouts cascading downstream"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Relief texture printed with raised UV ink"
+    - "Provide QR audio in Nepali, Tibetan, Hindi"
+    - "Include pictograms plus text for hazards"
+notes:
+  DATA_TO_VERIFY:
+    - "Seasonal discharge percentage estimates"

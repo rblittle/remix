@@ -1,0 +1,79 @@
+poster_id: NorthAmerica_FEATANIM
+station: North America
+poster_type: FEATANIM
+title: "Southern Resident Killer Whales"
+copy:
+  hook: "Listen to a pod fighting for quiet waters."
+  short: "Meet the Southern Resident killer whales of the Salish Sea. Their survival hinges on Chinook salmon abundance, clean water, and noise-free channels negotiated by Coast Salish nations, scientists, and ship pilots."
+  depth:
+    - "Acoustic map shows quiet transit lanes and seasonal closures."
+    - "Infographic links river restoration, hatchery reform, and orca nutrition."
+    - "Profiles spotlight Tsleil-Waututh guardians, Lummi reefnet fishers, and youth hydrophone teams."
+maps:
+  projection: "UTM Zone 10N"
+  layers:
+    - "Salish Sea bathymetry and currents"
+    - "Seasonal critical habitat polygons"
+    - "Shipping lanes, quiet corridor reroutes, river restoration sites"
+  legend:
+    - "Sound level gradients"
+    - "Icons for hydrophones, dam removals, and salmon runs"
+  labels:
+    - "Locations: Fraser River mouth, San Juan Islands, Puget Sound inlets"
+    - "Communities: Tsawout, Lummi, Seattle, Vancouver"
+  insets:
+    - title: "Chinook Watershed Projects"
+      projection: "Lambert conformal"
+      focus: "Columbia and Snake River basin"
+      notes: "Show dam removal phases"
+graphs:
+  - title: "Ambient Noise Reduction"
+    type: "line"
+    metrics:
+      - label: "Summer corridor dB"
+        value: null
+        unit: "dB"
+      - label: "Pre-policy baseline"
+        value: null
+        unit: "dB"
+    notes: "Highlight voluntary slow-down periods"
+  - title: "Chinook Return vs Orca Births"
+    type: "scatter"
+    metrics:
+      - label: "Annual Chinook escapement"
+        value: null
+        unit: "fish"
+      - label: "Calves born"
+        value: null
+        unit: "count"
+    notes: "Annotate significant policy years"
+images:
+  prompts:
+    - text: "Photo-real view of killer whale pod surfacing near cedar-lined islands with tribal canoe monitoring"
+      style: "High-resolution wildlife photography"
+      cultural_context: "Respect sacred relationships"
+    - text: "Community science team of Indigenous youth deploying hydrophone from dock"
+      style: "Documentary photo"
+      cultural_context: "Salish Sea coastal attire"
+  selection_criteria:
+    - "Avoid captive animals—wild context only"
+    - "Show collaboration between Nations and researchers"
+    - "Maintain detail in water textures and instruments"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curved sonar wave leading eye from map to stories"
+  typography:
+    heading_pt: 132
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Offer hydrophone audio via bone-conduction headsets"
+    - "Provide descriptive captions for visitors with low vision"
+    - "Use color plus pattern for noise gradients"
+notes:
+  DATA_TO_VERIFY:
+    - "Noise reduction and birth statistics"
+    - "Chinook escapement figures"

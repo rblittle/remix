@@ -1,0 +1,91 @@
+poster_id: Oceania_CULTINNOV
+station: Oceania
+poster_type: CULTINNOV
+title: "Innovation Woven with Ocean Memory"
+copy:
+  hook: "Design labs sail with chant, fiber, and code."
+  short: "Explore Pacific-led innovations: Vanuatu cyclone-resilient schools, Māori data sovereignty hubs, Papua New Guinea floating h
+ ealth markets, and Hawaiian fishpond AI sensors. Each initiative braids ancestral protocols with contemporary engineering."
+  depth:
+    - "Process diagrams show consultation, prototyping, testing, and cultural blessing checkpoints."
+    - "Financing panels compare cooperatives, climate funds, and customary labor exchanges."
+    - "QR links share open-source toolkits translated into Bislama, te reo Māori, Tok Pisin, and English."
+maps:
+  projection: "Pacific regional mosaic"
+  layers:
+    - "Innovation sites, partner networks, and fiber cable backbones"
+    - "Shipping/sailing routes delivering materials"
+  legend:
+    - "Icons for education, data, health, and aquaculture"
+  labels:
+    - "Sites: Port Vila, Wellington, Manus, Heʻeia"
+    - "Partners: Custom chiefs, tech cooperatives, health ministries, fishpond ʻohana"
+  insets:
+    - title: "Cyclone School Blueprint"
+      projection: "Exploded axon"
+      focus: "Modular classrooms with woven shutters"
+      notes: "Highlight local timber sourcing"
+    - title: "Fishpond Sensor Network"
+      projection: "Plan view"
+      focus: "AI buoys and sluice gates"
+      notes: "Show cultural monitoring schedule"
+graphs:
+  - title: "Innovation Cycle"
+    type: "timeline"
+    metrics:
+      - label: "Community talanoa"
+        value: null
+        unit: null
+      - label: "Prototype build"
+        value: null
+        unit: null
+      - label: "Field trial"
+        value: null
+        unit: null
+      - label: "Knowledge sharing"
+        value: null
+        unit: null
+    notes: "Use woven pattern to show iterative loops"
+  - title: "Funding Mix"
+    type: "radial"
+    metrics:
+      - label: "Community labor share"
+        value: null
+        unit: "%"
+      - label: "Climate grant"
+        value: null
+        unit: "%"
+      - label: "Enterprise revenue"
+        value: null
+        unit: "%"
+    notes: "Segment by project with color and texture"
+images:
+  prompts:
+    - text: "Composite showing Vanuatu builders weaving cyclone shutters, Māori data team managing servers with tukutuku panels, Manus flo
+ating health market with solar roof, and Hawaiian fishpond guardians launching sensor canoe"
+      style: "Photo-real composite"
+      cultural_context: "Authentic materials, inclusive gender representation"
+    - text: "Close-up of woven fiber integrated with circuit board and coral stone"
+      style: "High-resolution macro"
+      cultural_context: "Symbolic but grounded in real materials"
+  selection_criteria:
+    - "Celebrate co-design processes rather than lone inventors"
+    - "Show technology embedded in cultural landscapes"
+    - "Maintain high contrast for fabrication details"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Weaving motif that threads through project panels"
+  typography:
+    heading_pt: 150
+    subheading_pt: 62
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile weaving samples and sensor housings"
+    - "Offer audio case studies voiced by project leads"
+    - "Use text plus icon coding for project categories"
+notes:
+  DATA_TO_VERIFY:
+    - "Funding percentage splits"

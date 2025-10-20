@@ -1,0 +1,83 @@
+poster_id: SouthAmerica_LANDFORM_R
+station: South America
+poster_type: LANDFORM_R
+title: "Flood Pulses and Coastal Cliffs"
+copy:
+  hook: "Read the lowland rhythms shaped by water."
+  short: "From Amazon floodplains and Pantanal wetlands to Brazil’s coastal cliffs and Patagonian fjords, South America’s lowlands pulse with seasonal floods, mangrove growth, and sediment waves. Communities co-manage fisheries, floating gardens, and cliffside quilombo farms."
+  depth:
+    - "Panels compare varzea flood cycles, Pantanal lagoons, and Atlantic restingas."
+    - "Timeline tracks Holocene sea-level shifts and modern port engineering."
+    - "Profiles celebrate ribeirinho canoe teachers, Pantaneiro ranchers, and Caiçara agroforesters."
+maps:
+  projection: "South America Albers equal-area"
+  layers:
+    - "Flood extent zones and timing gradients"
+    - "Mangrove and restinga habitats"
+    - "Sediment plumes and erosion hotspots"
+  legend:
+    - "Textures for flooded forest, savanna wetland, mangrove, cliff"
+    - "Icons for floating gardens, stilt houses, erosion barriers"
+  labels:
+    - "Features: Rio Negro, Ilha do Marajó, Pantanal, Serra do Mar, Beagle Channel"
+    - "Cities: Manaus, Santarém, Cuiabá, Salvador, Punta Arenas"
+  insets:
+    - title: "Floating Garden Microgrid"
+      projection: "Local azimuthal"
+      focus: "Iquitos varzea"
+      notes: "Show raft farm anchors"
+    - title: "Restinga Restoration"
+      projection: "Mercator strip"
+      focus: "Southeast Brazil"
+      notes: "Detail dune-forest interface"
+graphs:
+  - title: "Annual Flood Height"
+    type: "line"
+    metrics:
+      - label: "Manaus gauge"
+        value: null
+        unit: "m"
+      - label: "Pantanal average"
+        value: null
+        unit: "m"
+    notes: "Overlay historical and recent averages"
+  - title: "Mangrove Regeneration"
+    type: "bar"
+    metrics:
+      - label: "Community-managed"
+        value: null
+        unit: "ha"
+      - label: "Unmanaged"
+        value: null
+        unit: "ha"
+    notes: "Highlight restoration success"
+images:
+  prompts:
+    - text: "Drone photo of varzea community tending floating gardens during high water"
+      style: "High-resolution photography"
+      cultural_context: "Western Amazon"
+    - text: "Photo of Caiçara family harvesting from restinga agroforest atop sea cliffs"
+      style: "Documentary"
+      cultural_context: "Southeast Brazil"
+  selection_criteria:
+    - "Show adaptive infrastructure built by residents"
+    - "Balance aerial and ground perspectives"
+    - "Ensure cultural attire and tools are accurately represented"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Wave-shaped band linking floodplain to coast"
+  typography:
+    heading_pt: 140
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile flood cycle wheel"
+    - "Use colorblind-safe palette with patterns"
+    - "Include Portuguese and Spanish captions with Indigenous names"
+notes:
+  DATA_TO_VERIFY:
+    - "Flood height figures"
+    - "Mangrove regeneration data"

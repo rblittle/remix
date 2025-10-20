@@ -1,0 +1,103 @@
+poster_id: SouthAmerica_WEATHER
+station: South America
+poster_type: WEATHER
+title: "Atmospheric Rivers, Monsoons, and Ice Winds"
+copy:
+  hook: "Feel how sky rivers shape rainforest and pampas."
+  short: "Six systems anchor this panel: Amazon sky rivers, Altiplano hailstorms, ENSO-driven droughts, Atlantic trade winds, Patagonia’s westerlies, and the South Atlantic Convergence Zone. A transect from Lima over the Andes to Belém reveals how altitude redistributes moisture."
+  depth:
+    - "Explain how evapotranspiration feeds atmospheric rivers that deliver rain to distant farms."
+    - "Show seasonal contrasts between wet/dry Amazonia and double rainy seasons in the southeast."
+    - "Community vignettes highlight shipibo farmers, Bolivian llama herders, and gauchos adapting forecasts."
+maps:
+  projection: "South America Albers equal-area"
+  layers:
+    - "Moisture flux arrows from Amazon to La Plata"
+    - "Sea-surface temperature anomalies for ENSO phases"
+    - "Storm tracks and hail hotspots"
+  legend:
+    - "Icons for six phenomena"
+    - "Color ramps for precipitation anomaly"
+  labels:
+    - "Key sites: Madre de Dios, Altiplano, Sertão, Pampas, Patagonia fjords"
+    - "Transect: Lima – Cusco – Santa Cruz – Campo Grande – Belém"
+  insets:
+    - title: "ENSO Impact Zones"
+      projection: "Mercator"
+      focus: "Pacific coast"
+      notes: "Highlight flood vs drought regions"
+    - title: "Patagonian Icefield Winds"
+      projection: "Polar stereographic"
+      focus: "Southern tip"
+      notes: "Show westerly acceleration"
+transect:
+  name: "Lima-to-Belém Sky River Strip"
+  description: "Elevation strip showing Humboldt Current coast, Andean peaks, lowland forests, and Atlantic delta."
+  key_features:
+    - "Glacier-fed headwaters"
+    - "Cloud forest condensation belts"
+    - "Downstream floodplains"
+phenomena:
+  - "Amazon Atmospheric Rivers"
+  - "Altiplano Hail Bursts"
+  - "El Niño Drought Waves"
+  - "La Niña Flood Pulses"
+  - "South Atlantic Convergence Zone"
+  - "Patagonian Westerlies"
+graphs:
+  - title: "Seasonal Rainfall Shift"
+    type: "radial"
+    metrics:
+      - label: "Amazon wet peak"
+        value: 3
+        unit: "Mar"
+      - label: "Altiplano hail season"
+        value: 1
+        unit: "Jan"
+      - label: "Southeast Brazil second peak"
+        value: 11
+        unit: "Nov"
+      - label: "Patagonia wind maximum"
+        value: 9
+        unit: "Sep"
+    notes: "Use texture-coded arcs"
+  - title: "ENSO Rainfall Anomaly"
+    type: "line"
+    metrics:
+      - label: "El Niño"
+        value: null
+        unit: "mm"
+      - label: "La Niña"
+        value: null
+        unit: "mm"
+    notes: "Plot anomaly for Peru coast and Amazon"
+images:
+  prompts:
+    - text: "Composite showing Shipibo farmers watching storm clouds, Bolivian llama herders under hail, and Patagonian glaciers with wind streaks"
+      style: "Documentary collage"
+      cultural_context: "Authentic attire and landscapes"
+    - text: "Vector elevation strip from Lima to Belém with weather icons and tactile-ready textures"
+      style: "High-detail infographic"
+      cultural_context: "Educational exhibit"
+  selection_criteria:
+    - "Depict respectful, accurate cultural practices"
+    - "Emphasize atmospheric moisture movement visually"
+    - "Ensure readability for low-vision visitors"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Transect anchors bottom with phenomena radiating upward"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 38
+    caption_pt: 28
+  accessibility:
+    - "Use patterns plus color for anomaly zones"
+    - "Provide audio glossary in Spanish, Portuguese, Quechua, and Guarani"
+    - "Include tactile ridge for transect"
+notes:
+  DATA_TO_VERIFY:
+    - "Month assignments for phenomena"
+    - "ENSO anomaly values"

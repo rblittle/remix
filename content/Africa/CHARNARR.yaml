@@ -1,0 +1,54 @@
+poster_id: Africa_CHARNARR
+station: Africa
+poster_type: CHARNARR
+title: "Everyday Cues"
+copy:
+  hook: "Neighbours across the continent share their routines."
+  short: "From Mali’s desert edge to Kenya’s savanna and Madagascar’s reef lagoon, three storytellers describe the signals that guide their days."
+  depth:
+    - "Narratives recorded in local languages with subtitles."
+    - "Prompts invite visitors to reflect on their own daily weather markers."
+    - "Audio bench allows relaxed listening."
+narratives:
+  - name: "Aïchatou"
+    identity: "Tuareg artisan and caravan planner"
+    gender: "female"
+    age: 41
+    location: "Timbuktu outskirts, Mali"
+    text: "Before sunrise I grind indigo dye while my son readies the camels. The wind brushes from the east—Harmattan—and I know to seal the leather goods earlier. We leave when the sand still holds night’s cool, following stars my grandmother named for me."
+    ai_prompt: "Photo-real portrait of Tuareg woman preparing caravan goods at dawn with camels and indigo dye"
+  - name: "Naserian"
+    identity: "Samburu student herder"
+    gender: "female"
+    age: 13
+    location: "Samburu County, Kenya"
+    text: "I walk beside our goats, beads jingling against the gourd of milk. When the whistling thorn pods rattle, I know the wind is shifting toward the rains, so I message our herding circle on the solar radio. After lessons under the acacia, I note water levels for our grazing map."
+    ai_prompt: "Photo-real image of Samburu girl herding goats with solar radio and acacia trees"
+  - name: "Rafalimanana"
+    identity: "Vezo fisher and coral gardener"
+    gender: "male"
+    age: 55
+    location: "Anakao, Madagascar"
+    text: "At low tide I balance the outrigger canoe on the sandbar and feel the water—warm today, so the sea cucumber pens will need extra shade. My grandson checks the coral nursery lines while I record the catch for our cooperative. We steer home when the lighthouse beacon flashes twice."
+    ai_prompt: "Photo-real portrait of Vezo fisher with outrigger canoe at low tide, coral nursery ropes visible"
+images:
+  selection_criteria:
+    - "Secure storyteller approval for likeness"
+    - "Show authentic tools and attire"
+    - "Maintain respectful distance and warm lighting"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Rounded vignettes with waveform audio icons"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille transcripts"
+    - "Offer seating and volume control"
+    - "Include tactile map locating storytellers"
+notes:
+  DATA_TO_VERIFY: []

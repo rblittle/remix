@@ -1,0 +1,74 @@
+poster_id: Asia_TREASBIO
+station: Asia
+poster_type: TREASBIO
+title: "Guardians of Genetic Treasures"
+copy:
+  hook: "Seeds, breeds, and reefs safeguarded across Asia."
+  short: "Journey from the Svalbard-linked seed vault in Yakutsk to Ifugao rice terraces, Bhutan’s cordyceps nurseries, and community-run giant clam hatcheries in Palau. These guardians blend tradition with science to keep food, medicine, and culture thriving."
+  depth:
+    - "Network map connects seed banks, livestock gene centers, and marine nurseries."
+    - "Profiles highlight women-led cooperatives, monastic pharmacists, and youth reef rangers."
+    - "Timeline shows how stored varieties revived harvests after drought and storms."
+maps:
+  projection: "Asia network equal-area"
+  layers:
+    - "Nodes for genetic resource sites"
+    - "Linkages representing knowledge exchange"
+    - "Risk overlays: drought, typhoon, permafrost thaw"
+  legend:
+    - "Node shapes for seeds, breeds, marine species"
+    - "Line styles for research, community exchange, policy"
+  labels:
+    - "Key hubs: Yakutsk cryo-bank, Varanasi seed library, Ifugao terraces, Palau hatcheries"
+  insets:
+    - title: "Cordyceps Cultivation"
+      projection: "Process strip"
+      focus: "Bhutan highlands"
+      notes: "Depict shaded greenhouses"
+    - title: "Clam Growth Cycle"
+      projection: "Radial"
+      focus: "Palau lagoon"
+      notes: "Stages from larva to release"
+graphs:
+  - title: "Diversity Recovered"
+    type: "stacked_bar"
+    metrics:
+      - label: "Rice landraces"
+        value: 420
+        unit: "varieties"
+      - label: "Millet lines"
+        value: 180
+        unit: "varieties"
+      - label: "Medicinal herbs"
+        value: 95
+        unit: "formulas"
+    notes: "Show collections restored post-flood"
+images:
+  prompts:
+    - text: "Photo-real portrait series of Asian seed keepers, monks, and reef guardians cataloging specimens"
+      style: "Documentary"
+      cultural_context: "Diverse regions"
+    - text: "High-resolution macro of heirloom rice grains, yak wool samples, and giant clam shells"
+      style: "Studio still life"
+      cultural_context: "Authentic labeling"
+  selection_criteria:
+    - "Credit community ownership and knowledge"
+    - "Avoid lab stereotype; include field settings"
+    - "Ensure labels bilingual where relevant"
+design:
+  layout:
+    columns: 3
+    gutters: "0.9 in"
+    keylines: "Network map centered with timeline ribbon at base"
+  typography:
+    heading_pt: 138
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile icons for resource types"
+    - "Offer large-print fact sheets in local languages"
+    - "Use distinct textures on map lines"
+notes:
+  DATA_TO_VERIFY:
+    - "Counts of varieties and formulas"

@@ -1,0 +1,74 @@
+poster_id: World_LANDFORM_L
+station: World
+poster_type: LANDFORM_L
+title: "Rift to Ridge: Earth’s Building Blocks"
+copy:
+  hook: "Watch continents crack, drift, and collide in slow motion."
+  short: "Follow a rift-to-ridge storyline that explains how tectonic plates forge our most dramatic landforms. From the East African Rift to the Mid-Atlantic Ridge and the towering Andes, see how mantle heat powers the surface you explore."
+  depth:
+    - "Annotated cross-sections illustrate divergent, convergent, and transform boundaries with real-world examples."
+    - "Thermal plume diagrams show hotspots birthing shield volcano chains like Hawai‘i."
+    - "Infographics connect tectonics to mineral resources, geothermal power, and earthquake preparedness."
+maps:
+  projection: "Winkel Tripel for reduced distortion of tectonic belts"
+  layers:
+    - "Plate boundaries coded by type"
+    - "Volcanic arcs and hotspot tracks"
+    - "Topographic shading of major mountain systems"
+  legend:
+    - "Boundary symbols for divergent, convergent, transform"
+    - "Color ramp for elevation with accessible contrast"
+  labels:
+    - "Named plates: African, Pacific, Nazca, Eurasian"
+    - "Landmarks: East African Rift, Mid-Atlantic Ridge, Ring of Fire, Andes"
+  insets:
+    - title: "Triple Junction Focus"
+      projection: "Azimuthal equidistant"
+      focus: "Afar Triple Junction"
+      notes: "Detail microplate interaction and geothermal sites"
+graphs:
+  - title: "Plate Motion Speeds"
+    type: "bar"
+    metrics:
+      - label: "Pacific Plate"
+        value: 7
+        unit: "cm/yr"
+      - label: "African Plate"
+        value: 2
+        unit: "cm/yr"
+      - label: "Nazca Plate"
+        value: 9
+        unit: "cm/yr"
+      - label: "Eurasian Plate"
+        value: 1.5
+        unit: "cm/yr"
+    notes: "Use paired icons to show direction arrows"
+images:
+  prompts:
+    - text: "Cutaway illustration of tectonic plates with magma upwelling, divergent ridge, subduction zone"
+      style: "Scientific cross-section"
+      cultural_context: "Global geology"
+    - text: "Drone-style photograph of East African Rift valley village with escarpments at sunset"
+      style: "Photo-real documentary"
+      cultural_context: "Local residents engaged in daily life"
+  selection_criteria:
+    - "Respect communities living near geologic features"
+    - "Highlight diverse scientists or guides when people are shown"
+    - "Ensure geological textures remain crisp at large scale"
+design:
+  layout:
+    columns: 2
+    gutters: "2 in center gutter to feature vertical cross-section"
+    keylines: "Left column dedicated to process diagrams, right to case studies"
+  typography:
+    heading_pt: 150
+    subheading_pt: 60
+    body_pt: 38
+    caption_pt: 30
+  accessibility:
+    - "Textures differentiate boundary types beyond color"
+    - "Provide QR link to ASL geology glossary"
+    - "Mount tactile ridge relief panel at reachable height"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact plate velocity values"

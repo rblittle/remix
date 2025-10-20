@@ -1,0 +1,73 @@
+poster_id: NorthAmerica_CPOI
+station: North America
+poster_type: CPOI
+title: "North America: Edges, Exchanges, and Resilience"
+copy:
+  hook: "Stand where glaciers, deserts, and megacities meet."
+  short: "This centerpiece traces North America’s sweeping arcs—from Arctic archipelagos and prairie breadbaskets to canyonlands and Caribbean coral. Follow how tectonics, trade, and treaty rights weave diverse nations that steward shared resources."
+  depth:
+    - "Relief bands highlight cordilleras, shields, and coastal plains with tectonic notes."
+    - "Flowlines show energy and food corridors linking communities across borders."
+    - "Spotlights honor Indigenous guardians, cross-border alliances, and climate innovators."
+maps:
+  projection: "Lambert azimuthal equal-area centered on 45°N, 100°W"
+  layers:
+    - "Hypsometric elevation with shaded relief"
+    - "Major rivers, Great Lakes, and coastline complexity"
+    - "Cultural regions: Arctic, Boreal Shield, Plains, Southwest, Caribbean, Central American Isthmus"
+  legend:
+    - "Elevation ramp and biome textures"
+    - "Icons for UNESCO cultural landscapes, megaregions, protected corridors"
+  labels:
+    - "Landmarks: Rockies, Appalachians, Yucatán, Great Basin, Arctic Archipelago"
+    - "Cities: Mexico City, Toronto, New Orleans, Vancouver, San Juan"
+  insets:
+    - title: "Cross-Border Megaregions"
+      projection: "Transverse Mercator strips"
+      focus: "Cascadia, Great Lakes, Sonoran"
+      notes: "Show shared infrastructure and treaties"
+graphs:
+  - title: "Trade Winds to Rail Lines Timeline"
+    type: "timeline"
+    metrics:
+      - label: "1400s: Indigenous trade trails span the continent"
+        value: null
+        unit: null
+      - label: "1820s: Erie Canal and Santa Fe Trail expand exchange"
+        value: null
+        unit: null
+      - label: "1959: St. Lawrence Seaway opens inland seas"
+        value: null
+        unit: null
+      - label: "2020s: Renewable energy interties connect grids"
+        value: null
+        unit: null
+    notes: "Pair illustrations of canoes, wagons, freighters, HVDC lines"
+images:
+  prompts:
+    - text: "Panoramic collage showing Arctic sea ice, tallgrass prairie, Sonoran desert, and Caribbean coast merging into a relief map"
+      style: "High-resolution photomontage"
+      cultural_context: "Geographically accurate and seasonally varied"
+    - text: "Documentary-style scene of Indigenous, Latino, and Black leaders co-designing watershed plan over large tactile map"
+      style: "Photo-real"
+      cultural_context: "Respectful attire, community meeting hall"
+  selection_criteria:
+    - "Balance natural and urban perspectives across the continent"
+    - "Highlight multi-nation collaboration and accessibility features"
+    - "Ensure textures remain crisp at exhibit scale"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Curving band from Arctic inset to Caribbean stories"
+  typography:
+    heading_pt: 170
+    subheading_pt: 72
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Provide tactile overlays for elevation and trade corridors"
+    - "Offer English, Spanish, French, and Inuktitut audio description"
+    - "Use icons plus text for cultural region keys"
+notes:
+  DATA_TO_VERIFY: []

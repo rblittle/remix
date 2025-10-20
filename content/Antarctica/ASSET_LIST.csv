@@ -1,0 +1,58 @@
+poster_id,asset_type,description
+Antarctica_CPOI,map,South Polar stereographic map of ice thickness stations and cultural waypoints
+Antarctica_CPOI,graph,Ice mass balance line chart with satellite mission icons
+Antarctica_CPOI,image,AI panoramic photomontage of Antarctic plateau aurora stations and ice shelf
+Antarctica_CPOI,image,AI photo of international scientists and Māori advisors reviewing treaty map
+Antarctica_WEATHER,map,Antarctic weather systems map with katabatic winds sea-ice bands and insets
+Antarctica_WEATHER,graph,Katabatic wind speed versus elevation dual-axis line chart
+Antarctica_WEATHER,graph,Atmospheric river frequency bar chart by region
+Antarctica_WEATHER,graph,Dome C to Weddell Sea elevation strip profile
+Antarctica_WEATHER,image,AI composite of katabatic plumes polar clouds and polynya transect
+Antarctica_WEATHER,image,AI documentary photo of meteorologists launching balloon with aurora
+Antarctica_LANDFORM_L,map,Transantarctic landform map showing ice flow basal hydrology and routes
+Antarctica_LANDFORM_L,graph,Basal melt rates bar chart with radar error bars
+Antarctica_LANDFORM_L,graph,Robot versus manual traverse distance line chart
+Antarctica_LANDFORM_L,image,Scientific illustration of glacier cutaway with autonomous robot
+Antarctica_LANDFORM_L,image,AI photo of field team roped across crevasse field with Māori advisor
+Antarctica_LANDFORM_R,map,Triptych maps of Dry Valleys nunataks and Weddell Sea iceberg nurseries
+Antarctica_LANDFORM_R,graph,Soil moisture versus depth line chart for Dry Valleys sites
+Antarctica_LANDFORM_R,graph,Iceberg drift speed scatter plot colored by season
+Antarctica_LANDFORM_R,image,AI composite of Dry Valley polygons nunatak ridge and tabular iceberg
+Antarctica_LANDFORM_R,image,AI photo of researchers and artists documenting Dry Valleys in wind
+Antarctica_BIOCOLL,map,Tri-panel polar biome maps for krill moss oases and emperor colonies
+Antarctica_BIOCOLL,graph,Climate profile radial chart for three Antarctic biomes
+Antarctica_BIOCOLL,graph,Stewardship outcomes comparative bar chart
+Antarctica_BIOCOLL,image,AI portraits of CCAMLR delegate moss botanist and emperor penguin guardian
+Antarctica_BIOCOLL,image,AI macro collage of krill moss spores and penguin down feathers
+Antarctica_ANIMCOLL,map,Bipolar migration network map with protected routes and monitoring hubs
+Antarctica_ANIMCOLL,graph,Migration distance comparison bar chart for whale tern albatross and seal
+Antarctica_ANIMCOLL,graph,Acoustic monitoring hours line chart for hydrophones and community logs
+Antarctica_ANIMCOLL,image,AI collage of humpback tern Weddell seal and albatross in natural habitats
+Antarctica_ANIMCOLL,image,AI documentary photo of Mapuche Māori and polar scientists tracking migrations
+Antarctica_FEATANIM,map,McMurdo Sound Weddell seal habitat map with breathing hole network
+Antarctica_FEATANIM,graph,Pup survival versus hole maintenance line chart
+Antarctica_FEATANIM,graph,Tooth wear index bar chart across age classes
+Antarctica_FEATANIM,image,AI underwater photo of Weddell seal at breathing hole with instruments
+Antarctica_FEATANIM,image,AI photo of scientists and Māori advisor listening to seal songs with hydrophone
+Antarctica_TREASBIO,map,South Polar network map of ice core microbial and cultural archives
+Antarctica_TREASBIO,graph,Archive growth line chart for ice core kilometers and microbial strains
+Antarctica_TREASBIO,graph,Access requests bar chart by community academic and policy uses
+Antarctica_TREASBIO,image,AI composite of ice core technicians Indigenous elders and microbiologists
+Antarctica_TREASBIO,image,AI macro of ice core layers fungal spores and woven story belt
+Antarctica_ETHNO,map,Journey map linking homelands to Antarctic stations with observation sites
+Antarctica_ETHNO,graph,Seasonal knowledge calendar timeline graphic
+Antarctica_ETHNO,graph,Apprentice participation line chart
+Antarctica_ETHNO,image,AI photo of Māori navigator Mapuche educator and logistics veteran sharing stories in field hut
+Antarctica_ETHNO,image,AI composite of sun dogs Mapuche drum and aurora radio operator
+Antarctica_STATSFT,map,Mini-map series for Antarctic systems featurettes
+Antarctica_STATSFT,graph,Microgrid versus diesel emissions bar chart
+Antarctica_STATSFT,image,AI composite of wind turbines greenhouse crew ice core students and wellness circle
+Antarctica_STATSFT,image,AI vector infographic of Antarctic systems with icons
+Antarctica_CULTINNOV,map,Innovation network map connecting rescue drones waste-heat pods and AI forecast stations
+Antarctica_CULTINNOV,graph,Innovation cycle timeline graphic with aurora gradient
+Antarctica_CULTINNOV,graph,Funding mix radial chart with textured segments
+Antarctica_CULTINNOV,image,AI composite of engineers testing drone biodegradable gear community pod and data team
+Antarctica_CULTINNOV,image,AI macro of biodegradable fiber drone rotor and ice crystal
+Antarctica_CHARNARR,image,AI portrait of Mapuche elder playing kultrún by radio
+Antarctica_CHARNARR,image,AI portrait of Māori engineer marking wind turbine nacelle
+Antarctica_CHARNARR,image,AI photo of Chilean teen tending hydroponic bed while video chatting with Antarctic crew

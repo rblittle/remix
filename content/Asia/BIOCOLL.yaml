@@ -1,0 +1,78 @@
+poster_id: Asia_BIOCOLL
+station: Asia
+poster_type: BIOCOLL
+title: "Taiga, Monsoon Forest, Coral Triangle"
+copy:
+  hook: "Three biomes, countless caretakers."
+  short: "Compare Siberian taiga, Western Ghats monsoon forests, and the Coral Triangle reefs. Each panel pairs flagship species with Indigenous and local stewardship that keeps carbon, water, and fisheries in balance across Asia’s extremes."
+  depth:
+    - "Climate charts align temperature and rainfall for each biome."
+    - "Biodiversity icons highlight keystone species and co-managed protected areas."
+    - "Stewardship callouts feature Nenets herders, Kani forest guardians, and Sulawesi reef cooperatives."
+maps:
+  projection: "Asia equal-area composite"
+  layers:
+    - "Biome extents with gradient edges"
+    - "Community conservation zones"
+    - "Migration corridors and marine protected area boundaries"
+  legend:
+    - "Color swatches for each biome"
+    - "Symbols for community-led initiatives and research hubs"
+  labels:
+    - "Key places: Yamal Peninsula, Silent Valley, Wakatobi"
+    - "Species names in local languages"
+  insets:
+    - title: "Elevational Slice"
+      projection: "Section diagram"
+      focus: "Western Ghats"
+      notes: "Show cloud forest layers"
+    - title: "Sea Current Map"
+      projection: "Regional flow"
+      focus: "Coral Triangle"
+      notes: "Indicate nutrient upwelling"
+graphs:
+  - title: "Biodiversity Indicators"
+    type: "radar"
+    metrics:
+      - label: "Species richness"
+        value: 90
+        unit: "index"
+      - label: "Endemism"
+        value: 80
+        unit: "index"
+      - label: "Community stewardship"
+        value: 85
+        unit: "index"
+      - label: "Restoration progress"
+        value: 70
+        unit: "index"
+    notes: "Normalize scores for comparison"
+images:
+  prompts:
+    - text: "Photo-real montage of Siberian reindeer herder, Western Ghats botanist, and Sulawesi reef divers"
+      style: "Documentary collage"
+      cultural_context: "Regional attire and tools"
+    - text: "Macro shot of coral polyps, taiga lichens, monsoon forest canopy with labels"
+      style: "Scientific macro"
+      cultural_context: "Accurate species coloration"
+  selection_criteria:
+    - "Ensure respectful portrayal of Indigenous knowledge"
+    - "Highlight biodiversity without exoticizing"
+    - "Include accessible color contrast"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Tri-panel alignment with shared base legend"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile icons for keystone species"
+    - "Add QR for audio description with pronunciation guides"
+    - "Use patterns plus color for biome differentiation"
+notes:
+  DATA_TO_VERIFY:
+    - "Radar index values"

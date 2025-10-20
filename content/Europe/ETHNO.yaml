@@ -1,0 +1,78 @@
+poster_id: Europe_ETHNO
+station: Europe
+poster_type: ETHNO
+title: "Listening to Fjord, Plain, and Sea"
+copy:
+  hook: "Four knowledge keepers share their cues."
+  short: "Hear from Sámi reindeer herders in Norway, Basque inshore fishers, Hungarian puszta herdswomen, and Greek island sponge divers. Their observations of snow, swell, grass, and currents guide community decisions."
+  depth:
+    - "Map links cultural territories with seasonal calendars and landforms."
+    - "Quotes appear in Northern Sámi, Euskara, Hungarian, and Greek alongside English translations."
+    - "Collaboration panel shows joint climate adaptation and heritage preservation projects."
+maps:
+  projection: "Europe cultural equal-area"
+  layers:
+    - "Traditional territories, grazing corridors, fishing grounds"
+    - "Environmental features: fjells, estuaries, steppe pans, Aegean channels"
+    - "Community monitoring stations"
+  legend:
+    - "Icons for herding, fishing, grazing, diving"
+    - "Color bands for seasonal use"
+  labels:
+    - "Key towns and gathering sites"
+    - "Partner institutions"
+  insets:
+    - title: "Seasonal Calendar Wheel"
+      projection: "Radial"
+      focus: "Four cultures"
+      notes: "Show shared and distinct markers"
+    - title: "Knowledge Exchange Map"
+      projection: "Network"
+      focus: "Workshops"
+      notes: "Link meeting locations"
+graphs:
+  - title: "Observation Logs"
+    type: "bar"
+    metrics:
+      - label: "Snow hardness checks"
+        value: 16
+        unit: "per month"
+      - label: "Wave height notes"
+        value: 12
+        unit: "per month"
+      - label: "Pasture bloom records"
+        value: 9
+        unit: "per month"
+      - label: "Thermocline dives"
+        value: 6
+        unit: "per month"
+    notes: "Community science contributions"
+images:
+  prompts:
+    - text: "Photo-real portraits of Sámi herder with lasso, Basque fisher mending nets, Hungarian csikós woman riding, Greek sponge diver preparing gear"
+      style: "Documentary"
+      cultural_context: "On-location"
+    - text: "Workshop scene with maps, weather logs, and shared meal"
+      style: "Documentary"
+      cultural_context: "Intercultural gathering"
+  selection_criteria:
+    - "Respect cultural protocols and permissions"
+    - "Show agency and intergenerational teaching"
+    - "Ensure accurate attire and tools"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Circular quote hub connects to map and graphs"
+  typography:
+    heading_pt: 136
+    subheading_pt: 56
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Audio pronunciations of Indigenous and local terms"
+    - "Tactile seasonal wheel"
+    - "High-contrast backgrounds for text over imagery"
+notes:
+  DATA_TO_VERIFY:
+    - "Observation log frequencies"

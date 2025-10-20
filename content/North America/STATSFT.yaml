@@ -1,0 +1,117 @@
+poster_id: NorthAmerica_STATSFT
+station: North America
+poster_type: STATSFT
+title: "North America Systems Spotlight"
+copy:
+  hook: "Four fast facts, rooted in community."
+  short: "Each column pairs data and voices on energy, food, water, and cultural lifeways that stitch North America together."
+  depth:
+    - "Arctic microgrids stabilize health clinics through hybrid power."
+    - "Prairie bison grazing co-ops rebuild soil and economies."
+    - "Borderland wetlands soak storm surges while honoring treaty access."
+    - "Urban cooling trails weave shade, transit, and storytelling."
+featurettes:
+  - title: "Arctic Hybrid Microgrids"
+    summary: "In Nunavut and Alaska Native villages, cooperatives blend wind, solar, and diesel-backup with community-owned batteries. Youth apprentices maintain sensors while elders set load priorities, keeping clinics and food freezers powered through polar nights."
+    data_bites:
+      - label: "Renewable share"
+        value: 68
+        unit: "%"
+      - label: "Outage reduction"
+        value: 45
+        unit: "%"
+    graph:
+      type: "line"
+      notes: "Display outage hours before/after upgrades"
+  - title: "Buffalo Return Grazing Co-ops"
+    summary: "Intertribal Buffalo Council herds rotate across former cropland in Montana and Saskatchewan. Mixed-age crews practice low-stress herding, restoring native grasses while distributing meat through community freezers and school meals."
+    data_bites:
+      - label: "Hectares restored"
+        value: 52000
+        unit: "ha"
+      - label: "Soil carbon gain"
+        value: 1.8
+        unit: "t/ha"
+    maplet:
+      type: "dot"
+      projection: "Lambert"
+      focus: "Northern Plains"
+      notes: "Dots sized by herd size"
+  - title: "Binational Living Levees"
+    summary: "Kumeyaay and Coastal Zone biologists retrofit Tijuana River Estuary levees with terraced wetlands. The project reduces flood peaks, filters runoff, and preserves ceremonial gathering paths on both sides of the border."
+    data_bites:
+      - label: "Peak flow cut"
+        value: 22
+        unit: "%"
+      - label: "Native plant cover"
+        value: 78
+        unit: "%"
+    maplet:
+      type: "chloropleth"
+      projection: "Local equal-area"
+      focus: "Tijuana River estuary"
+      notes: "Shade terraces by restoration stage"
+  - title: "Cooling Trails Network"
+    summary: "Atlanta, Guadalajara, and Montreal co-design shaded walking/biking trails linking transit stops, tree nurseries, and storytelling kiosks in multiple languages. Mist sprayers and water refill points make the loops heat-wave refuges."
+    data_bites:
+      - label: "Trail length"
+        value: 84
+        unit: "km"
+      - label: "Average temp drop"
+        value: 3.1
+        unit: "°C"
+    graph:
+      type: "bar"
+      notes: "Compare cooling by city"
+maps:
+  projection: "Inset mini-maps"
+  layers:
+    - "Featurette-specific symbology"
+  legend:
+    - "Inline legend blocks"
+  labels:
+    - "Community partners and treaty acknowledgments"
+  insets: []
+graphs:
+  - title: "Trail Cooling Comparison"
+    type: "bar"
+    metrics:
+      - label: "Atlanta"
+        value: 3.2
+        unit: "°C"
+      - label: "Guadalajara"
+        value: 3.0
+        unit: "°C"
+      - label: "Montreal"
+        value: 3.1
+        unit: "°C"
+    notes: "Mirror Cooling Trails featurette"
+images:
+  prompts:
+    - text: "Collage of Arctic microgrid technicians, bison herders, wetland builders, and shaded urban trail users"
+      style: "Photo-real composite"
+      cultural_context: "Authentic regional attire and tools"
+    - text: "Infographic board with four mini-maps, icons, and data callouts"
+      style: "Clean vector"
+      cultural_context: "Trilingual labels"
+  selection_criteria:
+    - "Show collaboration and joy"
+    - "Highlight adaptive equipment and accessibility"
+    - "Ensure legibility of data overlays"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Stacked featurettes with consistent headers"
+  typography:
+    heading_pt: 124
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Pair numeric data with icons"
+    - "Offer tactile mini-maps"
+    - "Provide large-print summary strips"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative percentages and values"

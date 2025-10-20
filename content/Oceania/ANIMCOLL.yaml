@@ -1,0 +1,91 @@
+poster_id: Oceania_ANIMCOLL
+station: Oceania
+poster_type: ANIMCOLL
+title: "Ocean Migrations, Island Stopovers"
+copy:
+  hook: "Trace fin, feather, and flipper across the Pacific."
+  short: "Follow humpback whales, green turtles, bar-tailed godwits, and flying foxes as they navigate currents, stars, and communit
+y-protected roosts. Stewardship stories show voyaging guilds, ranger drones, and citizen science tagging that keep routes open."
+  depth:
+    - "Flowlines chart migration directions, seasonal timing, and culturally significant waypoints."
+    - "Callouts highlight Indigenous monitoring—from Tongan whale songs to Micronesian turtle tagging nights."
+    - "Data frames connect habitat threats, plastic interception booms, and sanctuary expansions."
+maps:
+  projection: "Pacific-centered great-circle network"
+  layers:
+    - "Migration corridors with seasonal arrows"
+    - "Key stopovers, rookeries, and feeding grounds"
+    - "Marine protected areas and customary tenure zones"
+  legend:
+    - "Arrow styles for species and seasons"
+    - "Icons for community science stations and acoustic buoys"
+  labels:
+    - "Routes: Tonga to Antarctica, Alaska to New Zealand, Turtle triangle Micronesia, Flying fox inter-island loops"
+    - "Communities: Haʻapai, Kiribati, Arnhem Land, Hauraki Gulf"
+  insets:
+    - title: "Godwit Marathon"
+      projection: "Azimuthal equidistant centered on Alaska"
+      focus: "Nonstop Alaska–Aotearoa flight"
+      notes: "Overlay satellite tag data"
+    - title: "Turtle Hatch Night"
+      projection: "Local lagoon plan"
+      focus: "Customary turtle wardens in Chuuk"
+      notes: "Annotate patrol shifts and nest counts"
+graphs:
+  - title: "Migration Distances"
+    type: "bar"
+    metrics:
+      - label: "Humpback whale"
+        value: null
+        unit: "km"
+      - label: "Bar-tailed godwit"
+        value: null
+        unit: "km"
+      - label: "Green turtle"
+        value: null
+        unit: "km"
+      - label: "Flying fox"
+        value: null
+        unit: "km"
+    notes: "Use dual-color bars for outbound vs return legs"
+  - title: "Community Science Participation"
+    type: "line"
+    metrics:
+      - label: "Tagging volunteers"
+        value: null
+        unit: "people"
+      - label: "Acoustic loggers deployed"
+        value: null
+        unit: "count"
+    notes: "Mark training workshops"
+images:
+  prompts:
+    - text: "Dynamic collage of humpback breach, turtle swimming near reef, godwit flock over tidal flats, and flying foxes roosting ab
+ove island village"
+      style: "Photo-real composite"
+      cultural_context: "Respect actual species behaviors and habitats"
+    - text: "Nighttime shoreline with Tongan singers, Micronesian youth tagging turtles, and Māori skipper logging whale sounds"
+      style: "Photo-real documentary"
+      cultural_context: "Include customary clothing, carved instruments, and red-safe lighting"
+  selection_criteria:
+    - "Center Indigenous stewardship with consented representation"
+    - "Ensure animals appear healthy and in natural settings"
+    - "Keep migration arrows legible against ocean hues"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular compass motif anchoring migration hub"
+  typography:
+    heading_pt: 150
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile strings representing routes"
+    - "Add audio of whale song and godwit calls via buttons"
+    - "Use high-contrast species icons with text labels"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact migration distances"
+    - "Volunteer participation trends"

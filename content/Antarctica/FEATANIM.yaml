@@ -1,0 +1,87 @@
+poster_id: Antarctica_FEATANIM
+station: Antarctica
+poster_type: FEATANIM
+title: "Weddell Seals: Engineers of Breathing Holes"
+copy:
+  hook: "Listen to the seal songs that keep life under the ice."
+  short: "Meet the Weddell seals of the McMurdo Sound fast ice. Their teeth carve breathing holes, their songs map territory, and their
+ presence guides scientists monitoring sea-ice change with guidance from Māori and Inuit advisors on respectful wildlife distance.
+"
+  depth:
+    - "Habitat map shows breathing holes, telemetry routes, and protected zones."
+    - "Infographics connect tooth wear, ice thickness, and pup survival with stewardship actions."
+    - "Profiles spotlight seal monitoring divers, Indigenous knowledge keepers, and acoustic technicians."
+maps:
+  projection: "Local Lambert conformal"
+  layers:
+    - "Breathing hole network and seal territories"
+    - "Ice thickness contours and current flow"
+    - "Research huts, acoustic stations, and cultural observation zones"
+  legend:
+    - "Icons for seal groups, pups, acoustic nodes, and safety perimeters"
+  labels:
+    - "Key sites: Erebus Bay, Turtle Rock, Hutton Cliffs, Scott Base"
+    - "Partner teams: Kaitiaki rōpū, USAP divers, Inuit advisors"
+  insets:
+    - title: "Dive Profile"
+      projection: "Depth-time chart"
+      focus: "Typical 600 m dive with temperature and oxygen"
+      notes: "Include data logger icons"
+    - title: "Song Spectrum"
+      projection: "Spectrogram"
+      focus: "Trill, chirp, and whistle patterns"
+      notes: "Annotate research notes and cultural interpretations"
+graphs:
+  - title: "Pup Survival vs. Hole Maintenance"
+    type: "line"
+    metrics:
+      - label: "Maintained holes"
+        value: null
+        unit: "%"
+      - label: "Abandoned holes"
+        value: null
+        unit: "%"
+    notes: "Highlight cooperative scraping schedule"
+  - title: "Tooth Wear Index"
+    type: "bar"
+    metrics:
+      - label: "Age 5"
+        value: null
+        unit: "index"
+      - label: "Age 12"
+        value: null
+        unit: "index"
+      - label: "Age 18"
+        value: null
+        unit: "index"
+    notes: "Link to ice hardness data"
+images:
+  prompts:
+    - text: "Under-ice view of Weddell seal surfacing at breathing hole with shimmering light and instrument station nearby"
+      style: "Photo-real underwater"
+      cultural_context: "Accurate lighting and respectful distance"
+    - text: "Surface scene of scientists and Māori advisor listening to seal songs with hydrophone beside breathing hole"
+      style: "Photo-real documentary"
+      cultural_context: "Include cold-weather gear, cultural adornments, and safety markings"
+  selection_criteria:
+    - "Ensure seals appear unstressed"
+    - "Depict collaboration and cultural guidance"
+    - "Maintain clarity of underwater textures"
+design:
+  layout:
+    columns: 1
+    gutters: "0"
+    keylines: "Vertical soundwave linking map and infographics"
+  typography:
+    heading_pt: 140
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile seal form and breathing hole model"
+    - "Offer audio of seal songs with captions and sign-language interpretation"
+    - "Use high-contrast blues with textured overlays"
+notes:
+  DATA_TO_VERIFY:
+    - "Pup survival percentages"
+    - "Tooth wear index values"

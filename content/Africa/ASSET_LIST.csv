@@ -1,0 +1,49 @@
+poster_id,asset_type,description
+Africa_CPOI,map,Africa Albers relief and cultural regions map
+Africa_CPOI,graph,Hominin timeline graphic
+Africa_CPOI,image,AI composite of major African landscapes
+Africa_CPOI,image,AI museum scene with African visitors and tactile map
+Africa_WEATHER,map,Africa Lambert weather systems map
+Africa_WEATHER,graph,ENSO rainfall anomaly line chart
+Africa_WEATHER,graph,Dakar-to-Addis elevation transect
+Africa_WEATHER,image,AI photo of Sahel pastoralists under monsoon clouds
+Africa_WEATHER,image,AI illustration of Harmattan dust plume
+Africa_LANDFORM_L,map,Rift Valley tectonic map
+Africa_LANDFORM_L,graph,Rift opening rate bar chart
+Africa_LANDFORM_L,image,AI drone photo of Rift escarpment with community
+Africa_LANDFORM_L,image,AI cross-section illustration of Rift geology
+Africa_LANDFORM_R,map,North Africa erosion-deposition map
+Africa_LANDFORM_R,graph,Nile Delta sediment budget chart
+Africa_LANDFORM_R,image,AI aerial of Nile Delta coastline
+Africa_LANDFORM_R,image,AI photo of Sahara oasis family with dunes
+Africa_BIOCOLL,map,Sub-Saharan biome and hotspot map
+Africa_BIOCOLL,graph,Biome climate line profiles
+Africa_BIOCOLL,image,AI montage of African biodiversity stewards
+Africa_BIOCOLL,image,AI macro of fynbos pollinators
+Africa_ANIMCOLL,map,East and Southern Africa migration map
+Africa_ANIMCOLL,graph,Migration distance bar chart
+Africa_ANIMCOLL,image,AI wildlife migration composite
+Africa_ANIMCOLL,image,AI photo of Namibian community rangers with GPS gear
+Africa_FEATANIM,map,Kalahari pangolin range map
+Africa_FEATANIM,graph,Pangolin termite consumption bar chart
+Africa_FEATANIM,image,AI dusk photo of pangolin with tracker
+Africa_FEATANIM,image,AI pangolin anatomy illustration
+Africa_TREASBIO,map,Africa ex-situ conservation network map
+Africa_TREASBIO,graph,Diversity preserved stacked bar chart
+Africa_TREASBIO,image,AI photo of Ethiopian seed bank caretakers
+Africa_TREASBIO,image,AI underwater photo of Malagasy coral nursery divers
+Africa_ETHNO,map,Africa cultural knowledge map
+Africa_ETHNO,graph,Knowledge collaboration timeline
+Africa_ETHNO,image,AI photo of Tuareg guide under stars
+Africa_ETHNO,image,AI photo of Xhosa fisher family reading tidal chalkboard
+Africa_STATSFT,map,Mini-map series for African systems featurettes
+Africa_STATSFT,graph,Forest alert trend line chart
+Africa_STATSFT,image,AI collage of African community projects
+Africa_STATSFT,image,AI vector layout of featurette maps
+Africa_CULTINNOV,map,Africa innovation network map
+Africa_CULTINNOV,graph,Innovation impact radar chart
+Africa_CULTINNOV,image,AI photo of Nubian earthen builders
+Africa_CULTINNOV,image,AI photo of Rwandan agronomist using drone with farmers
+Africa_CHARNARR,image,AI portrait of Tuareg artisan Aïchatou preparing caravan goods
+Africa_CHARNARR,image,AI photo of Samburu student herder Naserian with goats
+Africa_CHARNARR,image,AI portrait of Vezo fisher Rafalimanana with coral nursery

@@ -1,0 +1,119 @@
+poster_id: Africa_STATSFT
+station: Africa
+poster_type: STATSFT
+title: "African Systems in Focus"
+copy:
+  hook: "Four fast facts with local voices."
+  short: "Each featurette fits inside its column, pairing data with stories on energy, food, conservation, and cities."
+  depth:
+    - "Sahel Solar": "Microgrids lighting schools across Mali and Niger."
+    - "Great Lakes Food": "Community fish hatcheries stabilize nutrition."
+    - "Forest Guardians": "Congo Basin communities track deforestation."
+    - "Delta Cities": "Alexandria and Lagos scale up flood defenses."
+featurettes:
+  - title: "Sahel Solar"
+    summary: "Women-led cooperatives maintain solar kiosks that power evening classes and vaccine fridges."
+    data_bites:
+      - label: "Villages served"
+        value: 520
+        unit: "communities"
+      - label: "School-night hours added"
+        value: 3
+        unit: "hours/night"
+    maplet:
+      type: "dot"
+      projection: "Lambert"
+      focus: "Mali–Niger border"
+      notes: "Dots sized by households"
+  - title: "Great Lakes Food"
+    summary: "Community hatcheries restock tilapia while protecting hippo channels and fisher safety zones."
+    data_bites:
+      - label: "Fingerlings released"
+        value: 45
+        unit: "million/year"
+      - label: "Household nutrition increase"
+        value: 12
+        unit: "%"
+    maplet:
+      type: "flow"
+      projection: "Azimuthal"
+      focus: "Lake Victoria"
+      notes: "Short arrows show restocking routes"
+  - title: "Forest Guardians"
+    summary: "Indigenous forest monitors in Congo Basin use smartphones to log alerts that trigger rapid response."
+    data_bites:
+      - label: "Alerts resolved"
+        value: 780
+        unit: "cases/year"
+      - label: "Forest saved"
+        value: 3100
+        unit: "km²"
+    graph:
+      type: "line"
+      notes: "Show decline in illegal clearings"
+  - title: "Delta Cities"
+    summary: "Alexandria engineers and Lagos youth crews install permeable streets and mangrove buffers."
+    data_bites:
+      - label: "Flood depth reduction"
+        value: 35
+        unit: "%"
+      - label: "Jobs created"
+        value: 8500
+        unit: "positions"
+    maplet:
+      type: "inset"
+      projection: "Mercator local"
+      focus: "Alexandria, Lagos"
+      notes: "Side-by-side mini-maps"
+maps:
+  projection: "Integrated mini-maps"
+  layers:
+    - "Featurette-specific layers"
+  legend:
+    - "Inline legend for each feature"
+  labels:
+    - "City and community names"
+  insets: []
+graphs:
+  - title: "Forest Alert Trend"
+    type: "line"
+    metrics:
+      - label: "2015"
+        value: 1200
+        unit: "alerts"
+      - label: "2019"
+        value: 950
+        unit: "alerts"
+      - label: "2023"
+        value: 780
+        unit: "alerts"
+    notes: "Matches Forest Guardians feature"
+images:
+  prompts:
+    - text: "Collage of Sahel solar kiosk, Lake Victoria fish hatchery, Congo forest monitors, Lagos mangrove planters"
+      style: "Photo-real composite"
+      cultural_context: "Regional accuracy"
+    - text: "Vector mini-map layout showing four featurettes"
+      style: "Clean infographic"
+      cultural_context: "Africa"
+  selection_criteria:
+    - "Highlight collaboration and joy"
+    - "Ensure attire and tools accurate"
+    - "Maintain clarity at small scale"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Featurettes stack with consistent headers"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Icons plus text for data"
+    - "Tactile mini-map overlays"
+    - "Plain-language summary ribbon"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative values"

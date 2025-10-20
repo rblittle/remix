@@ -1,0 +1,74 @@
+poster_id: Europe_TREASBIO
+station: Europe
+poster_type: TREASBIO
+title: "Custodians of Seed, Cheese, and Coast"
+copy:
+  hook: "Heritage foods and species safeguarded for tomorrow."
+  short: "Visit Norway’s Svalbard Global Seed Vault partnerships, Italy’s Parmigiano Reggiano microbial libraries, Spain’s chestnut cooperatives, and Portugal’s seagrass nurseries. Networks of farmers, scientists, and fishers protect genetic diversity essential to resilient diets and economies."
+  depth:
+    - "Network map links seed banks, microbial labs, orchards, and seagrass plots."
+    - "Profiles highlight intergenerational cooperatives and apprenticeships."
+    - "Timeline shows how stored seeds and cultures revived harvests after blight and heatwaves."
+maps:
+  projection: "Europe network equal-area"
+  layers:
+    - "Nodes for vaults, libraries, orchards, nurseries"
+    - "Knowledge exchange routes"
+    - "Risk overlays for drought and marine heatwaves"
+  legend:
+    - "Node shapes for seeds, microbes, tree crops, marine plants"
+    - "Line styles for research, cooperative exchange, policy support"
+  labels:
+    - "Sites: Longyearbyen, Reggio Emilia, Bierzo, Ria Formosa"
+  insets:
+    - title: "Cheese Culture Vault"
+      projection: "Process diagram"
+      focus: "Parmigiano lab"
+      notes: "Show aging rooms and microbial banks"
+    - title: "Seagrass Restoration"
+      projection: "Radial cycle"
+      focus: "Seagrass life stages"
+      notes: "Seed collection to planting"
+graphs:
+  - title: "Diversity Safeguarded"
+    type: "stacked_bar"
+    metrics:
+      - label: "Seed accessions"
+        value: 980000
+        unit: "samples"
+      - label: "Cheese cultures"
+        value: 450
+        unit: "strains"
+      - label: "Chestnut varieties"
+        value: 65
+        unit: "cultivars"
+    notes: "Totals across featured network"
+images:
+  prompts:
+    - text: "Photo-real portraits of European seed vault technicians, cheesemakers, chestnut farmers, and seagrass divers"
+      style: "Documentary"
+      cultural_context: "Accurate facilities"
+    - text: "High-resolution still life of seed packets, cheese wheels, chestnut baskets, seagrass shoots"
+      style: "Studio still life"
+      cultural_context: "Authentic labeling"
+  selection_criteria:
+    - "Ensure protective gear and cultural attire accurate"
+    - "Highlight collaborative stewardship"
+    - "Use color palette matching exhibit design"
+design:
+  layout:
+    columns: 3
+    gutters: "0.9 in"
+    keylines: "Network map centered with timeline band"
+  typography:
+    heading_pt: 138
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile icons for resource types"
+    - "Offer large-print fact sheets in major European languages"
+    - "Use textured line styles to differentiate exchanges"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative values"

@@ -1,0 +1,71 @@
+poster_id: Africa_TREASBIO
+station: Africa
+poster_type: TREASBIO
+title: "Guardians of Genetic Wealth"
+copy:
+  hook: "Seeds, breeds, and reefs safeguarded for tomorrow."
+  short: "From Ethiopia’s community seed banks to Lake Malawi’s cichlid refuges and Madagascar’s vanilla nurseries, Africans protect biological treasures vital to food and culture."
+  depth:
+    - "Network map charts seed banks, livestock gene centers, and reef nurseries."
+    - "Profiles spotlight women-led cooperatives and youth dive teams."
+    - "Timeline shows how stored seeds revived harvests after droughts."
+maps:
+  projection: "Equal-area Africa"
+  layers:
+    - "Seed bank and gene bank locations"
+    - "Climate risk overlays"
+    - "Transport corridors for emergency distribution"
+  legend:
+    - "Icons for seed, livestock, reef resources"
+    - "Risk shading for drought, cyclone, flood"
+  labels:
+    - "Sites: Melkassa, ILRI Nairobi, Lake Malawi, Nosy Be"
+    - "Partner groups: Gedeo seed custodians, fisher cooperatives"
+  insets:
+    - title: "Emergency Seed Cycle"
+      projection: "None"
+      focus: "Harvest, storage, sharing phases"
+      notes: "Use pictograms"
+graphs:
+  - title: "Diversity Preserved"
+    type: "stacked_bar"
+    metrics:
+      - label: "Seed accessions"
+        value: [320000]
+        unit: "samples"
+      - label: "Livestock breeds"
+        value: [85]
+        unit: "breeds"
+      - label: "Coral fragments"
+        value: [18000]
+        unit: "fragments"
+    notes: "Year 2023 inventory"
+images:
+  prompts:
+    - text: "Photo-real image of Ethiopian women labeling seed jars in traditional textiles"
+      style: "Documentary"
+      cultural_context: "Oromia"
+    - text: "Underwater shot of Malagasy youth divers tending coral nursery frames"
+      style: "High-resolution marine"
+      cultural_context: "Madagascar"
+  selection_criteria:
+    - "Emphasize agency and expertise"
+    - "Avoid sterile vault imagery"
+    - "Ensure proper dive safety gear shown"
+design:
+  layout:
+    columns: 3
+    gutters: "1.15 in"
+    keylines: "Central column for timeline"
+  typography:
+    heading_pt: 135
+    subheading_pt: 52
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile seed samples with labels"
+    - "Audio tours in Amharic, Malagasy, Swahili"
+    - "High-contrast icons with text"
+notes:
+  DATA_TO_VERIFY:
+    - "Inventory numbers"

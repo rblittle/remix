@@ -1,0 +1,75 @@
+poster_id: Asia_LANDFORM_R
+station: Asia
+poster_type: LANDFORM_R
+title: "Islands on the Ring of Fire"
+copy:
+  hook: "Volcano arcs knit sea and soil."
+  short: "Explore Indonesia, the Philippines, and Japan where subduction builds volcanic chains and rich marine shelves. Lava, ash, and coral growth co-create fertile land yet pose quake and tsunami risks. Communities weave traditional stilt homes with modern sensors."
+  depth:
+    - "Process diagrams trace subduction, magma chambers, and reef uplift."
+    - "Comparative panels show rice terraces, mangrove buffers, and lava fields."
+    - "Community stories spotlight Minangkabau builders, Filipino fisherfolk, and Japanese disaster volunteers."
+maps:
+  projection: "Asia-Pacific equidistant conic"
+  layers:
+    - "Bathymetry and shaded relief of island arcs"
+    - "Active volcano points with eruption history bands"
+    - "Tsunami evacuation zones and coral reef extents"
+  legend:
+    - "Color ramps for depth and elevation"
+    - "Icons for evacuation towers, heritage rice terraces, coral nurseries"
+  labels:
+    - "Volcanoes: Merapi, Mayon, Aso, Krakatau"
+    - "Trenches and seas: Java Trench, Philippine Trench, South China Sea"
+  insets:
+    - title: "Tsunami Travel Time"
+      projection: "Time contour map"
+      focus: "Eastern Indian Ocean"
+      notes: "Contours show hours to major coasts"
+    - title: "Coral Ridge Uplift"
+      projection: "Oblique"
+      focus: "Raja Ampat"
+      notes: "Illustrate terraced reefs"
+graphs:
+  - title: "Volcanic Soil Renewal"
+    type: "bar"
+    metrics:
+      - label: "Rice yield boost"
+        value: 25
+        unit: "%"
+      - label: "Coffee yield boost"
+        value: 18
+        unit: "%"
+      - label: "Vegetable yield boost"
+        value: 22
+        unit: "%"
+    notes: "Compare post-eruption harvest improvements"
+images:
+  prompts:
+    - text: "Photo-real aerial of Indonesian volcano flank with rice terraces and village"
+      style: "Documentary"
+      cultural_context: "West Sumatra"
+    - text: "Illustration of tsunami evacuation drill with multilingual signage"
+      style: "Infographic realism"
+      cultural_context: "Philippines coastal town"
+  selection_criteria:
+    - "Depict resilience infrastructure and community collaboration"
+    - "Avoid disaster voyeurism"
+    - "Highlight diverse cultural architecture"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curved baseline mimics island arcs across spread"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Relief textures paired with printed descriptions"
+    - "Emergency icons accompanied by plain-language labels"
+    - "Contrast-checked wave height gradients"
+notes:
+  DATA_TO_VERIFY:
+    - "Agricultural yield percentage boosts"

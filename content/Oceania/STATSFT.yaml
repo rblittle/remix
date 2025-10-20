@@ -1,0 +1,125 @@
+poster_id: Oceania_STATSFT
+station: Oceania
+poster_type: STATSFT
+title: "Oceania Systems Spotlight"
+copy:
+  hook: "Four fast facts powered by saltwater wisdom."
+  short: "Each column pairs data and voices on energy, food, water, and cultural pathways connecting Oceania’s islands and coastlines."
+  depth:
+    - "Floating solar-canoe hybrids electrify remote clinics."
+    - "Seagrass meadows feed dugong herds and lock blue carbon."
+    - "Rain tank federations share drought insurance across atolls."
+    - "Cultural express routes link language nests and maker spaces."
+featurettes:
+  - title: "Blue Horizon Microgrids"
+    summary: "Tuvalu, Tokelau, and outer Cook Islands co-design microgrids that mount solar arrays on double-hulled canoes moored i
+n lagoons. Community skippers adjust panels with tides while technicians weave pandanus shelters to protect batteries from salt sp
+ray. Clinics and radio towers gain reliable power, and youth navigate maintenance shifts as part of seamanship training."
+    data_bites:
+      - label: "Diesel use cut"
+        value: 72
+        unit: "%"
+      - label: "Uptime increase"
+        value: 38
+        unit: "%"
+    maplet:
+      type: "symbol"
+      projection: "Local azimuthal"
+      focus: "Tokelau atolls"
+      notes: "Icons for solar canoes and clinics"
+  - title: "Seagrass Stewardship Guilds"
+    summary: "Torres Strait Islanders and New Caledonian Kanak fishers map seagrass meadows using drones, snorkel transects, and i
+ntergenerational storytelling. Guardians rotate seasonal closures to feed dugong herds while tallying carbon storage credits that f
+und language immersion camps. Kids learn to read tidal cues and drone imagery in the same lesson, turning data into cultural songs."
+    data_bites:
+      - label: "Meadow recovery"
+        value: 28
+        unit: "%"
+      - label: "Carbon stored"
+        value: 5.4
+        unit: "t C/ha"
+    maplet:
+      type: "heat"
+      projection: "Lambert"
+      focus: "Torres Strait seagrass beds"
+      notes: "Color intensity for biomass with pattern overlay"
+  - title: "Atoll Rain Tank Federations"
+    summary: "Women-led cooperatives across Kiribati and the Marshall Islands link hundreds of household rain tanks via smart gaug
+es. Radio nets announce when tanks reach low thresholds, triggering inter-island water barge rotations. Cooperative dues build a r
+apid repair fund, and every installation opens with songs blessing the freshwater lens beneath."
+    data_bites:
+      - label: "Leak reduction"
+        value: 41
+        unit: "%"
+      - label: "Households linked"
+        value: 860
+        unit: "homes"
+    graph:
+      type: "line"
+      notes: "Tank volume vs. rainfall with alert thresholds"
+  - title: "Language Wayfinder Loop"
+    summary: "A network of community centers from Honolulu to Rapa Nui pairs language nests, maker labs, and digital canoe simulator
+s. Traveling teachers deliver workshops via hybrid sail-cargo vessels, sharing immersive lessons on star chants, coding, and fiber
+ arts. Visitors log pledges to learn phrases before boarding, turning ferries into floating classrooms."
+    data_bites:
+      - label: "Voyages per year"
+        value: 24
+        unit: "routes"
+      - label: "Learners onboard"
+        value: 3200
+        unit: "people"
+    maplet:
+      type: "route"
+      projection: "Pacific great-circle"
+      focus: "Wayfinder Loop itinerary"
+      notes: "Show bilingual port names"
+maps:
+  projection: "Inset mini-maps"
+  layers:
+    - "Featurette-specific symbology"
+  legend:
+    - "Inline icon strip explaining energy, ecology, water, culture"
+  labels:
+    - "Community partners, year launched, and treaty acknowledgments"
+  insets: []
+graphs:
+  - title: "Microgrid Reliability"
+    type: "bar"
+    metrics:
+      - label: "Pre-upgrade"
+        value: 62
+        unit: "% uptime"
+      - label: "Post-upgrade"
+        value: 85
+        unit: "% uptime"
+    notes: "Align with Blue Horizon featurette"
+images:
+  prompts:
+    - text: "Collage of solar canoe microgrid, seagrass monitoring team, women checking rain tank gauges, and youth aboard language voy
+ager"
+      style: "Photo-real composite"
+      cultural_context: "Authentic equipment, inclusive crews, regional attire"
+    - text: "Infographic board showing four featurette icons, data bites, and mini-maps"
+      style: "Clean vector"
+      cultural_context: "Bilingual labeling"
+  selection_criteria:
+    - "Show collaborative work in real settings"
+    - "Represent gender diversity and youth leadership"
+    - "Keep data overlays legible"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Stacked featurette cards with wave dividers"
+  typography:
+    heading_pt: 126
+    subheading_pt: 50
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide large-print data summary handouts"
+    - "Use texture-coded icons on mini-maps"
+    - "Offer QR audio translations in English, Tok Pisin, ʻŌlelo Hawaiʻi, and Tahitian"
+notes:
+  DATA_TO_VERIFY:
+    - "All numeric percentages and counts"

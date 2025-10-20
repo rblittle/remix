@@ -1,0 +1,75 @@
+poster_id: Europe_LANDFORM_R
+station: Europe
+poster_type: LANDFORM_R
+title: "Karst to Delta: Southern Waterworks"
+copy:
+  hook: "Stone dissolves, rivers deliver, coasts adapt."
+  short: "Tour the Dinaric karst, Italian Apennine watersheds, and Danube Delta wetlands. Limestone caves, sinkholes, and alluvial fans feed springs, canals, and reedbeds that sustain towns, vineyards, and migrating birds."
+  depth:
+    - "Cutaways reveal subterranean rivers and speleothem formations."
+    - "Comparative panels track sediment journeys from Alps to the Black Sea."
+    - "Community stories highlight Croatian cave divers, Apulian olive growers, and delta reed harvesters."
+maps:
+  projection: "Lambert conformal Europe south"
+  layers:
+    - "Karst plateaus, poljes, and sinkholes"
+    - "River networks and irrigation canals"
+    - "Wetland zones and bird migration flyways"
+  legend:
+    - "Textures for karst, alluvium, wetlands"
+    - "Icons for cultural practices and restoration projects"
+  labels:
+    - "Sites: Postojna, Matera, Po Delta, Sulina"
+    - "Caves, canals, and bird colonies"
+  insets:
+    - title: "Matera Water Cistern"
+      projection: "Axonometric"
+      focus: "Sassi rainwater harvesting"
+      notes: "Show rock-hewn storage"
+    - title: "Danube Mouths"
+      projection: "Small multiples"
+      focus: "Chilia, Sulina, Sfântu Gheorghe branches"
+      notes: "Highlight shifting channels"
+graphs:
+  - title: "Sediment Delivery"
+    type: "stacked_bar"
+    metrics:
+      - label: "Alpine silt"
+        value: 45
+        unit: "%"
+      - label: "Karst spring minerals"
+        value: 25
+        unit: "%"
+      - label: "Coastal organic matter"
+        value: 30
+        unit: "%"
+    notes: "Illustrate delta accretion sources"
+images:
+  prompts:
+    - text: "Photo-real image of Danube Delta reed harvester poling boat at sunrise"
+      style: "Documentary"
+      cultural_context: "Romania"
+    - text: "Photo-real photo of karst cave explorers measuring subterranean river with headlamps"
+      style: "Documentary"
+      cultural_context: "Croatia"
+  selection_criteria:
+    - "Show safe, respectful research practices"
+    - "Balance subterranean and wetland light levels"
+    - "Highlight human-nature reciprocity"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curving river path divides karst and delta narratives"
+  typography:
+    heading_pt: 138
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile map of karst to delta transition"
+    - "Include audio cave soundscape with captions"
+    - "Ensure high-contrast labels on complex imagery"
+notes:
+  DATA_TO_VERIFY:
+    - "Sediment percentage estimates"

@@ -1,0 +1,54 @@
+poster_id: Asia_CHARNARR
+station: Asia
+poster_type: CHARNARR
+title: "Signals of the Vast Continent"
+copy:
+  hook: "Three voices interpret land, water, and sky."
+  short: "From Ladakh’s high valleys to Nagaland’s hills and the Sulu Sea, storytellers describe the cues guiding weaving, harvest, and voyages."
+  depth:
+    - "Narrations recorded in Ladakhi, Ao, and Sinama with subtitles."
+    - "Reflection prompts invite visitors to note their own seasonal signals."
+    - "Seating nook pairs audio with tactile relief of each landscape."
+narratives:
+  - name: "Padma Dolma"
+    identity: "Ladakhi weaver and microgrid caretaker"
+    gender: "female"
+    age: 36
+    location: "Phyang Valley, India"
+    text: "The prayer flags whisper louder when katpa winds spill off the ridge, so I cover the solar loom batteries before the dust arrives. Morning light on Stok Kangri tells me how much snow fell; bright blue means enough meltwater for the dye pots. By dusk I log the microgrid output and send the reading to Leh."
+    ai_prompt: "Photo-real portrait of Ladakhi woman adjusting solar-powered loom beside prayer flags with snowy peaks"
+  - name: "Imkongba"
+    identity: "Ao Naga student drummer"
+    gender: "male"
+    age: 12
+    location: "Mokokchung, Nagaland"
+    text: "At dawn I tap the log drum in the pattern our elders taught—fast beats call neighbors to weed the millet, slow beats warn of mist that slicks the terraces. My school tablet glows with rainfall charts we collect, so after classes I compare them to the moth swarms around the bamboo torches."
+    ai_prompt: "Photo-real image of Ao Naga boy playing log drum with tablet showing rainfall chart near terraced hills"
+  - name: "Laisa"
+    identity: "Sama-Bajau navigator and reef forager"
+    gender: "female"
+    age: 58
+    location: "Sitangkai Channel, Philippines"
+    text: "When the current hums against the hull’s bamboo ribs, I know the moon is pulling hard. I taste the water—if it sharpens, we steer toward the mangrove shade where the giant clams rest cool. My granddaughter records the sea temperature and I hum the tide song so she remembers which stars lead us home."
+    ai_prompt: "Photo-real portrait of Sama-Bajau elder steering wooden boat at twilight with granddaughter checking thermometer"
+images:
+  selection_criteria:
+    - "Secure storyteller approval for likeness"
+    - "Show authentic tools, instruments, and vessels"
+    - "Warm, respectful lighting and context"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Waveform audio icons link portraits to text blocks"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille transcripts and tactile coastline and mountain outlines"
+    - "Offer adjustable audio levels and captions"
+    - "Ensure seating with armrests for elders"
+notes:
+  DATA_TO_VERIFY: []

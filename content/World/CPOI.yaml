@@ -1,0 +1,70 @@
+poster_id: World_CPOI
+station: World
+poster_type: CPOI
+title: "Atlas Trail Orientation"
+copy:
+  hook: "Start your trail with the planet in your hands."
+  short: "This centerpiece orients you to how land, water, and people interlace across Earth. Follow the color bands to match continents, biomes, and migration currents. Trace the time ribbon to see how humans have navigated changing climates."
+  depth:
+    - "Continental silhouettes pair with biome swatches to show how deserts, forests, and tundra cluster by latitude."
+    - "Layered migration arrows highlight major journeys from early Homo sapiens dispersals to contemporary urban networks."
+    - "An Earth-systems timeline links volcanic pulses, ocean circulation shifts, and technological milestones that reshaped habitats."
+maps:
+  projection: "Equal Earth projection to balance area and readability at global scale"
+  layers:
+    - "Landmasses color-coded by primary biome bands"
+    - "Major ocean currents with arrowheads indicating flow"
+    - "Great circle routes of historic migrations"
+  legend:
+    - "Biome color swatches with icons for desert, forest, grassland, tundra, ice"
+    - "Arrow weight scale for migration volume"
+  labels:
+    - "Latitude lines every 30° with equator emphasized"
+    - "Key place labels: Rift Valley, Himalaya, Amazon, Arctic Ocean"
+  insets:
+    - title: "Polar Perspective"
+      projection: "Stereographic"
+      focus: "Arctic and Antarctic land/sea ice extent"
+      notes: "Use translucent overlays to show seasonal change"
+graphs:
+  - title: "Human-Earth Coevolution Timeline"
+    type: "timeline"
+    metrics:
+      - label: "-50k: Out of Africa dispersal aligns with warming pulse"
+        value: null
+        unit: null
+      - label: "0 CE: Silk Roads stitch Eurasia"
+        value: null
+        unit: null
+      - label: "1957: Sputnik inaugurates planetary observation"
+        value: null
+        unit: null
+    notes: "Use horizontal band with callouts anchored to key climate events"
+images:
+  prompts:
+    - text: "Panoramic composite of Earth from space showing continents, swirling clouds, overlay of biome colors, documentary realism"
+      style: "High-resolution satellite aesthetic"
+      cultural_context: "Global, inclusive"
+    - text: "Collage of diverse travelers examining a large illuminated world map in a modern gallery"
+      style: "Photo-real, balanced lighting"
+      cultural_context: "Multi-generational, multi-ethnic group"
+  selection_criteria:
+    - "Prioritize authentic geography with accurate coastlines"
+    - "Ensure representation of varied ages, genders, and mobility aids"
+    - "Resolution suitable for 150 dpi at 8 ft width"
+design:
+  layout:
+    columns: 3
+    gutters: "1.5 in"
+    keylines: "Circular centerpiece overlaps column boundaries for emphasis"
+  typography:
+    heading_pt: 180
+    subheading_pt: 72
+    body_pt: 42
+    caption_pt: 32
+  accessibility:
+    - "Contrast ratios ≥ 4.5:1 between text and background"
+    - "Provide tactile edge on raised world relief"
+    - "Icons paired with text labels for all legends"
+notes:
+  DATA_TO_VERIFY: []

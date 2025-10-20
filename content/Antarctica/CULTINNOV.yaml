@@ -1,0 +1,91 @@
+poster_id: Antarctica_CULTINNOV
+station: Antarctica
+poster_type: CULTINNOV
+title: "Designing Futures on the Frozen Frontier"
+copy:
+  hook: "Innovation thrives when culture and science move together."
+  short: "Discover Antarctic-led innovations: Chilean-Māori joint search-and-rescue drones, Antarctic Peninsula biodegradable field gear
+, waste-heat community pods, and ice-forecast AI co-designed with Indigenous knowledge holders. Each project keeps the continent co
+mmons-centered."
+  depth:
+    - "Process maps show consent, prototyping, field testing, and treaty reporting checkpoints."
+    - "Funding panels compare treaty cost-sharing, community grants, and circular economy pilots."
+    - "QR codes link to open-source manuals translated into Spanish, English, te reo Māori, and Inuktitut."
+maps:
+  projection: "Antarctic Peninsula focus with global network inset"
+  layers:
+    - "Innovation sites, logistics routes, and communication links"
+    - "Areas of implementation: rescue corridors, waste-heat pods, AI forecast stations"
+  legend:
+    - "Icons for mobility, materials, shelter, and data"
+  labels:
+    - "Sites: King George Island, Rothera, McMurdo, Scott Base"
+    - "Partners: Mapuche technologists, Māori data trust, Inuit Circumpolar Council advisors"
+  insets:
+    - title: "Rescue Drone Workflow"
+      projection: "Process diagram"
+      focus: "Drone deployment with cultural approval"
+      notes: "Highlight cold-tested components"
+    - title: "Waste-Heat Community Pod"
+      projection: "Exploded axon"
+      focus: "Modular pod structure"
+      notes: "Show recycled materials"
+graphs:
+  - title: "Innovation Cycle"
+    type: "timeline"
+    metrics:
+      - label: "Talanoa and az mapu consultation"
+        value: null
+        unit: null
+      - label: "Prototype build"
+        value: null
+        unit: null
+      - label: "Field trial"
+        value: null
+        unit: null
+      - label: "Treaty report"
+        value: null
+        unit: null
+    notes: "Use aurora-colored gradient"
+  - title: "Funding Mix"
+    type: "radial"
+    metrics:
+      - label: "Treaty parties"
+        value: null
+        unit: "%"
+      - label: "Community grants"
+        value: null
+        unit: "%"
+      - label: "Circular revenue"
+        value: null
+        unit: "%"
+    notes: "Texture fill to aid differentiation"
+images:
+  prompts:
+    - text: "Composite showing Māori and Chilean engineers piloting drone on ice, researchers wearing biodegradable field gear, community resting in waste-heat pod, and data team tuning AI forecast"
+      style: "Photo-real composite"
+      cultural_context: "Authentic gear, inclusive teams"
+    - text: "Macro shot of biodegradable fabric fibers, drone rotor, and ice crystal"
+      style: "High-resolution macro"
+      cultural_context: "Scientific accuracy"
+  selection_criteria:
+    - "Depict co-design rather than extractive tech"
+    - "Ensure prototypes look field-tested"
+    - "Keep data overlays bilingual"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Aurora ribbon threading project panels"
+  typography:
+    heading_pt: 150
+    subheading_pt: 62
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile samples of biodegradable fabric and drone rotor"
+    - "Offer audio case studies voiced by project leads"
+    - "Use icons with text for project categories"
+notes:
+  DATA_TO_VERIFY:
+    - "Funding percentage allocations"

@@ -1,0 +1,98 @@
+poster_id: Oceania_WEATHER
+station: Oceania
+poster_type: WEATHER
+title: "Trade Winds, Monsoon Pulses, and Cyclone Guardians"
+copy:
+  hook: "Feel how ocean and sky choreograph island seasons."
+  short: "Six headline systems shape Oceania: Pacific trade winds, El Niño–Southern Oscillation swings, Australian monsoon surges,
+ tropical cyclones, southern ocean westerlies, and highland cloud forests. A transect from Arnhem Land to the Southern Alps revea
+ls how elevation steers rainfall and cultural readiness."
+  depth:
+    - "Explain why shifting sea-surface temperatures amplify or calm cyclone risk across Melanesia and Polynesia."
+    - "Show when monsoon bursts, trade-wind droughts, and westerly fronts peak, with community adaptation stories."
+    - "Highlight so what: freshwater security, reef stress, and fire regimes tied to atmospheric rivers and ENSO outlooks."
+maps:
+  projection: "Pacific-centered equal-area composite"
+  layers:
+    - "Wind roses and streamline arrows for trade winds and westerlies"
+    - "Cyclone genesis zones with historical tracks"
+    - "Rainfall anomaly bands for ENSO phases"
+  legend:
+    - "Color ramp for rainfall anomalies"
+    - "Icons for cyclone shelters, monsoon cloudbands, and traditional weather observatories"
+  labels:
+    - "Key areas: Torres Strait, Vanuatu arc, Samoa, Tuvalu, Canterbury Plains, Southern Ocean fetch"
+    - "Transect stops: Arnhem Land savanna, Cape York rainforest, Coral Sea, North Island volcanic plateau, Southern Alps"
+  insets:
+    - title: "ENSO Teleconnections"
+      projection: "Regional mini-maps"
+      focus: "Drought-flood dipoles in Kiribati, Fiji, and Western Pacific atolls"
+      notes: "Pair with community water storage strategies"
+    - title: "Cyclone Readiness"
+      projection: "Local polar stereographic"
+      focus: "Vanuatu evacuation network"
+      notes: "Annotate blue-green shelter pods and radio relays"
+graphs:
+  - title: "Monsoon-Onset and Trade-Wind Strength"
+    type: "line"
+    metrics:
+      - label: "Monsoon rainfall Arnhem Land"
+        value: null
+        unit: null
+      - label: "Trade-wind speed Tuamotu"
+        value: null
+        unit: null
+    notes: "Dual-axis lines with annotated cultural markers"
+  - title: "Cyclone Season Timeline"
+    type: "timeline"
+    metrics:
+      - label: "Nov-Jan preparedness drills"
+        value: null
+        unit: null
+      - label: "Feb-Mar peak cyclone landfalls"
+        value: null
+        unit: null
+      - label: "Apr-May reef recovery monitoring"
+        value: null
+        unit: null
+    notes: "Use iconography for community roles"
+  - title: "Elevation Strip: Arnhem Land to Southern Alps"
+    type: "profile"
+    metrics:
+      - label: "Elevation"
+        value: null
+        unit: null
+    notes: "Color bands for savanna, rainforest, coral sea level, volcanic plateau, alpine snow. Annotate rain gauges and cloud fo
+rests"
+images:
+  prompts:
+    - text: "Panorama showing cyclone cloud tops, monsoon lightning over Arnhem Land, and misted New Zealand Alps along a single el
+evation profile"
+      style: "High-resolution composite"
+      cultural_context: "Respect seasonal light and landforms"
+    - text: "Community meteorology hub with Torres Strait elder, Samoan youth radio operator, and Ni-Vanuatu disaster team reviewing w
+ave charts"
+      style: "Photo-real documentary"
+      cultural_context: "Accurate uniforms, signage in local languages"
+  selection_criteria:
+    - "Show cultural and scientific collaboration"
+    - "Emphasize sensory cues—cloud shapes, water textures, instrument details"
+    - "Maintain readability of elevation strip and annotations"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Diagonal wind band guiding eye from monsoon map to cyclone readiness inset"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Match phenomena colors with patterns for color-blind access"
+    - "Provide tactile elevation strip and braille legend for wind directions"
+    - "Offer audio stories featuring local weather watchers"
+notes:
+  DATA_TO_VERIFY:
+    - "Relative strength values for trade winds and monsoon rainfall"
+    - "Cyclone season timeline specifics"

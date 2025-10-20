@@ -1,0 +1,84 @@
+poster_id: Oceania_ETHNO
+station: Oceania
+poster_type: ETHNO
+title: "Navigators, Fire Keepers, and Tide Interpreters"
+copy:
+  hook: "Hear how stories forecast sky, soil, and sea."
+  short: "Meet Palauan master navigators, Yolŋu fire custodians, and Tuvaluan tide readers whose knowledge guides voyaging, savanna ma
+nagement, and freshwater safety. Their practices blend chant, constellation charts, and satellite radios to keep communities ready."
+  depth:
+    - "Story excerpts pair with physical cues—swell rhythm, bird calls, and smoke columns."
+    - "Calendars show ceremonial cycles alongside scientific instruments now co-used."
+    - "Youth apprenticeship panels highlight language revitalization and digital archives."
+maps:
+  projection: "Cultural journey diagram"
+  layers:
+    - "Voyaging sectors, burn mosaic zones, and tidal signal locations"
+    - "Community learning houses, ranger bases, and storytelling circles"
+  legend:
+    - "Iconography for chant, fire, tide, and tech tools"
+  labels:
+    - "Key places: Ngarchelong, Galiwin’ku, Funafuti, Blue Mud Bay"
+    - "Learning partners: Chiefs’ councils, Ranger Alliances, School climate clubs"
+  insets:
+    - title: "Star Compass"
+      projection: "Circular diagram"
+      focus: "Palauan etak houses"
+      notes: "Include bilingual annotations"
+    - title: "Smoking the Wind"
+      projection: "Storyboard"
+      focus: "Yolŋu fire-lighting cues"
+      notes: "Show color-coded smoke meanings"
+graphs:
+  - title: "Seasonal Knowledge Calendar"
+    type: "timeline"
+    metrics:
+      - label: "Voyaging window"
+        value: null
+        unit: null
+      - label: "Burning season"
+        value: null
+        unit: null
+      - label: "King tide alerts"
+        value: null
+        unit: null
+    notes: "Use braided ribbon connecting communities"
+  - title: "Language Revitalization Milestones"
+    type: "line"
+    metrics:
+      - label: "Apprentices trained"
+        value: null
+        unit: "people"
+      - label: "Digital stories recorded"
+        value: null
+        unit: "count"
+    notes: "Highlight youth-led media hubs"
+images:
+  prompts:
+    - text: "Evening scene aboard voyaging canoe with Palauan navigator pointing to stars while students log data"
+      style: "Photo-real documentary"
+      cultural_context: "Traditional canoe, star compass, inclusive crew"
+    - text: "Montage of Yolŋu women tending cool burns and Tuvalu elder teaching children to read tide stakes"
+      style: "Photo-real composite"
+      cultural_context: "Respect ceremonial clothing, community setting"
+  selection_criteria:
+    - "Show intergenerational teaching"
+    - "Depict technology as supportive, not dominant"
+    - "Ensure respectful portrayal of ceremonies"
+design:
+  layout:
+    columns: 2
+    gutters: "0.95 in"
+    keylines: "Braided motif weaving stories and data"
+  typography:
+    heading_pt: 140
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Include phonetic guides for Indigenous terms"
+    - "Provide tactile star compass and tide pole miniatures"
+    - "Offer audio narration featuring original storytellers"
+notes:
+  DATA_TO_VERIFY:
+    - "Counts of apprentices and digital stories"

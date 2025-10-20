@@ -1,0 +1,89 @@
+poster_id: Oceania_LANDFORM_R
+station: Oceania
+poster_type: LANDFORM_R
+title: "Atolls, Mangroves, and Desert Heartlands"
+copy:
+  hook: "See how water carves coral rims and red sand basins."
+  short: "Contrast three signature landforms: Micronesian atolls building vertical coral walls, Melanesian mangrove labyrinths trap
+ping sediment, and Australia’s arid basins sculpted by wind and ephemeral floods. Guardians weave reef gardening, mangrove repla
+nting, and desert songline mapping to sustain place."
+  depth:
+    - "Comparative diagrams show reef flat, lagoon, and ocean slope habitats alongside mangrove zonation and dune swale profiles."
+    - "Water stories trace freshwater lenses, blue carbon sinks, and artesian bores with stewardship practices."
+    - "Spotlights feature Kiribati fishers, Solomon mud crab farmers, and Martu desert trackers."
+maps:
+  projection: "Triptych mini-projections: atoll oblique, mangrove delta equal-area, Australian interior Lambert"
+  layers:
+    - "Bathymetry contours, lagoon depth, and reef crest exposure"
+    - "Mangrove species zones, tidal channels, and community boardwalks"
+    - "Desert dune fields, ephemeral rivers, and songline trails"
+  legend:
+    - "Color swatches for coral growth stages, mangrove species, dune stability"
+    - "Icons for freshwater wells, carbon monitoring plots, and cultural sites"
+  labels:
+    - "Key places: Tarawa, Roviana Lagoon, Kimberley coast, Great Sandy Desert, Lake Eyre/Kati Thanda"
+    - "Cultural anchors: Maneaba meeting house, customary tambu groves, Martu jilji camps"
+  insets:
+    - title: "Freshwater Lens Section"
+      projection: "Cutaway diagram"
+      focus: "Tarawa atoll aquifer thickness"
+      notes: "Pair with rain tank network"
+    - title: "Blue Carbon Ledger"
+      projection: "Data ribbon"
+      focus: "Mangrove biomass plots"
+      notes: "Show community scientists collecting samples"
+graphs:
+  - title: "Sediment Capture vs. Root Density"
+    type: "scatter"
+    metrics:
+      - label: "Roviana mangroves"
+        value: null
+        unit: null
+      - label: "Kimbe Bay"
+        value: null
+        unit: null
+      - label: "Moreton Bay"
+        value: null
+        unit: null
+    notes: "Use symbol shapes for species type"
+  - title: "Groundwater Lens Change"
+    type: "line"
+    metrics:
+      - label: "Tarawa freshwater lens thickness"
+        value: null
+        unit: null
+      - label: "Funafuti backup reservoirs"
+        value: null
+        unit: null
+    notes: "Mark rain harvesting milestones"
+images:
+  prompts:
+    - text: "Split-scene showing coral gardeners tending reef nursery, mangrove planters wading through roots, and Martu elders trac
+ing songline on desert sand"
+      style: "High-resolution composite"
+      cultural_context: "Respectful attire, depict actual ecological practices"
+    - text: "Aerial oblique of atoll with annotated freshwater wells and solar desalination huts"
+      style: "Photo-real aerial"
+      cultural_context: "Include community architecture and canoe channels"
+  selection_criteria:
+    - "Highlight land-water interdependence"
+    - "Depict Indigenous leadership and cooperative labor"
+    - "Ensure textures for roots, coral, and dunes remain distinct"
+design:
+  layout:
+    columns: 2
+    gutters: "0.9 in"
+    keylines: "Horizontal bands linking three landform panels"
+  typography:
+    heading_pt: 148
+    subheading_pt: 58
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Use pattern overlays for water depth categories"
+    - "Provide tactile swatches of coral, root, and sand textures"
+    - "Include QR audio describing landform cross-sections"
+notes:
+  DATA_TO_VERIFY:
+    - "Groundwater lens thickness trends"
+    - "Sediment capture values"

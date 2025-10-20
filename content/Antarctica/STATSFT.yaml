@@ -1,0 +1,123 @@
+poster_id: Antarctica_STATSFT
+station: Antarctica
+poster_type: STATSFT
+title: "Antarctic Systems Spotlight"
+copy:
+  hook: "Four snapshots of cooperation at the cold edge."
+  short: "Each column pairs data and voices on energy, food, climate records, and cultural care that sustain Antarctic research communi
+ ties and global knowledge."
+  depth:
+    - "Wind-solar hybrids keep stations warm without extra diesel."
+    - "Hydroponic greenhouses feed crews through polar night."
+    - "Ice core labs archive climate records with Indigenous consent protocols."
+    - "Wellness networks connect field teams with cultural support circles."
+featurettes:
+  - title: "Katabatic Wind Microgrids"
+    summary: "Princess Elisabeth Station and Scott Base share designs for wind turbines tailored to katabatic gusts. Blades fold in stor
+ms, while thermal storage tanks release heat during calm spells. Māori engineers co-design controls that log cultural safety margins
+ alongside kilowatt output."
+    data_bites:
+      - label: "Diesel avoided"
+        value: 68
+        unit: "%"
+      - label: "Turbine uptime"
+        value: 3200
+        unit: "hrs/yr"
+    graph:
+      type: "line"
+      notes: "Compare power output across seasons"
+  - title: "Polar Night Greenhouses"
+    summary: "Concordia and McMurdo stations operate hydroponic farms lit by LED panels tuned to circadian rhythms. Crew members rotate as
+ garden stewards, harvesting greens, herbs, and cultural comfort foods requested by rotating national programs. Waste heat from lab
+ equipment keeps roots thawed."
+    data_bites:
+      - label: "Fresh produce share"
+        value: 42
+        unit: "%"
+      - label: "Water recycled"
+        value: 95
+        unit: "%"
+    maplet:
+      type: "plan"
+      projection: "Axonometric"
+      focus: "Greenhouse layout"
+      notes: "Highlight water loop and harvesting zones"
+  - title: "Ice Core Stewardship Alliance"
+    summary: "Allan Hills teams partner with Mapuche and Māori advisors to review sampling plans before drilling. Data dashboards flag wh
+ich cores require community consultation before release. Students in Chile and Aotearoa analyze open datasets in bilingual workshops.
+"
+    data_bites:
+      - label: "Cores reviewed"
+        value: 56
+        unit: "segments"
+      - label: "Student researchers"
+        value: 210
+        unit: "students"
+    maplet:
+      type: "network"
+      projection: "South Polar"
+      focus: "Alliance communication routes"
+      notes: "Show data-sharing platforms"
+  - title: "Polar Care Circle"
+    summary: "A wellness network links field teams with counselors, Elders-in-residence, and family video calls. Quiet rooms in Antarctic
+ Peninsula stations display rotating art from Indigenous youth. Monthly talanoa circles reduce isolation and inform safety briefings.
+"
+    data_bites:
+      - label: "Participation rate"
+        value: 78
+        unit: "%"
+      - label: "Circle sessions"
+        value: 36
+        unit: "per year"
+    graph:
+      type: "bar"
+      notes: "Chart participation by station"
+maps:
+  projection: "Inset mini-maps"
+  layers:
+    - "Featurette-specific routes and facilities"
+  legend:
+    - "Inline icon strip for energy, food, science, wellness"
+  labels:
+    - "Community partners, launch years, and treaty acknowledgments"
+  insets: []
+graphs:
+  - title: "Microgrid vs. Diesel Emissions"
+    type: "bar"
+    metrics:
+      - label: "Baseline diesel"
+        value: 100
+        unit: "t CO₂e"
+      - label: "Hybrid system"
+        value: 32
+        unit: "t CO₂e"
+    notes: "Align with Katabatic Wind Microgrids"
+images:
+  prompts:
+    - text: "Composite of wind turbines on ridge, crew harvesting greenhouse lettuce, students examining ice core, and wellness circle in cozy station room"
+      style: "Photo-real composite"
+      cultural_context: "Accurate station interiors and attire"
+    - text: "Vector infographic summarizing four Antarctic systems with icons, data, and mini-maps"
+      style: "Clean vector"
+      cultural_context: "Bilingual labels"
+  selection_criteria:
+    - "Show cooperative, multicultural teams"
+    - "Keep instrumentation accurate"
+    - "Ensure data overlays remain legible"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Stacked featurette cards with aurora divider"
+  typography:
+    heading_pt: 126
+    subheading_pt: 50
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide large-print data summaries and tactile mini-maps"
+    - "Use pattern-coded icons"
+    - "Offer audio translations in English, Spanish, French, te reo Māori, and Mandarin"
+notes:
+  DATA_TO_VERIFY:
+    - "All numeric percentages, hours, counts"

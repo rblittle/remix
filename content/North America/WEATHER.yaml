@@ -1,0 +1,106 @@
+poster_id: NorthAmerica_WEATHER
+station: North America
+poster_type: WEATHER
+title: "Jet Streams, Hurricanes, and Snowpack"
+copy:
+  hook: "Feel the continent’s weather engines in motion."
+  short: "Track six headline systems: Pacific atmospheric rivers, the Polar Vortex, Great Plains supercells, Atlantic hurricanes, El Norte nortes, and Caribbean trade-wind showers. A transect from Baja peaks to Quebec shields shows how altitude steers storms."
+  depth:
+    - "Explain how mountain ranges channel and block moisture, creating rain shadows and snow catchments."
+    - "Seasonal clock clarifies when each phenomenon peaks and how communities prepare."
+    - "Case stories show Indigenous fire keepers, coastal emergency crews, and Arctic observers translating forecasts into action."
+maps:
+  projection: "Albers equal-area for North America"
+  layers:
+    - "Storm tracks with directional arrows"
+    - "Sea-surface temperature anomalies for hurricane season"
+    - "Snowpack and drought zones shaded"
+  legend:
+    - "Icons for six highlighted phenomena"
+    - "Color bars for precipitation surplus/deficit"
+  labels:
+    - "Key sites: Atmospheric River landfall zones, Tornado Alley, Gulf Coast, Yucatán Channel, Hudson Bay"
+    - "Transect: Cabo San Lucas – Denver – Winnipeg – Nunavik"
+  insets:
+    - title: "Hurricane Cone Detail"
+      projection: "Lambert conformal"
+      focus: "Caribbean to Gulf of Mexico"
+      notes: "Show evacuation timing layers"
+    - title: "Arctic Winter Vortex"
+      projection: "Polar stereographic"
+      focus: "Canadian Arctic Archipelago"
+      notes: "Depict cold core and monitoring stations"
+transect:
+  name: "Baja-to-Baffin Elevation Strip"
+  description: "Cutaway elevation profile noting Sierra Madre, Colorado Plateau, Great Plains rise, Canadian Shield, and Ungava Peninsula."
+  key_features:
+    - "Orographic lift zones"
+    - "Snowpack reservoirs"
+    - "Wind corridor gaps"
+phenomena:
+  - "Pacific Atmospheric Rivers"
+  - "Polar Vortex Cold Outbreaks"
+  - "Great Plains Supercells"
+  - "Atlantic Hurricanes"
+  - "Nortes over the Gulf"
+  - "Caribbean Trade-Wind Showers"
+graphs:
+  - title: "Seasonal Onset Wheel"
+    type: "radial"
+    metrics:
+      - label: "Atmospheric River peak"
+        value: 1
+        unit: "Jan"
+      - label: "Hurricane peak"
+        value: 9
+        unit: "Sep"
+      - label: "Supercell peak"
+        value: 5
+        unit: "May"
+      - label: "Polar vortex strongest"
+        value: 2
+        unit: "Feb"
+      - label: "Nortes peak"
+        value: 12
+        unit: "Dec"
+    notes: "Use month positions to show timing"
+  - title: "Snowpack vs. Drought Index"
+    type: "line"
+    metrics:
+      - label: "Mountain West SWE"
+        value: null
+        unit: null
+      - label: "Southwest drought index"
+        value: null
+        unit: null
+    notes: "Double-axis lines; annotate fire season thresholds"
+images:
+  prompts:
+    - text: "Photo-real montage of firefighters conducting cultural burn under stormy sky, hurricane satellite swirl, and Arctic aurora over weather station"
+      style: "Documentary collage"
+      cultural_context: "Show Indigenous crews with proper regalia and safety gear"
+    - text: "Cutaway infographic of Baja-to-Baffin elevation strip with weather icons"
+      style: "High-detail vector"
+      cultural_context: "Scientific exhibit"
+  selection_criteria:
+    - "Depict authentic equipment and landscapes"
+    - "Include bilingual signage where visible"
+    - "Provide clear contrast between weather systems"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Transect anchors bottom band with phenomena radiating upward"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 38
+    caption_pt: 28
+  accessibility:
+    - "Use textures plus color for precipitation zones"
+    - "Add QR link to ASL weather glossary"
+    - "Ensure transect includes tactile ridge line"
+notes:
+  DATA_TO_VERIFY:
+    - "Month assignments for phenomena"
+    - "Snowpack vs drought correlation values"

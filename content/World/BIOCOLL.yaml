@@ -1,0 +1,74 @@
+poster_id: World_BIOCOLL
+station: World
+poster_type: BIOCOLL
+title: "Biomes in Bloom"
+copy:
+  hook: "Meet the life zones that band our planet."
+  short: "From equatorial rainforests to polar ice, every biome hosts distinct communities and caretakers. Track how temperature and rainfall shape biodiversity, and hear from stewards safeguarding seed banks, reefs, and cloud forests."
+  depth:
+    - "Biome wheel pairs climate graphs with flagship species and human knowledge keepers."
+    - "Global map highlights biodiversity hotspots and Indigenous-managed territories."
+    - "Callouts celebrate community-led restoration, from Sámi reindeer herders to Brazilian agroforestry cooperatives."
+maps:
+  projection: "Equal Earth"
+  layers:
+    - "Biome polygons categorized by Whittaker scheme"
+    - "Hotspot outlines from Conservation International"
+    - "Territories with documented Indigenous stewardship"
+  legend:
+    - "Color wheel linking biome hues to climate axes"
+    - "Pattern overlay for Indigenous-managed lands (verify data permissions)"
+  labels:
+    - "Major biomes: Tropical Rainforest, Temperate Grassland, Boreal Forest, Tundra, Desert"
+    - "Hotspot callouts: Western Ghats, Madagascar, Mesoamerica"
+  insets:
+    - title: "Cloud Forest Vertical Profile"
+      projection: "None"
+      focus: "Elevation-based species bands"
+      notes: "Use layered illustration with temperature lapse rate scale"
+graphs:
+  - title: "Biome Climate Signatures"
+    type: "radial"
+    metrics:
+      - label: "Rainforest"
+        value: [27, 280]
+        unit: "°C, cm/yr"
+      - label: "Desert"
+        value: [30, 25]
+        unit: "°C, cm/yr"
+      - label: "Temperate Forest"
+        value: [12, 90]
+        unit: "°C, cm/yr"
+      - label: "Tundra"
+        value: [-5, 40]
+        unit: "°C, cm/yr"
+    notes: "Dual-axis radial plot with tactile overlays"
+images:
+  prompts:
+    - text: "Collage of biome vignettes showing rainforest canopy researcher, desert artisan tending native plants, Arctic child with elder observing caribou"
+      style: "Photo-real montage with consistent lighting"
+      cultural_context: "Brazil, Morocco, Sápmi"
+    - text: "Macro photograph of seed bank technician cataloging diverse seeds on labeled trays"
+      style: "Documentary close-up"
+      cultural_context: "Global agricultural research"
+  selection_criteria:
+    - "Seek permissions for Indigenous representation and use quotes respectfully"
+    - "Highlight gender balance and intergenerational collaboration"
+    - "Ensure species depicted are native and identifiable"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central circular biome wheel anchored to grid"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 38
+    caption_pt: 30
+  accessibility:
+    - "Provide tactile biome wheel with embossed textures"
+    - "Use scent sample station only with allergy signage"
+    - "Offer braille labels for flagship species"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact precipitation/temperature values used in radial chart"

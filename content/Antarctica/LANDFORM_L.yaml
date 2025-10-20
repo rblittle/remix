@@ -1,0 +1,86 @@
+poster_id: Antarctica_LANDFORM_L
+station: Antarctica
+poster_type: LANDFORM_L
+title: "Ice Shelves, Crevasse Fields, and Subglacial Rivers"
+copy:
+  hook: "Peer beneath the ice to see water sculpting frozen land."
+  short: "Follow outlet glaciers from Dome A through crevasse fields into floating ice shelves above hidden rivers. Scientists and polar workers map melt channels, stabilize drill pads, and use autonomous robots guided by Indigenous Māori advisors’ guardianship principles to respect the ice."
+  depth:
+    - "Cutaway diagrams compare grounded ice, basal melt channels, and subglacial lakes."
+    - "Hazard overlays show crevasse densities, blue-ice runway zones, and safe traverse routes."
+    - "Profiles highlight field camps, Weddell Sea seal monitors, and Māori cultural exchanges guiding research protocols."
+maps:
+  projection: "Transantarctic oblique Mercator"
+  layers:
+    - "Ice surface elevation with flowlines"
+    - "Basal hydrology network and meltwater plumes"
+    - "Traverse routes, camps, and protected zones"
+  legend:
+    - "Color gradient for ice velocity"
+    - "Symbols for boreholes, autonomous vehicles, and cultural liaison camps"
+  labels:
+    - "Features: Lambert Glacier, Beardmore Glacier, Lake Whillans, Filchner-Ronne Ice Shelf"
+    - "Stations: Concordia, South Pole, Halley VI"
+  insets:
+    - title: "Lake Whillans Drilling"
+      projection: "Local plan"
+      focus: "Clean-access drilling layout"
+      notes: "Mark sterile labs and meltwater recapture"
+    - title: "Ice Shelf Front Cross-Section"
+      projection: "Profile"
+      focus: "Crevasse stratigraphy and ocean cavity"
+      notes: "Annotate seal observation holes"
+graphs:
+  - title: "Basal Melt Rates"
+    type: "bar"
+    metrics:
+      - label: "Pine Island"
+        value: null
+        unit: "m/yr"
+      - label: "Thwaites"
+        value: null
+        unit: "m/yr"
+      - label: "Filchner"
+        value: null
+        unit: "m/yr"
+    notes: "Include error bars from radar data"
+  - title: "Robot Traverse Progress"
+    type: "line"
+    metrics:
+      - label: "Autonomous vehicle distance"
+        value: null
+        unit: "km"
+      - label: "Manual traverse"
+        value: null
+        unit: "km"
+    notes: "Highlight co-designed wayfinding markers"
+images:
+  prompts:
+    - text: "Cutaway illustration showing glacier flow, subglacial lake, borehole, and floating shelf with autonomous robot"
+      style: "Scientific illustration"
+      cultural_context: "Accurate scale relationships and instrument placement"
+    - text: "Photo-real scene of field team roped across crevasse field with Māori advisor performing karakia"
+      style: "Photo-real documentary"
+      cultural_context: "Respect cultural protocols and safety gear"
+  selection_criteria:
+    - "Balance scientific detail with human presence"
+    - "Ensure crevasse hazards depicted accurately"
+    - "Highlight intercultural collaboration"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Descending flowline leading to ocean edge"
+  typography:
+    heading_pt: 148
+    subheading_pt: 58
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Use raised-line diagrams for cross-sections"
+    - "Provide plain-language hazard explanations"
+    - "Include QR audio describing drilling protocols"
+notes:
+  DATA_TO_VERIFY:
+    - "Basal melt rates"
+    - "Robot traverse distances"

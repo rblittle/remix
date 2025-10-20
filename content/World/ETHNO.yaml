@@ -1,0 +1,69 @@
+poster_id: World_ETHNO
+station: World
+poster_type: ETHNO
+title: "Ways of Knowing the Earth"
+copy:
+  hook: "Many knowledge systems, one shared planet."
+  short: "Hear from navigators, farmers, and storytellers whose traditions read Earth’s signals. Polynesian wayfinders interpret stars and swells, Sámi herders track snow crusts, and Andean agronomists tend potato terraces tuned to microclimates."
+  depth:
+    - "Quotes in original languages with translations celebrate knowledge keepers."
+    - "Map links cultural regions with the landforms and seasonal cues they observe."
+    - "Sidebar highlights collaborations between Indigenous experts and scientists for climate adaptation."
+maps:
+  projection: "Interrupted Goode homolosine to honor land continuity"
+  layers:
+    - "Cultural regions with knowledge practice icons"
+    - "Seasonal calendars aligned with solstices and harvests"
+    - "Shared research hubs"
+  legend:
+    - "Icon set for navigation, herding, farming, storytelling"
+    - "Color palette referencing traditional textiles"
+  labels:
+    - "Polynesia, Sápmi, Andes, Western Desert, Great Plains"
+    - "Key collaboration sites: Hōkūleʻa voyaging society, International Centre for Reindeer Husbandry"
+  insets:
+    - title: "Andean Ecological Floors"
+      projection: "Elevation band diagram"
+      focus: "Quechua and Aymara agricultural zoning"
+      notes: "Combine Quechua terms with phonetic guide"
+graphs:
+  - title: "Seasonal Knowledge Calendar"
+    type: "timeline"
+    metrics:
+      - label: "Sámi eight seasons"
+        value: ["Gidádálvi", "Gidá", "Giđđageassi", "Giđđa", "Čakčageassi", "Čakča", "Skábma", "Talvi"]
+        unit: null
+      - label: "Andean ecological floors"
+        value: ["Quechua", "Suni", "Puna", "Janca"]
+        unit: null
+    notes: "Stacked timeline showing overlaps"
+images:
+  prompts:
+    - text: "Photo-real portrait of Polynesian navigator aboard double-hulled canoe at night reading stars"
+      style: "Low-light documentary"
+      cultural_context: "Pacific, include traditional attire"
+    - text: "Image of Sámi family marking snow conditions near reindeer herd with joik singer"
+      style: "Natural daylight photo"
+      cultural_context: "Northern Scandinavia"
+  selection_criteria:
+    - "Obtain consent and proper attribution for cultural representations"
+    - "Avoid staging; prioritize authentic practice"
+    - "Include captions acknowledging language names and pronunciations"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central vertical timeline with quotes radiating outward"
+  typography:
+    heading_pt: 145
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Include audio of featured languages via QR"
+    - "Provide pronunciation guides in phonetic script"
+    - "Ensure tactile icons for knowledge practices"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact seasonal names spelling and diacritics"
+    - "Current collaboration program titles"

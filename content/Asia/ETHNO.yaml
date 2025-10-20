@@ -1,0 +1,75 @@
+poster_id: Asia_ETHNO
+station: Asia
+poster_type: ETHNO
+title: "Listening to Monsoon, Steppe, and Tide"
+copy:
+  hook: "Four knowledge keepers share land-and-sky cues."
+  short: "Meet Ainu salmon stewards in Hokkaido, Khasi cloud readers in Meghalaya, Kazakh eagle hunters in the Altai, and Sama-Bajau navigators in the Sulu Sea. Their observations guide fisheries, forests, and migrations."
+  depth:
+    - "Map links cultural territories with seasonal calendars and landforms."
+    - "Quote bands feature Indigenous languages alongside English and national lingua francas."
+    - "Collaboration panel shows co-designed climate monitoring and education exchanges."
+maps:
+  projection: "Asia cultural equal-area"
+  layers:
+    - "Traditional territories and seasonal camps"
+    - "Key environmental features: rivers, ridgelines, reefs"
+    - "Collaborative monitoring stations"
+  legend:
+    - "Symbols for fishing grounds, sacred groves, migration routes"
+    - "Color bands for seasonal calendars"
+  labels:
+    - "Place names in Indigenous orthographies"
+    - "Partner institutions for adaptation projects"
+  insets:
+    - title: "Linguistic Diversity"
+      projection: "Chord diagram"
+      focus: "Knowledge exchanges"
+      notes: "Show sharing of weather terms"
+    - title: "Seasonal Drum Pattern"
+      projection: "Timeline"
+      focus: "Khasi wind ceremony"
+      notes: "Connect to rainfall cues"
+graphs:
+  - title: "Observation Frequency"
+    type: "bar"
+    metrics:
+      - label: "River height checks"
+        value: 12
+        unit: "per month"
+      - label: "Cloud type records"
+        value: 18
+        unit: "per month"
+      - label: "Sea current notes"
+        value: 14
+        unit: "per month"
+    notes: "Illustrate ongoing community science"
+images:
+  prompts:
+    - text: "Photo-real portraits of Ainu elder with river net, Khasi matriarch observing clouds, Kazakh eagle hunter, Sama-Bajau navigator"
+      style: "Documentary"
+      cultural_context: "Authentic attire, respectful setting"
+    - text: "Scene of intergenerational workshop with maps, drums, and weather instruments"
+      style: "Documentary"
+      cultural_context: "Community center"
+  selection_criteria:
+    - "Seek permissions and accurate regalia"
+    - "Avoid staged exoticism"
+    - "Show agency and teaching roles"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Circular quote hub connects to map and graphs"
+  typography:
+    heading_pt: 136
+    subheading_pt: 56
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Audio pronunciations of Indigenous names"
+    - "Tactile patterns for seasonal cycles"
+    - "High-contrast overlays behind text"
+notes:
+  DATA_TO_VERIFY:
+    - "Observation frequency values"

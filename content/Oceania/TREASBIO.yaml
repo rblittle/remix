@@ -1,0 +1,84 @@
+poster_id: Oceania_TREASBIO
+station: Oceania
+poster_type: TREASBIO
+title: "Oceanic Biocultural Treasures"
+copy:
+  hook: "Guardians keep seeds, spores, and reef genomes alive."
+  short: "Explore the Fijian Sawaieke breadfruit archive, Samoa’s coral cryobank, and Arnhem Land yam libraries. Each treasure is c
+o-managed by elders, scientists, and youth who braid protocols, freezer tech, and floating nurseries to secure future harvests."
+  depth:
+    - "Map connections between seed vaults, coral nurseries, and knowledge exchanges across island chains."
+    - "Process diagrams follow collection, ceremony, storage, and sharing steps."
+    - "Case notes honor cultural permissions, reciprocal agreements, and climate-ready crop trials."
+maps:
+  projection: "Network map using Pacific-centered Azimuthal"
+  layers:
+    - "Vault and nursery locations"
+    - "Exchange routes and seasonal sharing voyages"
+    - "Partner institutions and customary authorities"
+  legend:
+    - "Icons for seed, coral, and yam collections"
+    - "Line styles for physical voyages vs digital data exchanges"
+  labels:
+    - "Sites: Sawaieke, Apia, Darwin, Torres Strait, Palau"
+    - "Collaborators: SPREP labs, Indigenous Women’s Climate Network, university marine stations"
+  insets:
+    - title: "Breadfruit Passport"
+      projection: "Specimen grid"
+      focus: "Cultivar labeling and taste profiles"
+      notes: "Include cultural story snippets"
+    - title: "Coral Cryobank Workflow"
+      projection: "Process flow"
+      focus: "Fragment collection to cryogenic storage"
+      notes: "Note power backup systems"
+graphs:
+  - title: "Viability Through Time"
+    type: "line"
+    metrics:
+      - label: "Breadfruit seed viability"
+        value: null
+        unit: "%"
+      - label: "Coral polyp survival"
+        value: null
+        unit: "%"
+      - label: "Yam sprout success"
+        value: null
+        unit: "%"
+    notes: "Plot controlled storage versus traditional pits"
+  - title: "Community Exchange"
+    type: "sankey"
+    metrics:
+      - label: "Seed sharing pathways"
+        value: null
+        unit: null
+    notes: "Flow from elders to schools, regional partners, and diaspora gardens"
+images:
+  prompts:
+    - text: "Collage showing breadfruit elders labeling woven packets, coral fragments being placed into cryogenic vials, and Arnhem La
+nd youth tending yam bank"
+      style: "Photo-real documentary"
+      cultural_context: "Respect ceremonial garb and lab safety protocols"
+    - text: "Macro shot of breadfruit leaf veins, coral polyps, and yam tuber cross-section"
+      style: "High-resolution macro"
+      cultural_context: "True color accuracy"
+  selection_criteria:
+    - "Highlight hands-on care and cultural context"
+    - "Ensure equipment and storage methods are accurate"
+    - "Balance indoor lab and outdoor field scenes"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular hub linking three treasure panels"
+  typography:
+    heading_pt: 142
+    subheading_pt: 54
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile replicas of seed packets and coral frag plugs"
+    - "Translate key terms into Fijian, Samoan, Yolŋu Matha, and English"
+    - "Use icons plus text for workflow steps"
+notes:
+  DATA_TO_VERIFY:
+    - "Viability percentage trends"

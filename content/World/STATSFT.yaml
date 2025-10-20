@@ -1,0 +1,124 @@
+poster_id: World_STATSFT
+station: World
+poster_type: STATSFT
+title: "Global Systems Snapshots"
+copy:
+  hook: "Quick reads on the planet’s pulse."
+  short: "Four featurettes reveal how Earth’s systems interconnect—from energy transitions to protected lands. Each mini-map or chart stays within the column to keep browsing fast and insightful."
+  depth:
+    - "Energy Shift": "Community-driven renewables are accelerating in diverse regions."
+    - "Food Security": "Agroecology and trade routes feed billions through cooperation."
+    - "Protected Planet": "Nations expand conservation while respecting Indigenous tenure."
+    - "Urban Oceans": "Coastal cities manage blue carbon for resilience."
+featurettes:
+  - title: "Energy Shift"
+    summary: "Local cooperatives from Morocco to Indonesia now generate a quarter of new solar capacity, pairing microgrids with traditional knowledge to keep lights on during storms."
+    data_bites:
+      - label: "Community-owned renewables share"
+        value: 0.25
+        unit: "fraction of new solar capacity"
+      - label: "Households served"
+        value: 7500000
+        unit: "homes"
+    maplet:
+      type: "choropleth"
+      projection: "Equal Earth"
+      focus: "Regions with cooperative solar growth"
+      notes: "Shaded countries with icons for community energy hubs"
+  - title: "Food Security"
+    summary: "Staple crops move along resilient corridors—Indigenous maize in Mesoamerica, millet in Sahel, rice terraces in Luzon—backed by seed-sharing agreements that span continents."
+    data_bites:
+      - label: "Seed exchange networks"
+        value: 42
+        unit: "international agreements"
+      - label: "Agroecology yield boost"
+        value: 18
+        unit: "% median increase"
+    maplet:
+      type: "flow"
+      projection: "Robinson"
+      focus: "Major staple-sharing routes"
+      notes: "Thin arrows to avoid clutter"
+  - title: "Protected Planet"
+    summary: "Protected and conserved areas now cover roughly 17% of land and 8% of oceans, with Indigenous-led stewardship recognized in growing legal frameworks."
+    data_bites:
+      - label: "Land protected"
+        value: 17
+        unit: "%"
+      - label: "Ocean protected"
+        value: 8
+        unit: "%"
+    graph:
+      type: "stacked_bar"
+      notes: "Show growth from 2010 to 2023"
+  - title: "Urban Oceans"
+    summary: "Coastal megacities invest in mangrove parks and oyster reefs that store carbon, buffer storms, and create jobs for youth crews."
+    data_bites:
+      - label: "Blue carbon stored"
+        value: 32
+        unit: "Mt CO2e/year"
+      - label: "City youth crews"
+        value: 12000
+        unit: "participants"
+    maplet:
+      type: "dot"
+      projection: "Mercator local inset"
+      focus: "Selected cities: Jakarta, Lagos, New York, Cartagena"
+      notes: "Dots sized by carbon uptake"
+maps:
+  projection: "Columnar mini-maps embedded"
+  layers:
+    - "Each featurette uses bespoke layers noted above"
+  legend:
+    - "Small inline legends per featurette"
+  labels:
+    - "Limited to featured regions"
+  insets: []
+graphs:
+  - title: "Protected Areas Growth"
+    type: "stacked_bar"
+    metrics:
+      - label: "2010 land"
+        value: 13
+        unit: "%"
+      - label: "2023 land"
+        value: 17
+        unit: "%"
+      - label: "2010 ocean"
+        value: 4
+        unit: "%"
+      - label: "2023 ocean"
+        value: 8
+        unit: "%"
+    notes: "Align with Protected Planet featurette"
+images:
+  prompts:
+    - text: "Collage of community solar installation, seed exchange festival, Indigenous park rangers, and youth planting mangroves"
+      style: "Photo-real multi-panel"
+      cultural_context: "Morocco, Mexico, Australia, Indonesia"
+    - text: "Isometric infographic showing mini-maps within columns"
+      style: "Clean vector"
+      cultural_context: "Global"
+  selection_criteria:
+    - "Balance genders and ages"
+    - "Show collaborative work not posed hero shots"
+    - "Ensure clarity when reproduced small"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Each featurette occupies half-column stack"
+  typography:
+    heading_pt: 130
+    subheading_pt: 52
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Use icons plus text for data bites"
+    - "Provide tactile overlays for maplets"
+    - "Include plain-language summary at bottom"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact share of community-owned solar capacity"
+    - "Counts of seed exchange agreements"
+    - "Blue carbon storage estimates"

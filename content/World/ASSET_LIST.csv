@@ -1,0 +1,50 @@
+poster_id,asset_type,description
+World_CPOI,map,Equal Earth world map with biome overlay and migration arrows
+World_CPOI,graph,Human-Earth coevolution timeline graphic
+World_CPOI,image,AI composite Earth-from-space panorama
+World_CPOI,image,AI photo-real gallery scene with diverse visitors
+World_WEATHER,map,Robinson world wind belts map
+World_WEATHER,graph,ENSO cycle impact line chart
+World_WEATHER,graph,Himalaya-to-Pacific elevation moisture profile
+World_WEATHER,image,AI illustration of global atmospheric circulation
+World_WEATHER,image,AI photo of hikers observing monsoon clouds
+World_LANDFORM_L,map,Winkel Tripel tectonic boundary map
+World_LANDFORM_L,graph,Plate motion speed bar chart
+World_LANDFORM_L,image,AI tectonic cross-section illustration
+World_LANDFORM_L,image,AI drone photo of East African Rift community
+World_LANDFORM_R,map,Mollweide erosion processes map
+World_LANDFORM_R,graph,Sediment budget stacked bars
+World_LANDFORM_R,graph,Patagonian glacier retreat line chart
+World_LANDFORM_R,image,AI photo of Mekong Delta mangrove caretakers
+World_LANDFORM_R,image,AI illustration of wind erosion yardangs
+World_BIOCOLL,map,Equal Earth biome and hotspot map
+World_BIOCOLL,graph,Biome climate radial chart
+World_BIOCOLL,image,AI photo collage of global biome stewards
+World_BIOCOLL,image,AI macro photo of seed bank workbench
+World_ANIMCOLL,map,Orthographic migration route map
+World_ANIMCOLL,graph,Migration distance bar chart
+World_ANIMCOLL,image,AI composite of migratory species with human collaborators
+World_ANIMCOLL,image,AI illustrated migration star chart
+World_FEATANIM,map,Central Asia saiga range map
+World_FEATANIM,graph,Saiga population recovery line chart
+World_FEATANIM,image,AI telephoto of saiga herd with ranger
+World_FEATANIM,image,AI saiga nose anatomy illustration
+World_TREASBIO,map,Equal Earth ex-situ conservation network map
+World_TREASBIO,graph,Diversity stored stacked bar chart
+World_TREASBIO,image,AI documentary photo of Ethiopian community seed bank
+World_TREASBIO,image,AI underwater coral nursery photograph
+World_ETHNO,map,Goode homolosine cultural knowledge map
+World_ETHNO,graph,Seasonal knowledge calendar timeline
+World_ETHNO,image,AI portrait of Polynesian navigator on canoe
+World_ETHNO,image,AI photo of Sámi family observing snow and reindeer
+World_STATSFT,map,Mini-map series for global systems snapshots
+World_STATSFT,graph,Protected areas growth stacked bar chart
+World_STATSFT,image,AI collage of community-led sustainability actions
+World_STATSFT,image,AI isometric infographic of featurette layout
+World_CULTINNOV,map,Equal Earth innovation case study map
+World_CULTINNOV,graph,Innovation impact radar chart
+World_CULTINNOV,image,AI photo of Makoko floating classroom
+World_CULTINNOV,image,AI photo of Sámi herder using tablet under aurora
+World_CHARNARR,image,AI portrait of Polynesian navigator Leimana
+World_CHARNARR,image,AI photo of Quechua student farmer Yawar with grandmother
+World_CHARNARR,image,AI portrait of Maasai elder Nalotuesha with granddaughter

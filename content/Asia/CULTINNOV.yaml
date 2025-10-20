@@ -1,0 +1,78 @@
+poster_id: Asia_CULTINNOV
+station: Asia
+poster_type: CULTINNOV
+title: "Innovation Threads Across Asia"
+copy:
+  hook: "Tradition meets tech in everyday solutions."
+  short: "Explore bamboo cooling towers in Ahmedabad, floating classrooms on Bangladesh’s haor wetlands, robotic rice planters guided by Buddhist monastery weather logs in Thailand, and Mongolian ger insulation upgrades co-designed with herding families."
+  depth:
+    - "Matrix charts challenges, innovations, partners, and cultural roots."
+    - "Map traces knowledge exchange between cities, villages, and steppe camps."
+    - "Quote strip features inventors describing how ancestral wisdom shapes prototypes."
+maps:
+  projection: "Asia innovation network"
+  layers:
+    - "Innovation nodes and collaboration lines"
+    - "Climate risk overlays for heat, flood, cold"
+    - "Pilot project boundaries"
+  legend:
+    - "Icons for cooling, education, agriculture, housing"
+    - "Line weights showing knowledge flow intensity"
+  labels:
+    - "Sites: Ahmedabad, Sunamganj, Chiang Mai, Arkhangai"
+    - "Partner organizations"
+  insets:
+    - title: "Floating Classroom Anatomy"
+      projection: "Exploded axon"
+      focus: "Bangladesh haor"
+      notes: "Show solar roof and boat hull"
+    - title: "Ger Insulation Layers"
+      projection: "Section diagram"
+      focus: "Mongolian steppe"
+      notes: "Highlight felt, aerogel, ventilation"
+graphs:
+  - title: "Impact Dashboard"
+    type: "radar"
+    metrics:
+      - label: "Energy saved"
+        value: 78
+        unit: "index"
+      - label: "Learning days regained"
+        value: 85
+        unit: "index"
+      - label: "Crop efficiency"
+        value: 72
+        unit: "index"
+      - label: "Winter warmth"
+        value: 80
+        unit: "index"
+    notes: "Normalize for comparison"
+images:
+  prompts:
+    - text: "Photo-real scenes of artisans and engineers building bamboo cooling tower, floating classroom, rice robot, insulated ger"
+      style: "Documentary"
+      cultural_context: "On-site collaboration"
+    - text: "Infographic collage showing innovation matrix with icons and scripts"
+      style: "Vector infographic"
+      cultural_context: "Multilingual labels"
+  selection_criteria:
+    - "Feature inventors prominently"
+    - "Show real tools and context"
+    - "Maintain respectful portrayal of communities"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Central matrix grid anchors surrounding stories"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile icons for innovation categories"
+    - "Offer bilingual captions (local language + English)"
+    - "Ensure color choices meet 4.5:1 contrast"
+notes:
+  DATA_TO_VERIFY:
+    - "Impact index values"

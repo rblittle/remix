@@ -1,0 +1,74 @@
+poster_id: Asia_FEATANIM
+station: Asia
+poster_type: FEATANIM
+title: "Snow Leopard, Shadow of the Highlands"
+copy:
+  hook: "Silent paws tread the roof of Asia."
+  short: "Snow leopards patrol the cliffs of the Pamir, Tian Shan, and Himalaya. At night they share space with yak herders, community rangers, and camera traps that protect both livestock and rare cats."
+  depth:
+    - "Life cycle storyboard follows cub rearing, dispersal, and territory marking."
+    - "Anatomy callouts explain wide nasal cavities, camouflaged fur, and balancing tails."
+    - "Coexistence panel highlights predator-proof corrals, insurance funds, and youth snow tracking clubs."
+maps:
+  projection: "Central Asia Lambert conformal conic"
+  layers:
+    - "Confirmed and potential range polygons"
+    - "Community conservation agreements"
+    - "Prey density hotspots"
+  legend:
+    - "Symbol key for camera traps, grazing routes, conflict mitigation sites"
+  labels:
+    - "Regions: Pamir, Altai, Ladakh, Qinghai"
+    - "Villages partnering in Snow Leopard Enterprise"
+  insets:
+    - title: "Altitude vs. Prey"
+      projection: "Profile"
+      focus: "3500–5500 m band"
+      notes: "Show blue sheep overlap"
+    - title: "Paw Print ID"
+      projection: "Diagram"
+      focus: "Track measurements"
+      notes: "Teach visitors to distinguish species"
+graphs:
+  - title: "Livestock Loss Decline"
+    type: "line"
+    metrics:
+      - label: "2012"
+        value: 120
+        unit: "animals"
+      - label: "2017"
+        value: 70
+        unit: "animals"
+      - label: "2022"
+        value: 45
+        unit: "animals"
+    notes: "Show effect of predator-proof corrals"
+images:
+  prompts:
+    - text: "Photo-real shot of snow leopard on rocky ridge with distant village lights"
+      style: "Documentary low-light"
+      cultural_context: "Kyrgyzstan"
+    - text: "Portrait of community ranger and student adjusting camera trap in snowy valley"
+      style: "Documentary"
+      cultural_context: "Mongolia"
+  selection_criteria:
+    - "Avoid baited or captive animals"
+    - "Highlight partnership between wildlife and people"
+    - "Ensure camouflage textures reproduced accurately"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Diagonal cliff edge frames storytelling panels"
+  typography:
+    heading_pt: 138
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Raised paw print textures"
+    - "Audio narration with local voices and descriptive language"
+    - "High-contrast text over dark imagery"
+notes:
+  DATA_TO_VERIFY:
+    - "Livestock loss numbers"

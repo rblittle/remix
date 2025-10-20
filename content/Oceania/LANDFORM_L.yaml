@@ -1,0 +1,88 @@
+poster_id: Oceania_LANDFORM_L
+station: Oceania
+poster_type: LANDFORM_L
+title: "Volcanic Crescents and Highlands of Fire"
+copy:
+  hook: "Walk the Pacific Ring where mountains rise from sea."
+  short: "Trace island arcs from Papua New Guinea’s cloud forests and Solomon volcanoes to Tonga’s deep-sea trenches and Aotearoa’s
+ Southern Alps. Communities blend seismic monitoring, customary tabu zones, and alpine kaitiaki patrols to live with eruptions, l
+ahars, and landslides."
+  depth:
+    - "Cross-sections compare stratovolcano cones, caldera lakes, and uplifted limestone plateaus."
+    - "Hazard overlays track lahar channels, ashfall footprints, and evacuation vaka routes with cultural guardianship notes."
+    - "Profiles feature Rabaul Tolai observers, Māori iwi alpine rangers, and Niue cave mappers."
+maps:
+  projection: "Oblique Mercator hugging Melanesia-to-Aotearoa arc"
+  layers:
+    - "Hypsometric tints with slope shading"
+    - "Active faults, subduction zones, and geothermal fields"
+    - "Settlements, evacuation routes, and sacred no-go zones"
+  legend:
+    - "Color ramp for elevation and slope hazard"
+    - "Icons for seismometers, tabu reefs, alpine refuges"
+  labels:
+    - "Landmarks: Tavurvur, Mt. Yasur, Hunga Tonga-Hunga Haʻapai, Tongariro, Waitomo"
+    - "Communities: Rabaul, Port Vila, Nukuʻalofa, Rotorua"
+  insets:
+    - title: "Rabaul Caldera"
+      projection: "Local UTM"
+      focus: "Twin calderas, ash plumes, and resettlement zones"
+      notes: "Annotate observation posts and cultural tabu markers"
+    - title: "Tongariro Alpine Crossing"
+      projection: "Perspective block diagram"
+      focus: "Crater lakes, fumaroles, and trail stewardship"
+      notes: "Highlight iwi co-management signage"
+graphs:
+  - title: "Lahar Travel Time vs. Warning Systems"
+    type: "bar"
+    metrics:
+      - label: "Mount Ruapehu"
+        value: null
+        unit: null
+      - label: "Mt. Lamington"
+        value: null
+        unit: null
+      - label: "Mt. Yasur"
+        value: null
+        unit: null
+    notes: "Compare community siren response intervals"
+  - title: "Volcanic Gas Flux"
+    type: "line"
+    metrics:
+      - label: "SO₂ Mt. Yasur"
+        value: null
+        unit: null
+      - label: "CO₂ White Island/Whakaari"
+        value: null
+        unit: null
+    notes: "Use dashed thresholds for alert levels"
+images:
+  prompts:
+    - text: "Sunrise view across active volcano chain with ash plume, crater lake, and nearby village evacuation canoe landing"
+      style: "High-resolution landscape photo"
+      cultural_context: "Include customary tabu markers and woven shelters"
+    - text: "Māori and Tolai rangers checking seismograph and drone imagery beside fumarole"
+      style: "Photo-real documentary"
+      cultural_context: "Accurate safety gear, cultural adornments, bilingual signage"
+  selection_criteria:
+    - "Show coexistence of people and dynamic landforms"
+    - "Keep lava, ash, and water textures distinct for legibility"
+    - "Represent Indigenous leadership in hazard response"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Ascending diagonal echoing volcanic arc"
+  typography:
+    heading_pt: 150
+    subheading_pt: 60
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Pair hazard colors with texture fills"
+    - "Provide tactile relief tile for key volcano cluster"
+    - "Offer plain-language eruption preparedness summary"
+notes:
+  DATA_TO_VERIFY:
+    - "Gas flux comparative values"
+    - "Lahar warning response times"

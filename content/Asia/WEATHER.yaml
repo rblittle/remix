@@ -1,0 +1,95 @@
+poster_id: Asia_WEATHER
+station: Asia
+poster_type: WEATHER
+title: "Monsoons, Typhoons, and Sky Rivers"
+copy:
+  hook: "Feel Asia’s pulse in shifting winds."
+  short: "Track six signature systems: the Southwest and Northeast monsoons, Siberian High cold surges, Western Disturbance snowstorms, typhoon corridors, and Indonesian throughflow thunderstorms. A sea-to-summit elevation strip from Mumbai to Lhasa shows how altitude redirects moisture."
+  depth:
+    - "Seasonal wheel explains why land-sea thermal contrasts reverse monsoon winds."
+    - "Inset maps show typhoon frequency hotspots and Himalayan snowfall zones."
+    - "Community callouts highlight farmers, fishers, and city planners adapting timing cues."
+maps:
+  projection: "Asia Lambert conformal conic"
+  layers:
+    - "Prevailing wind arrows with seasonal labels"
+    - "Sea-surface temperature anomalies and pressure cells"
+    - "Storm tracks, rainfall isoheys, and elevation transect line"
+  legend:
+    - "Color bands for rainfall intensity"
+    - "Arrow styles for wind direction and strength"
+    - "Symbols for community adaptation stories"
+  labels:
+    - "Key regions: Bay of Bengal, Himalaya crest, South China Sea, Sea of Japan, Arabian Sea"
+    - "Cities: Mumbai, Bangkok, Manila, Ulaanbaatar, Jakarta"
+  insets:
+    - title: "Typhoon Density"
+      projection: "Azimuthal equidistant"
+      focus: "Philippines and Ryukyu arc"
+      notes: "Heat map of landfalls"
+    - title: "Snow from Western Disturbances"
+      projection: "Lambert local"
+      focus: "Hindu Kush to Kashmir"
+      notes: "Highlight avalanche zones"
+  elevation_strip:
+    transect: "Mumbai–Deccan Plateau–Indo-Gangetic Plain–Kathmandu–Lhasa"
+    notes: "Plot altitude, rainfall, temperature ranges"
+graphs:
+  - title: "Monsoon Onset and Retreat"
+    type: "radial"
+    metrics:
+      - label: "Kerala onset"
+        value: 6
+        unit: "June"
+      - label: "Bangkok onset"
+        value: 5
+        unit: "May"
+      - label: "Mumbai retreat"
+        value: 10
+        unit: "October"
+      - label: "Yangon retreat"
+        value: 11
+        unit: "November"
+    notes: "Use circular calendar with bilingual month labels"
+  - title: "Cold Surge Frequency"
+    type: "bar"
+    metrics:
+      - label: "Dec"
+        value: 6
+        unit: "events/month"
+      - label: "Jan"
+        value: 7
+        unit: "events/month"
+      - label: "Feb"
+        value: 5
+        unit: "events/month"
+    notes: "Compare East Asia coastal cold events"
+images:
+  prompts:
+    - text: "Photo-real scene of rice farmers in Vietnam watching monsoon clouds with rain chains"
+      style: "Documentary"
+      cultural_context: "Mekong Delta"
+    - text: "Satellite-style illustration of typhoon swirling toward Taiwan with data overlays"
+      style: "Scientific visualization"
+      cultural_context: "West Pacific"
+  selection_criteria:
+    - "Show adaptive practices, not disaster sensationalism"
+    - "Include varied weather phenomena"
+    - "Ensure clear atmospheric detail for educational value"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Elevation strip anchors bottom band with callouts aligned"
+  typography:
+    heading_pt: 150
+    subheading_pt: 66
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Provide tactile ridge for transect heights"
+    - "Use patterned arrows plus color for wind strength"
+    - "Offer audio weather glossary in multiple languages"
+notes:
+  DATA_TO_VERIFY:
+    - "Cold surge frequency values"

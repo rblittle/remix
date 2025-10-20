@@ -1,0 +1,92 @@
+poster_id: Antarctica_WEATHER
+station: Antarctica
+poster_type: WEATHER
+title: "Katabatic Winds, Polar Vortices, and Sea-Ice Rhythms"
+copy:
+  hook: "Feel the forces that chill the globe."
+  short: "Six dominant phenomena define Antarctic weather: katabatic slope winds, polar vortex circulation, Antarctic Circumpolar Curre
+nt storms, polynya heat pumps, atmospheric rivers, and ozone-season sunlight shifts. A transect from Dome C to the Weddell Sea exp
+lains how elevation, sea ice, and atmosphere intertwine."
+  depth:
+    - "Clarify why katabatic winds accelerate off the plateau and how they power coastal polynyas."
+    - "Compare when atmospheric rivers bring rare snowfall versus when polar vortex strengthening locks in cold."
+    - "Show so what: sea-ice production, global albedo, and research station logistics tied to forecasts."
+maps:
+  projection: "South Polar stereographic with circumpolar band"
+  layers:
+    - "Streamlines for katabatic winds and jet-level vortex"
+    - "Sea-ice concentration zones with seasonal extents"
+    - "Atmospheric river landfall tracks and polynya hotspots"
+  legend:
+    - "Arrow textures for wind strength"
+    - "Color ramp for sea-ice concentration"
+    - "Icons for research stations and automatic weather sites"
+  labels:
+    - "Key regions: Ross Sea, Weddell Sea, Antarctic Peninsula, Dome C, Princess Elizabeth Land"
+    - "Transect stops: Dome C, Polar Plateau crest, Shackleton Range, Ronne Ice Shelf edge, Weddell polynya"
+  insets:
+    - title: "Polar Vortex Cross-Section"
+      projection: "Vertical diagram"
+      focus: "Stratospheric circulation and ozone hole timing"
+      notes: "Include balloon launch data"
+    - title: "Coastal Polynya Network"
+      projection: "Regional map"
+      focus: "Ross and Weddell Sea recurring polynyas"
+      notes: "Annotate katabatic wind origin valleys"
+graphs:
+  - title: "Katabatic Wind Speed vs. Elevation"
+    type: "line"
+    metrics:
+      - label: "Slope winds"
+        value: null
+        unit: "m/s"
+      - label: "Surface temperature"
+        value: null
+        unit: "°C"
+    notes: "Dual-axis with shading for storm thresholds"
+  - title: "Atmospheric River Frequency"
+    type: "bar"
+    metrics:
+      - label: "West Antarctica"
+        value: null
+        unit: "events/year"
+      - label: "East Antarctica"
+        value: null
+        unit: "events/year"
+    notes: "Use hatching to differentiate moisture intensity"
+  - title: "Elevation Strip: Dome C to Weddell Sea"
+    type: "profile"
+    metrics:
+      - label: "Elevation"
+        value: null
+        unit: "m"
+    notes: "Highlight snow accumulation zones, katabatic acceleration paths, and sea-ice formation"
+images:
+  prompts:
+    - text: "Composite showing katabatic wind plumes, polar stratospheric clouds, and open-water polynya seen from above transect"
+      style: "High-resolution composite"
+      cultural_context: "Scientific accuracy for cloud forms and sea ice"
+    - text: "Research meteorologists launching weather balloon beside snow kite turbines with aurora overhead"
+      style: "Photo-real documentary"
+      cultural_context: "Include multinational team with appropriate cold-weather gear"
+  selection_criteria:
+    - "Illustrate motion of air and sea-ice without exaggeration"
+    - "Feature diverse scientists and technicians"
+    - "Keep elevation strip legible with high contrast"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Descending diagonal echoing katabatic flow"
+  typography:
+    heading_pt: 150
+    subheading_pt: 62
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Use patterned arrows and tactile overlays for wind directions"
+    - "Provide audio description with wind soundscapes at safe levels"
+    - "Ensure data panels have 4.5:1 contrast on icy backgrounds"
+notes:
+  DATA_TO_VERIFY:
+    - "Wind speed and atmospheric river frequency values"

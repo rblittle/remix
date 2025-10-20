@@ -1,0 +1,86 @@
+poster_id: Oceania_FEATANIM
+station: Oceania
+poster_type: FEATANIM
+title: "Kākāpō: Night Parrots of Whenua Hou"
+copy:
+  hook: "Step quietly into a nocturnal forest comeback."
+  short: "Meet the kākāpō—flightless parrots rebounding on Whenua Hou and Anchor Island. Ngāi Tahu kaitiaki partner with scientist
+s, scent-tracking dogs, and remote feeders to boost chicks, control disease, and safeguard genetic diversity."
+  depth:
+    - "Habitat map shows predator-free islands, translocation flights, and offshore sanctuary zones."
+    - "Infographics connect supplementary feeding, health screenings, and whānau-led monitoring."
+    - "Profiles spotlight Māori cultural protocols, volunteer whānau whānui, and biosecurity crews."
+maps:
+  projection: "Local Lambert conformal"
+  layers:
+    - "Predator-free sanctuary boundaries"
+    - "Nest burrows, feeding stations, and movement paths"
+    - "Logistics: helicopter pads, quarantine checkpoints"
+  legend:
+    - "Symbols for nests, feeders, health huts, and cultural sites"
+  labels:
+    - "Key features: Whenua Hou, Anchor Island, Codfish Passage, Te Whaanga"
+    - "Partner teams: Ngāi Tahu, Department of Conservation, volunteer rangers"
+  insets:
+    - title: "Translocation Route"
+      projection: "Great-circle mini map"
+      focus: "Stewart Island to Sanctuary network"
+      notes: "Show biosecure crates and weather windows"
+    - title: "Genome Care"
+      projection: "Process diagram"
+      focus: "Egg candling, brood fostering, and DNA sampling"
+      notes: "Tie to family tree graphic"
+graphs:
+  - title: "Chick Survival"
+    type: "line"
+    metrics:
+      - label: "Supplemented nests"
+        value: null
+        unit: "%"
+      - label: "Unassisted nests"
+        value: null
+        unit: "%"
+    notes: "Highlight 2019 and 2022 breeding seasons"
+  - title: "Genetic Diversity Index"
+    type: "bar"
+    metrics:
+      - label: "Pre-recovery"
+        value: null
+        unit: null
+      - label: "Current"
+        value: null
+        unit: null
+      - label: "Target"
+        value: null
+        unit: null
+    notes: "Explain mate selection algorithm"
+images:
+  prompts:
+    - text: "Nighttime infrared-style photo of kākāpō emerging from burrow while Māori ranger records data with tablet"
+      style: "Photo-real low-light"
+      cultural_context: "Include woven cloak details and DOC gear"
+    - text: "Close-up portrait of kākāpō feathers with gentle hand of ranger showing transmitter harness"
+      style: "High-resolution macro"
+      cultural_context: "Respect handling protocols"
+  selection_criteria:
+    - "Avoid flash or disruptive lighting"
+    - "Center partnership between kaitiaki and scientists"
+    - "Maintain feather texture clarity"
+design:
+  layout:
+    columns: 1
+    gutters: "0"
+    keylines: "Vertical timeline flanked by habitat map"
+  typography:
+    heading_pt: 140
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile feather sample and 3D printed burrow entrance"
+    - "Offer te reo Māori pronunciations via audio"
+    - "Use high-contrast greens with textured overlays"
+notes:
+  DATA_TO_VERIFY:
+    - "Chick survival percentages"
+    - "Genetic diversity index values"

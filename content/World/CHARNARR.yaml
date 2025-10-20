@@ -1,0 +1,54 @@
+poster_id: World_CHARNARR
+station: World
+poster_type: CHARNARR
+title: "Voices Across the Atlas"
+copy:
+  hook: "Three guides welcome you onto the trail."
+  short: "A navigator, a student farmer, and a pastoral elder share how they read Earth’s cues each day. Listen for the rhythms of sea, mountain, and savanna as you explore the atlas."
+  depth:
+    - "Each vignette records a lived routine tied to land and weather."
+    - "QR codes link to extended audio in the speaker’s language."
+    - "Prompts invite visitors to compare their own daily climate cues."
+narratives:
+  - name: "Leimana"
+    identity: "Polynesian navigator"
+    gender: "female"
+    age: 32
+    location: "Hiva Oa, Marquesas Islands"
+    text: "I stand on the vaka before dawn, toes gripping the deck as the swell rolls under us. The stars fade one by one, so I switch to the feel of the wind curling around my cheek and the taste of salt in the air. My aunt taught me to read these signs; now I teach apprentices to set our double hull on course without instruments."
+    ai_prompt: "Photo-real portrait of Polynesian female navigator at dawn on double-hulled canoe, stars fading, traditional clothing, calm ocean"
+  - name: "Yawar"
+    identity: "Quechua student farmer"
+    gender: "male"
+    age: 12
+    location: "Pisac, Peru"
+    text: "Before school I climb the terrace steps with my grandmother, cuy feed bag on my back. We press fingers into the soil to judge last night’s frost and adjust which potato rows we uncover. I log the temperature with a solar-powered sensor; later I’ll upload it for our community weather station."
+    ai_prompt: "Photo-real image of Quechua boy with grandmother checking potatoes on Andean terraces at sunrise, handheld sensor visible"
+  - name: "Nalotuesha"
+    identity: "Maasai pastoral elder"
+    gender: "female"
+    age: 68
+    location: "Loita Hills, Kenya"
+    text: "My cattle know the track to the salt lick, but I watch the clouds building over Nguruman. The grass sang dry last season, so our council mapped fresh rotation circles on cowhide. I walk with my granddaughter, explaining which shrubs signal safe water. Tonight we will send our grazing update by radio to neighboring families."
+    ai_prompt: "Photo-real portrait of older Maasai woman walking savanna with granddaughter and cattle, pointing to shrubs, dramatic clouds"
+images:
+  selection_criteria:
+    - "Secure permissions from storytellers before commissioning portraits"
+    - "Ensure attire and settings match community preferences"
+    - "Maintain respectful, non-intrusive camera angles"
+design:
+  layout:
+    columns: 2
+    gutters: "1.25 in"
+    keylines: "Each vignette in rounded panel with audio icon"
+  typography:
+    heading_pt: 135
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Transcripts available in English plus original languages"
+    - "Provide tactile icons for wind, frost, rain"
+    - "Offer seating nearby for extended listening"
+notes:
+  DATA_TO_VERIFY: []

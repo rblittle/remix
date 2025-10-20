@@ -1,0 +1,73 @@
+poster_id: SouthAmerica_CPOI
+station: South America
+poster_type: CPOI
+title: "South America: Rivers of Sky and Stone"
+copy:
+  hook: "Trace the world’s largest rainforest to Andean peaks."
+  short: "This centerpiece braid links Amazon headwaters, Andean terraces, Atlantic mangroves, and Patagonian icefields. Follow how tectonics, atmospheric rivers, and cultural mosaics shape livelihoods from Quechua potato keepers to quilombola forest guardians."
+  depth:
+    - "Hypsometric relief ties Andes spine to lowland basins with tectonic annotations."
+    - "Flowlines show river-ocean connections and aerial ‘rivers of vapor.’"
+    - "Spotlights elevate Indigenous territories, treaty forests, and renewable corridors."
+maps:
+  projection: "South America Albers equal-area"
+  layers:
+    - "Elevation with shaded relief"
+    - "Major rivers, wetlands, and glaciers"
+    - "Cultural regions: Andean highlands, Amazonia, Cerrado, Pampas, Patagonia"
+  legend:
+    - "Elevation ramp and biome textures"
+    - "Icons for UNESCO heritage, community-managed forests, energy corridors"
+  labels:
+    - "Landmarks: Andes, Amazon Basin, Altiplano, Pantanal, Guiana Shield"
+    - "Cities: Bogotá, Lima, Manaus, São Paulo, Ushuaia"
+  insets:
+    - title: "Pan-Amazon Cooperation"
+      projection: "Lambert azimuthal"
+      focus: "Indigenous territories and protected mosaics"
+      notes: "Show treaty alliances and cultural exchanges"
+graphs:
+  - title: "Terrace to Turbine Timeline"
+    type: "timeline"
+    metrics:
+      - label: "Inca terrace expansion"
+        value: null
+        unit: null
+      - label: "Jesuit mission trade routes"
+        value: null
+        unit: null
+      - label: "1970s Itaipu Dam agreements"
+        value: null
+        unit: null
+      - label: "2020s cross-border solar-wind corridors"
+        value: null
+        unit: null
+    notes: "Blend cultural milestones with infrastructure"
+images:
+  prompts:
+    - text: "Panoramic collage of Andes peaks, Amazon canopy, Pantanal wetlands, and Patagonian glacier with overlayed map"
+      style: "High-resolution photomontage"
+      cultural_context: "Geographically accurate, seasonal diversity"
+    - text: "Community leaders from Quechua, Afro-Brazilian, and Guarani groups meeting around tactile basin model"
+      style: "Documentary photo"
+      cultural_context: "Respectful attire, inclusive ages"
+  selection_criteria:
+    - "Balance biomes and cultures across the continent"
+    - "Show collaboration and stewardship"
+    - "Ensure imagery prints cleanly at mural scale"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Diagonal river ribbon connecting Andes to Atlantic"
+  typography:
+    heading_pt: 170
+    subheading_pt: 72
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Provide tactile elevation swath and river paths"
+    - "Offer audio in Spanish, Portuguese, Quechua, Guarani, and Wapichana"
+    - "Use symbols plus text for cultural regions"
+notes:
+  DATA_TO_VERIFY: []

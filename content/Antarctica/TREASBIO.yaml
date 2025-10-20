@@ -1,0 +1,88 @@
+poster_id: Antarctica_TREASBIO
+station: Antarctica
+poster_type: TREASBIO
+title: "Polar Biocultural Treasures"
+copy:
+  hook: "Safeguarding ice cores, seeds, and stories at the bottom of the world."
+  short: "Tour the Allan Hills ice core archive, Antarctic fungal libraries, and Patagonia-to-Antarctica Indigenous knowledge exchanges.
+ Scientists, artists, and elders collaborate to store climate records, resilient microbes, and oral histories in secure, consent-dr
+iven repositories."
+  depth:
+    - "Network maps connect ice core vaults, microbial libraries, and cultural archives across hemispheres."
+    - "Process diagrams follow collection, sterilization, cultural review, and sharing protocols."
+    - "Case notes honor Indigenous data sovereignty agreements and climate justice storytelling."
+maps:
+  projection: "South Polar network with South American linkage"
+  layers:
+    - "Archive locations: Allan Hills, Concordia, Punta Arenas cultural hub"
+    - "Exchange routes for samples and stories"
+    - "Partner institutions and Indigenous councils"
+  legend:
+    - "Icons for ice cores, microbial vials, and narrative recordings"
+    - "Line styles for physical transport vs. digital transfer"
+  labels:
+    - "Collaborators: Māori climate rōpū, Mapuche Territorial Alliance, SCAR committees"
+    - "Sites: Allan Hills, Princess Elisabeth Station, Punta Arenas Museum, Svalbard backup"
+  insets:
+    - title: "Ice Core Journey"
+      projection: "Process flow"
+      focus: "Extraction to archive"
+      notes: "Highlight contamination control and consent checkpoints"
+    - title: "Story Lodge"
+      projection: "Floor plan"
+      focus: "Punta Arenas listening room"
+      notes: "Show bilingual signage and audio pods"
+graphs:
+  - title: "Archive Growth"
+    type: "line"
+    metrics:
+      - label: "Ice core kilometers stored"
+        value: null
+        unit: "km"
+      - label: "Microbial strains catalogued"
+        value: null
+        unit: "count"
+    notes: "Mark joint stewardship agreements"
+  - title: "Access Requests"
+    type: "bar"
+    metrics:
+      - label: "Indigenous community projects"
+        value: null
+        unit: "requests"
+      - label: "Academic studies"
+        value: null
+        unit: "requests"
+      - label: "Policy briefings"
+        value: null
+        unit: "requests"
+    notes: "Include consent approval percentages"
+images:
+  prompts:
+    - text: "Photo-real collage of ice core technicians, Indigenous elders listening in archive, and microbiologists labeling vials"
+      style: "Photo-real composite"
+      cultural_context: "Accurate lab gear and cultural protocols"
+    - text: "Macro shot of ice core layers, fungal spores, and woven story belts"
+      style: "High-resolution macro"
+      cultural_context: "Respect sacred patterns"
+  selection_criteria:
+    - "Ensure consent for cultural items depicted"
+    - "Show climate archives as collaborative spaces"
+    - "Maintain clarity of cold surfaces and textiles"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Radiating spokes from shared archive hub"
+  typography:
+    heading_pt: 142
+    subheading_pt: 54
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile sample of ice core stratigraphy and woven story belt"
+    - "Offer transcripts and sign-language interpretation for oral histories"
+    - "Use icons plus text for archive process steps"
+notes:
+  DATA_TO_VERIFY:
+    - "Archive growth metrics"
+    - "Access request counts"

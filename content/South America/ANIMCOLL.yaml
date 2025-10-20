@@ -1,0 +1,92 @@
+poster_id: SouthAmerica_ANIMCOLL
+station: South America
+poster_type: ANIMCOLL
+title: "Journeys from Summit to Sea"
+copy:
+  hook: "Follow condors, turtles, and catfish on epic routes."
+  short: "Track Andean condors, Amazonian giant river turtles, jaguars, and dorado catfish as they migrate through mountains, forests, and coasts. Community patrols, wildlife corridors, and smart fisheries keep these pathways open."
+  depth:
+    - "Directional arrows show seasonal movements with stopover annotations."
+    - "Community highlights feature Quechua condor monitors, Tikuna turtle guardians, and Pantanal jaguar ecotourism guides."
+    - "QR-linked audio shares wingbeats, river sounds, and traditional songs."
+maps:
+  projection: "South America azimuthal equal-area"
+  layers:
+    - "Migration corridors by species"
+    - "Protected areas and Indigenous territories"
+    - "Threat zones such as dams, roads, and deforestation fronts"
+  legend:
+    - "Arrow colors for each species"
+    - "Icons for aerial, aquatic, terrestrial routes"
+  labels:
+    - "Stopovers: Colca Canyon, Mamirauá, Pantanal, Orinoco delta"
+    - "Threat zones: Andean mines, soy frontier, illegal fishing grounds"
+  insets:
+    - title: "Turtle Nesting Network"
+      projection: "Mercator"
+      focus: "Amazon mainstem"
+      notes: "Show beach patrol sites"
+    - title: "Jaguar Corridor"
+      projection: "Local equal-area"
+      focus: "Pantanal"
+      notes: "Mark rancher agreements"
+graphs:
+  - title: "Migration Distance"
+    type: "bar"
+    metrics:
+      - label: "Andean condor"
+        value: 800
+        unit: "km"
+      - label: "Giant river turtle"
+        value: 1200
+        unit: "km"
+      - label: "Jaguares"
+        value: 600
+        unit: "km"
+      - label: "Dorado catfish"
+        value: 2500
+        unit: "km"
+    notes: "Patterned bars keyed to species icons"
+  - title: "Community Patrol Hours"
+    type: "line"
+    metrics:
+      - label: "Condor cliffs"
+        value: null
+        unit: "hours"
+      - label: "Turtle beaches"
+        value: null
+        unit: "hours"
+      - label: "River monitoring"
+        value: null
+        unit: "hours"
+    notes: "Show growth in cooperative patrols"
+images:
+  prompts:
+    - text: "Collage of Andean condor in flight, community turtle release, jaguar crossing wetland, and dorado fisher checking sonar"
+      style: "Photo-real composite"
+      cultural_context: "Accurate habitats and gear"
+    - text: "Vector map board with migration arrows, icons, and QR codes"
+      style: "Educational infographic"
+      cultural_context: "Bilingual labels"
+  selection_criteria:
+    - "Depict animals in wild contexts"
+    - "Show cooperation among Indigenous, rural, and urban partners"
+    - "Ensure contrast for readability"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Central corridor map flanked by species stories"
+  typography:
+    heading_pt: 142
+    subheading_pt: 58
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile arrows with braille species tags"
+    - "Offer audio descriptions in Spanish, Portuguese, Quechua, and Tikuna"
+    - "Use colorblind-safe palettes"
+notes:
+  DATA_TO_VERIFY:
+    - "Migration distance figures"
+    - "Patrol hour trends"

@@ -1,0 +1,71 @@
+poster_id: World_TREASBIO
+station: World
+poster_type: TREASBIO
+title: "Seed Vaults & Living Libraries"
+copy:
+  hook: "Protecting tomorrow’s biodiversity today."
+  short: "Explore how communities archive life—from Svalbard’s Global Seed Vault to community seed banks in Ethiopia and coral nurseries in the Caribbean. See why genetic diversity is a treasure for food, medicine, and resilience."
+  depth:
+    - "Map charts global network of seed vaults, botanical gardens, and reef gene banks."
+    - "Profiles spotlight farmers, scientists, and youth caretakers preserving heirloom varieties."
+    - "Case timeline shows how stored seeds revived crops after disasters."
+maps:
+  projection: "Equal Earth"
+  layers:
+    - "Locations of major ex-situ conservation sites"
+    - "Climate risk overlays (heat, drought, sea-level rise)"
+    - "Transport routes connecting vaults to in-situ partners"
+  legend:
+    - "Icon shapes for seed, spore, coral, and DNA banks"
+    - "Risk intensity gradients"
+  labels:
+    - "Svalbard, Millennium Seed Bank, Gedeo community banks, Florida Keys coral nursery"
+    - "Major shipping nodes used for emergency seed distribution"
+  insets:
+    - title: "Community Seed Cycle"
+      projection: "None"
+      focus: "Circular diagram of harvest, storage, sharing"
+      notes: "Use culturally respectful illustrations"
+graphs:
+  - title: "Diversity Stored"
+    type: "stacked_bar"
+    metrics:
+      - label: "Seeds (species)"
+        value: [980000]
+        unit: "accessions"
+      - label: "Coral fragments"
+        value: [45000]
+        unit: "fragments"
+      - label: "Cryopreserved amphibian samples"
+        value: [1200]
+        unit: "samples"
+    notes: "Annotate with year 2023 inventory"
+images:
+  prompts:
+    - text: "Photo-real image of Ethiopian women cataloging seed jars in a sunlit community bank"
+      style: "Documentary"
+      cultural_context: "Gedeo Zone, Ethiopia"
+    - text: "Underwater photograph of Caribbean divers tending coral tree nursery with scientific rigging"
+      style: "High-resolution marine photo"
+      cultural_context: "Inclusive dive team"
+  selection_criteria:
+    - "Show caretakers empowered and collaborative"
+    - "Avoid reinforcing cold sterile imagery—include warmth and humanity"
+    - "Ensure consent for identifiable subjects"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Center column hosts treasure timeline"
+  typography:
+    heading_pt: 145
+    subheading_pt: 60
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Provide tactile seed packets with braille labels"
+    - "Offer audio translation in Amharic, Norwegian, English"
+    - "Use high-contrast icons for resource types"
+notes:
+  DATA_TO_VERIFY:
+    - "Counts of accessions and coral fragments"
