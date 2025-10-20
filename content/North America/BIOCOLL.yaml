@@ -1,0 +1,91 @@
+poster_id: NorthAmerica_BIOCOLL
+station: North America
+poster_type: BIOCOLL
+title: "From Boreal Forests to Baja Reefs"
+copy:
+  hook: "Three biomes, countless caretakers."
+  short: "Compare the Boreal forest fire mosaics, Tallgrass prairie seed banks, and Gulf-Caribbean reef corridors. Each panel pairs keystone species with communities restoring balance through cultural burns, seed rematriation, and coral gardening."
+  depth:
+    - "Climate charts align temperature and precipitation for each biome."
+    - "Biodiversity indicators highlight species richness, carbon storage, and reef connectivity."
+    - "Stories feature Cree fire crews, Oglala Lakota seed keepers, and Garifuna reef stewards."
+maps:
+  projection: "Regional equal-area composites"
+  layers:
+    - "Biome extents and transition zones"
+    - "Protected areas, Indigenous-managed lands, community science sites"
+    - "Migration pathways linking the three biomes"
+  legend:
+    - "Textures for forest, prairie, reef"
+    - "Symbols for stewardship practices"
+  labels:
+    - "Species callouts: Woodland caribou, Greater prairie-chicken, Elkhorn coral"
+    - "Community hubs: Fort McMurray Cree, Prairie Seed Circle, Cayos Cochinos"
+  insets:
+    - title: "Seed Exchange Routes"
+      projection: "Azimuthal"
+      focus: "Central Plains"
+      notes: "Show rematriation network"
+    - title: "Reef Connectivity"
+      projection: "Mercator"
+      focus: "Yucatán to Honduras"
+      notes: "Display larval drift arrows"
+graphs:
+  - title: "Biome Climate Profiles"
+    type: "radar"
+    metrics:
+      - label: "Average temperature"
+        value: null
+        unit: "°C"
+      - label: "Annual precipitation"
+        value: null
+        unit: "mm"
+      - label: "Growing season length"
+        value: null
+        unit: "days"
+      - label: "Carbon density"
+        value: null
+        unit: "t/ha"
+    notes: "Plot three biomes with distinct colors and textures"
+  - title: "Stewardship Outcomes"
+    type: "bar"
+    metrics:
+      - label: "Burn mosaic diversity"
+        value: null
+        unit: "% increase"
+      - label: "Seed return rate"
+        value: null
+        unit: "%"
+      - label: "Coral cover rebound"
+        value: null
+        unit: "%"
+    notes: "Use paired bars for baseline vs current"
+images:
+  prompts:
+    - text: "Portrait series of Cree firekeeper, Lakota seed librarian, and Garifuna diver tending coral nursery"
+      style: "Photo-real triptych"
+      cultural_context: "Authentic regalia and tools"
+    - text: "Macro shot montage of lichen on spruce, blooming prairie coneflowers, and coral polyps with fish"
+      style: "High-macro photography"
+      cultural_context: "Accurate coloration"
+  selection_criteria:
+    - "Represent each community with consented, respectful imagery"
+    - "Show stewardship action, not extraction"
+    - "Maintain clarity when printed at large scale"
+design:
+  layout:
+    columns: 3
+    gutters: "0.9 in"
+    keylines: "Tri-panel arcs linked by migration arrows"
+  typography:
+    heading_pt: 138
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Include tactile icons for each biome texture"
+    - "Provide plain-language glossaries for ecological terms"
+    - "Ensure charts use pattern fills plus color"
+notes:
+  DATA_TO_VERIFY:
+    - "Quantitative climate and outcome values"

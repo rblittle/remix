@@ -1,0 +1,88 @@
+poster_id: NorthAmerica_ETHNO
+station: North America
+poster_type: ETHNO
+title: "Weather Wisdom Keepers"
+copy:
+  hook: "Forecasts carried by stories and sky."
+  short: "Meet Haudenosaunee, Diné, and Afro-Caribbean knowledge keepers who read clouds, stars, and plant cues to guide planting, navigation, and storm readiness. Their teachings mesh with modern forecasts to protect communities."
+  depth:
+    - "Story excerpts pair with meteorological phenomena such as halo rings, dust devils, and swell patterns."
+    - "Calendar wheels show how oral teachings align with seasonal ceremonies."
+    - "Panels share how youth apprentices document knowledge respectfully."
+maps:
+  projection: "Composite azimuthal"
+  layers:
+    - "Cultural territories and migration routes"
+    - "Observation points for traditional weather markers"
+    - "Modern weather station network overlays"
+  legend:
+    - "Symbols for oral tradition types (song, wampum, weaving)"
+    - "Icons for clouds, winds, ocean swells"
+  labels:
+    - "Communities: Akwesasne, Dinétah, Garifuna towns"
+    - "Key landmarks: Four Sacred Mountains, Hudson River, Bay Islands"
+  insets:
+    - title: "Sky Story Wampum"
+      projection: "None"
+      focus: "Pattern diagram"
+      notes: "Translate bead motifs to weather cues"
+    - title: "Trade Wind Canoe Routes"
+      projection: "Mercator"
+      focus: "Bay Islands"
+      notes: "Show star compass points"
+graphs:
+  - title: "Observation Sharing"
+    type: "sankey"
+    metrics:
+      - label: "Elders"
+        value: null
+        unit: "stories"
+      - label: "Youth apprentices"
+        value: null
+        unit: "stories"
+      - label: "Emergency planners"
+        value: null
+        unit: "alerts"
+    notes: "Illustrate knowledge flow"
+  - title: "Ceremony and Climate Events"
+    type: "timeline"
+    metrics:
+      - label: "Midwinter ceremonies"
+        value: null
+        unit: null
+      - label: "Monsoon prayers"
+        value: null
+        unit: null
+      - label: "Hurricane readiness drumming"
+        value: null
+        unit: null
+    notes: "Align cultural and meteorological milestones"
+images:
+  prompts:
+    - text: "Portraits of Haudenosaunee faithkeeper, Diné medicine person, and Garifuna navigator sharing sky stories with youth"
+      style: "Photo-real documentary"
+      cultural_context: "Respectful settings with cultural items"
+    - text: "Night sky scene showing constellations overlaying a woven wampum belt and Caribbean canoe"
+      style: "Illustrated collage"
+      cultural_context: "Blend traditional art styles"
+  selection_criteria:
+    - "Secure permissions for sacred items"
+    - "Depict collaborative teaching without appropriation"
+    - "Ensure lighting allows lip-reading and clear facial expressions"
+design:
+  layout:
+    columns: 3
+    gutters: "0.85 in"
+    keylines: "Circular calendar anchoring center with story panels"
+  typography:
+    heading_pt: 132
+    subheading_pt: 52
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Offer audio stories with captions and tactile wampum replica"
+    - "Provide ASL, Plains Sign Talk, and Caribbean Creole subtitles for videos"
+    - "Use dyslexia-friendly body font"
+notes:
+  DATA_TO_VERIFY:
+    - "Story counts and ceremony dates"

@@ -1,0 +1,89 @@
+poster_id: SouthAmerica_CULTINNOV
+station: South America
+poster_type: CULTINNOV
+title: "Innovation Rooted in Territory"
+copy:
+  hook: "Design labs bloom from rainforest to favela."
+  short: "Discover Asháninka radio-solar networks, São Paulo circular fashion labs, Chilean Mapuche agroforestry drones, and Colombian peace markets. Innovations blend ancestral protocols with modern tech to restore ecosystems and economies."
+  depth:
+    - "Process diagrams trace co-design phases from ceremony to prototype."
+    - "Case cards share revenue models—solidarity subscriptions, cooperative shares, public grants."
+    - "QR codes link to open-source manuals translated into Spanish, Portuguese, Asháninka, and Mapudungun."
+maps:
+  projection: "Composite equal-area"
+  layers:
+    - "Innovation sites, partner networks, fiber-optic links"
+    - "Training hubs, maker buses, community data centers"
+    - "Ecosystem zones impacted"
+  legend:
+    - "Icons for communication, textiles, agroforestry, markets"
+    - "Line styles for mentorship exchanges"
+  labels:
+    - "Projects: Asháninka solar radio, São Paulo upcycle hub, Araucanía drone nursery, Cauca peace market"
+    - "Partners: Cooperatives, universities, municipal labs"
+  insets:
+    - title: "Circular Fashion Flow"
+      projection: "Sankey diagram"
+      focus: "Material loop"
+      notes: "Show textile collection to resale"
+    - title: "Drone Nursery Flight Path"
+      projection: "Local terrain"
+      focus: "Araucanía"
+      notes: "Detail forest health transects"
+graphs:
+  - title: "Community Ownership"
+    type: "pie"
+    metrics:
+      - label: "Cooperatives"
+        value: 55
+        unit: "%"
+      - label: "Community trusts"
+        value: 20
+        unit: "%"
+      - label: "Public partners"
+        value: 15
+        unit: "%"
+      - label: "Private allies"
+        value: 10
+        unit: "%"
+    notes: "Highlight majority community control"
+  - title: "Training Hours"
+    type: "line"
+    metrics:
+      - label: "On-site workshops"
+        value: null
+        unit: "hours"
+      - label: "Radio and online"
+        value: null
+        unit: "hours"
+    notes: "Show quarterly growth"
+images:
+  prompts:
+    - text: "Asháninka youth broadcasting from solar-powered radio hut with forest backdrop"
+      style: "Photo-real documentary"
+      cultural_context: "Amazon community"
+    - text: "Mapuche women piloting small agroforestry drone over native forest seedlings"
+      style: "High-resolution photography"
+      cultural_context: "Southern Chile"
+  selection_criteria:
+    - "Show women, youth, and elders in leadership"
+    - "Highlight accessible maker tools and signage"
+    - "Ensure respectful depiction of cultural regalia"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular nodes connecting case cards"
+  typography:
+    heading_pt: 136
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Caption diagrams in multiple languages"
+    - "Provide tactile icons for innovation categories"
+    - "Ensure QR codes meet size/contrast standards"
+notes:
+  DATA_TO_VERIFY:
+    - "Ownership percentages"
+    - "Training hour data"

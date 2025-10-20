@@ -1,0 +1,54 @@
+poster_id: NorthAmerica_CHARNARR
+station: North America
+poster_type: CHARNARR
+title: "Caretakers of Sky, Soil, and Sea"
+copy:
+  hook: "Three voices guide neighbors through change."
+  short: "From Alaska’s tundra and Diné sheep camps to Louisiana bayous, storytellers share how they read the land and care for community lifelines."
+  depth:
+    - "Audio recorded in Iñupiaq, Diné Bizaad, and Louisiana French with captions."
+    - "Prompt cards invite visitors to note their own seasonal markers."
+    - "Tactile objects—seal harpoon head, weaving spindle, cypress knee—anchor each vignette."
+narratives:
+  - name: "Aġnaq Ivalu"
+    identity: "Iñupiaq sea ice monitor and bearded seal hunter"
+    gender: "female"
+    age: 43
+    location: "Utqiaġvik, Alaska"
+    text: "When the shorefast ice darkens to the color of raven wings, I measure thickness with my grandmother’s ivory tip and log the reading on the satellite tablet. We move the umiaq frames inland if the lead widens, but when the wind carries the scent of kelp I call the crew—it means the seals are following the current edge."
+    ai_prompt: "Photo-real portrait of Iñupiaq woman on Arctic sea ice measuring thickness with ivory-tip gauge beside umiaq frame"
+  - name: "Shíyáázhí Yazzie"
+    identity: "Diné middle-school shepherd and fiber dyer"
+    gender: "male"
+    age: 13
+    location: "Chinle, Navajo Nation"
+    text: "My job is to walk the sheep before sunrise and text my auntie if I spot new wildflower patches. The yellow rabbitbrush tells us when to start dyeing yarn, and we save the brightest skeins for the solar-powered loom in grandma’s hogan. I track rainfall on my phone so we know which grazing paddock needs a rest."
+    ai_prompt: "Photo-real image of Diné boy herding sheep at dawn holding smartphone weather app with loom inside hogan"
+  - name: "Marie-Claire Boudreaux"
+    identity: "Louisiana French bayou forager and storm cook"
+    gender: "female"
+    age: 62
+    location: "Jean Lafitte, Louisiana"
+    text: "Before a storm I taste the air for salt and watch the cypress knees—if the water rises fast we gather neighbors for gumbo on the propane stove. My granddaughter and I weave palmetto mats to block the door gaps, then message the parish about elders needing rides. When the egrets settle low, we pack the boat with medical kits and head to check the levee."
+    ai_prompt: "Photo-real portrait of older Cajun woman in bayou kitchen stirring gumbo with granddaughter while preparing storm supplies"
+images:
+  selection_criteria:
+    - "Confirm storytellers approve likeness and language"
+    - "Avoid staging sacred tools without consent"
+    - "Warm lighting to support lip-reading and expression"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Braided river motif connecting portraits"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille and large-print transcripts"
+    - "Offer adjustable audio with bone-conduction option"
+    - "Ensure seating with armrests and clear floor space"
+notes:
+  DATA_TO_VERIFY: []

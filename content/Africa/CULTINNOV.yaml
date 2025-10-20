@@ -1,0 +1,74 @@
+poster_id: Africa_CULTINNOV
+station: Africa
+poster_type: CULTINNOV
+title: "Innovation Threads"
+copy:
+  hook: "Tradition plus tech reshaping daily life."
+  short: "Explore Nubian earth-cooling architecture in Aswan, drone-assisted crop monitoring in Rwanda, floating markets in Makoko, and solar-powered cold chains in Senegal."
+  depth:
+    - "Matrix charts problem, solution, community partners, and shared lessons."
+    - "Map locates innovators and ecosystems they protect."
+    - "Quotes highlight how culture guides design."
+maps:
+  projection: "Equal-area"
+  layers:
+    - "Innovation sites"
+    - "Resource networks"
+    - "Partner institutions"
+  legend:
+    - "Icons for housing, agriculture, transport, health"
+    - "Color halos for ecosystems"
+  labels:
+    - "Aswan, Kigali, Lagos, Saint-Louis"
+    - "Collaborator names"
+  insets:
+    - title: "Collaboration Timeline"
+      projection: "None"
+      focus: "Workshops 2012–2024"
+      notes: "Use weaving motif"
+graphs:
+  - title: "Impact Scores"
+    type: "radar"
+    metrics:
+      - label: "Nubian cool homes"
+        value: [88, 70, 82, 65]
+        unit: "resilience, equity, sustainability, scalability"
+      - label: "Rwanda agri-drones"
+        value: [80, 68, 76, 78]
+        unit: "scores"
+      - label: "Makoko market redesign"
+        value: [75, 85, 83, 72]
+        unit: "scores"
+      - label: "Senegal cold chain"
+        value: [82, 74, 88, 80]
+        unit: "scores"
+    notes: "Normalize 0–100"
+images:
+  prompts:
+    - text: "Photo-real image of Nubian builder shaping earthen vault with apprentices"
+      style: "Documentary"
+      cultural_context: "Aswan"
+    - text: "Photo of Rwandan agronomist piloting small drone over terraced fields with farmers watching"
+      style: "Daylight documentary"
+      cultural_context: "Rwanda"
+  selection_criteria:
+    - "Center local innovators"
+    - "Show technology integrated with culture"
+    - "Ensure gender balance"
+design:
+  layout:
+    columns: 3
+    gutters: "1.1 in"
+    keylines: "Matrix table anchored in center"
+  typography:
+    heading_pt: 132
+    subheading_pt: 50
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile icons for innovation types"
+    - "Offer audio interviews"
+    - "Ensure radar chart uses patterns"
+notes:
+  DATA_TO_VERIFY:
+    - "Impact scores"

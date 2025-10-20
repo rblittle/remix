@@ -1,0 +1,74 @@
+poster_id: World_ANIMCOLL
+station: World
+poster_type: ANIMCOLL
+title: "Migratory Marvels"
+copy:
+  hook: "Travel with animals that circumnavigate the globe."
+  short: "Soar, swim, and stride alongside species whose annual routes tie continents together. Discover how Arctic terns, humpback whales, bar-headed geese, and leatherback turtles navigate, and how communities monitor their journeys."
+  depth:
+    - "Animated map traces synchronized migrations with seasonal color cues and stopover icons."
+    - "Profiles explain navigation tools: magnetic sensing, celestial cues, and memory of river scents."
+    - "Community science panels highlight Indigenous observers, fishers, and satellite taggers collaborating to protect corridors."
+maps:
+  projection: "Orthographic split hemispheres"
+  layers:
+    - "Great-circle migration paths with seasonal arrows"
+    - "Stopover and breeding grounds marked with icons"
+    - "Marine protected areas and flyway agreements"
+  legend:
+    - "Color key by species"
+    - "Icon set for breeding, feeding, resting sites"
+  labels:
+    - "Named hotspots: Bay of Fundy, Wadden Sea, Pacific Gyre, Himalaya passes"
+    - "Distance annotations for longest legs"
+  insets:
+    - title: "Flyway Agreements"
+      projection: "Robinson"
+      focus: "Global network of migratory bird treaties"
+      notes: "Include timeline of treaty ratifications"
+graphs:
+  - title: "Migration Distances"
+    type: "bar"
+    metrics:
+      - label: "Arctic tern"
+        value: 70000
+        unit: "km/year"
+      - label: "Humpback whale"
+        value: 16000
+        unit: "km/year"
+      - label: "Bar-headed goose"
+        value: 1500
+        unit: "km/trip"
+      - label: "Leatherback turtle"
+        value: 12000
+        unit: "km/year"
+    notes: "Use log-friendly axis annotation"
+images:
+  prompts:
+    - text: "Photo-real montage of Arctic tern, humpback whale breaching near Polynesian canoe, bar-headed geese over Himalaya, leatherback turtle with Pacific island researchers"
+      style: "Natural lighting composite"
+      cultural_context: "Global, include Indigenous navigators"
+    - text: "Night sky view showing stars with overlay of animal migration constellations"
+      style: "Illustrated star chart"
+      cultural_context: "Blending Polynesian wayfinding symbolism"
+  selection_criteria:
+    - "Animals depicted in motion consistent with behavior"
+    - "Show respectful collaboration between researchers and local experts"
+    - "High dynamic range balanced to avoid glare in print"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Twin hemispheres centered with surrounding stories"
+  typography:
+    heading_pt: 150
+    subheading_pt: 60
+    body_pt: 38
+    caption_pt: 30
+  accessibility:
+    - "Raised dotted paths for tactile migration tracing"
+    - "Audio narration featuring field recordings"
+    - "Ensure color-coded species also have distinct patterns"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact annual distances per species"

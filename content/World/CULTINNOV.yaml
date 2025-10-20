@@ -1,0 +1,71 @@
+poster_id: World_CULTINNOV
+station: World
+poster_type: CULTINNOV
+title: "Innovations Rooted in Place"
+copy:
+  hook: "Local brilliance powering global solutions."
+  short: "Around the world, communities blend tradition and technology to face climate, food, and cultural challenges. Explore floating schools in Nigeria, satellite-guided reindeer herding in Sápmi, and bamboo skyscrapers in Manila."
+  depth:
+    - "Innovation matrix charts origin, challenge, and shared lessons."
+    - "Map locates case studies and the ecosystems they protect."
+    - "Spotlight quotes share voices of innovators describing impact and aspirations."
+maps:
+  projection: "Equal Earth"
+  layers:
+    - "Case study points with ecosystem halos"
+    - "Innovation exchange routes"
+    - "Regional partner institutions"
+  legend:
+    - "Iconography for education, mobility, architecture, food systems"
+    - "Halo color linking to biome type"
+  labels:
+    - "Makoko, Jokkmokk, Manila, La Paz Fab Labs"
+    - "Partner universities and cultural centers"
+  insets:
+    - title: "Innovation Exchange Timeline"
+      projection: "None"
+      focus: "Collaborative workshops from 2010–2024"
+      notes: "Use braided line motif"
+graphs:
+  - title: "Impact Metrics"
+    type: "radar"
+    metrics:
+      - label: "Makoko floating classrooms"
+        value: [85, 70, 90, 60]
+        unit: "scores for resilience, equity, sustainability, scalability"
+      - label: "Sámi smart herding"
+        value: [80, 65, 75, 70]
+        unit: "scores"
+      - label: "Bamboo high-rise"
+        value: [75, 80, 95, 85]
+        unit: "scores"
+    notes: "Normalize 0–100 scale"
+images:
+  prompts:
+    - text: "Photo-real image of students learning inside a floating classroom in Makoko with solar panels and community teacher"
+      style: "Documentary warm lighting"
+      cultural_context: "Lagos lagoon community"
+    - text: "Evening shot of Sámi herder using tablet while guiding reindeer under aurora"
+      style: "Photo-real"
+      cultural_context: "Sápmi"
+  selection_criteria:
+    - "Focus on agency and collaboration"
+    - "Avoid exotic framing; center innovators"
+    - "Ensure photos include adaptive technology details"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central innovation matrix grid"
+  typography:
+    heading_pt: 145
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Provide tactile icons for innovation categories"
+    - "Offer audio interviews via QR"
+    - "Ensure radar chart has high-contrast lines and patterned fills"
+notes:
+  DATA_TO_VERIFY:
+    - "Impact scores for innovations"

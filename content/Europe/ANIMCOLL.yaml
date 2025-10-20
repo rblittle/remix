@@ -1,0 +1,78 @@
+poster_id: Europe_ANIMCOLL
+station: Europe
+poster_type: ANIMCOLL
+title: "Journeys Across Fjord, Forest, and Flyway"
+copy:
+  hook: "Follow Europe’s travelers by wing, fin, and hoof."
+  short: "Chart Atlantic puffins looping from Iceland to Biscay, Baltic salmon navigating rivers past new fish ladders, Iberian lynx dispersing through restored corridors, common cranes staging on Baltic lagoons, and Iberian orcas adapting to shifting tuna routes."
+  depth:
+    - "Animated lines show multi-species paths with seasonal colors."
+    - "Timeline highlights dam removal milestones and corridor openings."
+    - "Community science panel features lighthouse keepers, fisher cooperatives, and youth birding clubs."
+maps:
+  projection: "Europe Lambert azimuthal equal-area"
+  layers:
+    - "Migration routes with directional arrows"
+    - "Key stopovers, breeding, and feeding sites"
+    - "Protected area overlays and marine traffic lanes"
+  legend:
+    - "Line colors for each species"
+    - "Symbols for monitoring methods"
+  labels:
+    - "Sites: Vestmannaeyjar, Vistula, Doñana, Wadden Sea, Strait of Gibraltar"
+    - "Species names with translations"
+  insets:
+    - title: "Dam Removal Impact"
+      projection: "Small multiple"
+      focus: "Iberian rivers"
+      notes: "Before-and-after fish passage"
+    - title: "Crane Roost Counts"
+      projection: "Bar sparkline"
+      focus: "Rügen island"
+      notes: "Yearly tallies"
+graphs:
+  - title: "Puffin Foraging Range"
+    type: "radial"
+    metrics:
+      - label: "Spring"
+        value: 250
+        unit: "km"
+      - label: "Summer"
+        value: 180
+        unit: "km"
+      - label: "Autumn"
+        value: 320
+        unit: "km"
+      - label: "Winter"
+        value: 410
+        unit: "km"
+    notes: "Distance from colony"
+images:
+  prompts:
+    - text: "Photo-real composite of puffins, salmon, lynx, cranes, orcas with scientists and volunteers"
+      style: "Documentary montage"
+      cultural_context: "European habitats"
+    - text: "Vector infographic showing migration map with data overlays"
+      style: "Infographic"
+      cultural_context: "Pan-European"
+  selection_criteria:
+    - "Depict coexistence with people"
+    - "Ensure anatomical accuracy"
+    - "Avoid sensational predation scenes"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Curved flyway lines sweep across panels"
+  typography:
+    heading_pt: 140
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Use textured lines plus color for species"
+    - "Provide tactile markers for key stopovers"
+    - "Add audio of bird calls and ocean sounds with captions"
+notes:
+  DATA_TO_VERIFY:
+    - "Puffin foraging range distances"

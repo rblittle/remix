@@ -1,0 +1,86 @@
+poster_id: NorthAmerica_LANDFORM_R
+station: North America
+poster_type: LANDFORM_R
+title: "Shield, Plains, and Coastal Labyrinths"
+copy:
+  hook: "Read the continent’s quiet, ancient stones."
+  short: "From the Canadian Shield’s billion-year rocks to Mississippi Delta marshes and Caribbean karst, North America’s eastern half shows how water patiently shapes land. Communities restore wetlands, farm prairie soils, and safeguard sinkholes feeding aquifers."
+  depth:
+    - "Comparative panels explain shield exfoliation domes, prairie potholes, and mangrove cays."
+    - "Timeline tracks sea-level shifts and levee engineering alongside Indigenous stewardship milestones."
+    - "Profiles highlight Anishinaabe wild rice tenders, Cajun wetland builders, and Yucatán cave divers."
+maps:
+  projection: "Lambert conformal conic"
+  layers:
+    - "Shield bedrock provinces, prairie soils, coastal wetland extents"
+    - "Major rivers, karst springs, barrier islands"
+    - "Restoration projects and Ramsar wetlands"
+  legend:
+    - "Textures for bedrock, alluvium, peat, and coral limestone"
+    - "Symbols for levees, controlled burns, and sinkholes"
+  labels:
+    - "Features: Great Lakes, Ozarks, Everglades, Mississippi Atchafalaya Basin, Belize Barrier Reef"
+    - "Cities: Chicago, New Orleans, Atlanta, Mérida, Port-au-Prince"
+  insets:
+    - title: "Delta Change Sequence"
+      projection: "Local equal-area"
+      focus: "Lower Mississippi"
+      notes: "Show land loss vs restoration terraces"
+    - title: "Karst Aquifer Network"
+      projection: "Azimuthal"
+      focus: "Yucatán Peninsula"
+      notes: "Map cenotes feeding communities"
+graphs:
+  - title: "Wetland Recovery vs Storm Surge Height"
+    type: "bar"
+    metrics:
+      - label: "Restored marsh hectares"
+        value: null
+        unit: null
+      - label: "Storm surge reduction"
+        value: null
+        unit: "m"
+    notes: "Dual-axis bars for selected parishes"
+  - title: "Soil Organic Carbon Across Plains"
+    type: "line"
+    metrics:
+      - label: "Tallgrass prairie remnant"
+        value: null
+        unit: "t/ha"
+      - label: "Conventional cropland"
+        value: null
+        unit: "t/ha"
+      - label: "Regenerative fields"
+        value: null
+        unit: "t/ha"
+    notes: "Highlight Indigenous-led regenerative projects"
+images:
+  prompts:
+    - text: "Aerial photo of mosaic wetlands with tribal crews placing living shoreline structures"
+      style: "High-resolution photography"
+      cultural_context: "Lower Mississippi Indigenous and Cajun collaboration"
+    - text: "Underwater view of cenote with Maya divers documenting stalactites and freshwater flow"
+      style: "Documentary underwater photography"
+      cultural_context: "Yucatán Peninsula"
+  selection_criteria:
+    - "Show restoration techniques accurately"
+    - "Balance aerial and human-scale perspectives"
+    - "Ensure safety gear and cultural attire are represented respectfully"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Gentle S-curve linking shield north to delta south"
+  typography:
+    heading_pt: 140
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile wetland extent overlays"
+    - "Use high-contrast colorblind-safe palette"
+    - "Offer braille/large-print legend cards"
+notes:
+  DATA_TO_VERIFY:
+    - "Storm surge reduction figures"
+    - "Soil carbon values"

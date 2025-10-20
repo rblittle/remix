@@ -1,0 +1,92 @@
+poster_id: NorthAmerica_ANIMCOLL
+station: North America
+poster_type: ANIMCOLL
+title: "Migration Highways Across the Continent"
+copy:
+  hook: "Trace the journeys of wing, fin, and hoof."
+  short: "See how monarch butterflies, caribou, gray whales, and whooping cranes rely on protected stopovers and community science. Pan-continental maps show how urban gardens, Indigenous agreements, and marine sanctuaries keep these migrations intact."
+  depth:
+    - "Flow arrows track seasonal directions with rest-stop annotations."
+    - "Community spotlights feature Monarch Waystation hosts, Inuit hunters sharing whale counts, and Texan crane wardens."
+    - "QR-linked soundscapes immerse visitors in wingbeats, surfacing breaths, and hoof thunder."
+maps:
+  projection: "Lambert azimuthal equal-area"
+  layers:
+    - "Migration corridors with seasonal colors"
+    - "Critical habitat polygons and Marine Protected Areas"
+    - "Community science stations and Indigenous stewardship territories"
+  legend:
+    - "Arrow styles for spring vs fall movement"
+    - "Icons for terrestrial, avian, marine species"
+  labels:
+    - "Stopovers: Michoacán forests, Platte River, Bering Strait, Laguna San Ignacio"
+    - "Threat zones: border wall gaps, shipping lanes, drought-stricken prairies"
+  insets:
+    - title: "Monarch Pollinator Network"
+      projection: "Azimuthal"
+      focus: "Central Flyway urban gardens"
+      notes: "Highlight schoolyard habitats"
+    - title: "Whale Acoustic Corridor"
+      projection: "Mercator"
+      focus: "Pacific Coast"
+      notes: "Show quiet shipping lanes"
+graphs:
+  - title: "Migration Distance Comparison"
+    type: "bar"
+    metrics:
+      - label: "Gray whale"
+        value: 16000
+        unit: "km"
+      - label: "Monarch butterfly"
+        value: 4800
+        unit: "km"
+      - label: "Whooping crane"
+        value: 4000
+        unit: "km"
+      - label: "Porcupine caribou"
+        value: 2400
+        unit: "km"
+    notes: "Use patterned bars keyed to species icons"
+  - title: "Community Science Observations"
+    type: "line"
+    metrics:
+      - label: "eBird crane reports"
+        value: null
+        unit: null
+      - label: "Whale acoustic detections"
+        value: null
+        unit: null
+      - label: "Monarch tagging submissions"
+        value: null
+        unit: null
+    notes: "Show growth in participation"
+images:
+  prompts:
+    - text: "Composite of monarchs clustered on oyamel fir, whooping cranes flying over wetlands, and Inuit observers on sea ice recording whales"
+      style: "Photo-real collage"
+      cultural_context: "Respectful portrayal of communities"
+    - text: "Infographic-style map board with brightly colored migration arrows and QR codes"
+      style: "Vector illustration"
+      cultural_context: "Educational exhibit"
+  selection_criteria:
+    - "Highlight cooperation between nations and cultures"
+    - "Ensure animals appear in natural behaviors"
+    - "Include clear wayfinding cues for accessibility"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Central corridor map with species panels flanking"
+  typography:
+    heading_pt: 142
+    subheading_pt: 58
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile migration arrows with directional arrows"
+    - "Offer multilingual audio in English, Spanish, French, Inuktitut, and Anishinaabemowin"
+    - "Use contrasting hues safe for color vision deficiencies"
+notes:
+  DATA_TO_VERIFY:
+    - "Migration distance figures"
+    - "Observation participation trends"

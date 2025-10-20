@@ -1,0 +1,78 @@
+poster_id: SouthAmerica_FEATANIM
+station: South America
+poster_type: FEATANIM
+title: "Hyacinth Macaw Neighbors"
+copy:
+  hook: "Hear cobalt wings beating over flooded forests."
+  short: "Hyacinth macaws rely on palm groves in the Pantanal and Cerrado. Indigenous, rancher, and scientist partners protect nest cavities, manage fire, and grow native palms so these brilliant birds keep soaring."
+  depth:
+    - "Nest map shows protected cavities, ranch agreements, and firebreak mosaics."
+    - "Infographic links palm fruit harvest, clay lick minerals, and chick survival."
+    - "Profiles feature Guató canoe rangers, women-led nest guardians, and veterinary teams."
+maps:
+  projection: "UTM Zone 21S"
+  layers:
+    - "Pantanal wetlands and Cerrado edges"
+    - "Nest cluster locations and palm stands"
+    - "Firebreak zones and grazing agreements"
+  legend:
+    - "Icons for nest cavities, palm groves, monitoring posts"
+    - "Color ramp for flood duration"
+  labels:
+    - "Sites: Porto Jofre, Taiamã Reserve, Serra do Amolar"
+    - "Partners: Hyacinth Recovery Project, Indigenous associations, cattle cooperatives"
+  insets:
+    - title: "Palm Growth Cycle"
+      projection: "None"
+      focus: "Carnaúba and acuri palms"
+      notes: "Show sustainable harvest steps"
+graphs:
+  - title: "Nest Success Rate"
+    type: "line"
+    metrics:
+      - label: "Protected nests"
+        value: null
+        unit: "%"
+      - label: "Unprotected nests"
+        value: null
+        unit: "%"
+    notes: "Show rising success under co-management"
+  - title: "Palm Fruit Availability"
+    type: "bar"
+    metrics:
+      - label: "Dry season"
+        value: null
+        unit: "kg/ha"
+      - label: "Wet season"
+        value: null
+        unit: "kg/ha"
+    notes: "Compare managed vs unmanaged groves"
+images:
+  prompts:
+    - text: "Photo-real image of hyacinth macaw pair feeding chicks in artificial nest box with Pantanal wetland background"
+      style: "High-resolution wildlife photography"
+      cultural_context: "Natural habitat"
+    - text: "Community team of Indigenous rangers and ranchers installing palm guard and monitoring tablet"
+      style: "Documentary photo"
+      cultural_context: "Pantanal collaborative patrol"
+  selection_criteria:
+    - "Avoid captive birds—use wild behavior"
+    - "Show collaborative stewardship and technology"
+    - "Ensure feathers maintain vivid but accurate hue"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curved wing motif linking map and stories"
+  typography:
+    heading_pt: 132
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile feather sample with consented substitute"
+    - "Offer audio of macaw calls with captions"
+    - "Use color plus icons for flood depth"
+notes:
+  DATA_TO_VERIFY:
+    - "Nest success and palm yield values"

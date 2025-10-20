@@ -1,0 +1,79 @@
+poster_id: NorthAmerica_LANDFORM_L
+station: North America
+poster_type: LANDFORM_L
+title: "Rocky Spine and Glacier Carvers"
+copy:
+  hook: "Follow the cordillera from canyon floor to icefield."
+  short: "Traverse the Rockies and Coast Mountains where plate collisions lift peaks, glaciers sculpt valleys, and rivers power salmon nations. Communities blend traditional knowledge with modern sensors to monitor snow, fire, and landslides."
+  depth:
+    - "Cross-sections compare U-shaped glacial valleys, slot canyons, and hanging cirques."
+    - "Hazard icons track avalanche paths, debris flows, and wildfire scars with mitigation notes."
+    - "Profiles highlight Blackfeet, Secwepemc, and Chilkat stewardship partnerships."
+maps:
+  projection: "Lambert conformal conic"
+  layers:
+    - "Elevation tints with slope shading"
+    - "Glacier extents, proglacial lakes, and river headwaters"
+    - "Cultural territories and national parks"
+  legend:
+    - "Textures for bedrock, ice, and forest"
+    - "Icons for monitoring stations and cultural burning zones"
+  labels:
+    - "Key peaks: Denali, Mount Rainier, Longs Peak, Sierra Blanca"
+    - "Valleys and passes: Columbia Icefield, Banff Bow Valley, Grand Canyon tributaries"
+  insets:
+    - title: "Coastal Fjords"
+      projection: "Local azimuthal"
+      focus: "Southeast Alaska and British Columbia"
+      notes: "Show tidewater glacier retreat"
+graphs:
+  - title: "Snowline Shift"
+    type: "line"
+    metrics:
+      - label: "Average late-summer snowline"
+        value: null
+        unit: "m"
+      - label: "Treeline elevation"
+        value: null
+        unit: "m"
+    notes: "Annotate community monitoring years"
+  - title: "River Discharge Seasonality"
+    type: "area"
+    metrics:
+      - label: "Spring freshet"
+        value: null
+        unit: null
+      - label: "Late summer baseflow"
+        value: null
+        unit: null
+    notes: "Stacked area showing glacier-fed vs rain-fed"
+images:
+  prompts:
+    - text: "Drone view of glacier-fed river canyon with Indigenous youth installing sensor buoys"
+      style: "Photo-real documentary"
+      cultural_context: "Pacific Northwest tribes"
+    - text: "Cutaway illustration of mountain cross-section showing glaciers, talus, and lodgepole pine regrowth"
+      style: "Scientific illustration"
+      cultural_context: "North American alpine"
+  selection_criteria:
+    - "Respect cultural protocols—no sacred site exposure without context"
+    - "Show practical monitoring tools and safety gear"
+    - "Ensure glacial blues and forest greens have high contrast"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Diagonal ridge dividing glacial and canyon narratives"
+  typography:
+    heading_pt: 144
+    subheading_pt: 60
+    body_pt: 36
+    caption_pt: 26
+  accessibility:
+    - "Add tactile ridge and valley contours"
+    - "Provide bilingual labels (English/French) with Indigenous language names in italics"
+    - "Use patterned fills to distinguish hazard zones"
+notes:
+  DATA_TO_VERIFY:
+    - "Snowline and treeline elevation trends"
+    - "Discharge proportions"

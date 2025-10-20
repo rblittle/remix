@@ -1,0 +1,74 @@
+poster_id: Africa_ANIMCOLL
+station: Africa
+poster_type: ANIMCOLL
+title: "Routes of the Great Herds"
+copy:
+  hook: "Run with hoofbeats, wings, and fins."
+  short: "Wildebeest, shoebill storks, humpback whales off Mozambique, and desert elephants in Namibia follow seasonal paths that connect savanna, swamp, and sea."
+  depth:
+    - "Map overlays show synchronized migrations across East Africa and wetlands."
+    - "Profiles explain navigation cues: flooding pulses, stars, and memory of ancestral trails."
+    - "Community science highlights ranger patrols, fisher observations, and satellite tagging."
+maps:
+  projection: "Equatorial azimuthal for East and Southern Africa"
+  layers:
+    - "Migration routes with timing arrows"
+    - "Breeding/feeding/resting zones"
+    - "Protected corridors and community conservancies"
+  legend:
+    - "Color-coded species paths"
+    - "Icons for breeding/resting sites"
+  labels:
+    - "Mara River, Okavango, Zambezi Delta, Bazaruto Archipelago"
+    - "Communities: Maasai Mara, Barotse floodplain, Walvis Bay"
+  insets:
+    - title: "Shoebill Wetland Pulse"
+      projection: "Hydrograph"
+      focus: "Bangweulu flood rise timing"
+      notes: "Combine graph with map"
+graphs:
+  - title: "Migration Distances"
+    type: "bar"
+    metrics:
+      - label: "Serengeti wildebeest"
+        value: 800
+        unit: "km"
+      - label: "Desert elephants"
+        value: 300
+        unit: "km"
+      - label: "Shoebill movements"
+        value: 500
+        unit: "km"
+      - label: "Mozambique humpbacks"
+        value: 6000
+        unit: "km"
+    notes: "Use patterns as well as colors"
+images:
+  prompts:
+    - text: "Photo-real composite of wildebeest herd crossing Mara River, shoebill in papyrus, desert elephants walking through dry riverbed"
+      style: "Dynamic wildlife montage"
+      cultural_context: "East and Southern Africa"
+    - text: "Community rangers tracking animals with GPS collars at dawn"
+      style: "Documentary"
+      cultural_context: "Namibia conservancy"
+  selection_criteria:
+    - "Avoid distressing predation scenes"
+    - "Show collaboration between communities and wildlife"
+    - "Ensure species appear in correct habitats"
+design:
+  layout:
+    columns: 3
+    gutters: "1.15 in"
+    keylines: "Curved routes link across columns"
+  typography:
+    heading_pt: 138
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Tactile dotted lines for migration paths"
+    - "Audio with field recordings"
+    - "Pattern-coded legend with braille labels"
+notes:
+  DATA_TO_VERIFY:
+    - "Exact migration distances"

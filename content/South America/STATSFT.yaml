@@ -1,0 +1,117 @@
+poster_id: SouthAmerica_STATSFT
+station: South America
+poster_type: STATSFT
+title: "South America Systems Spotlight"
+copy:
+  hook: "Four quick dives into resilience in action."
+  short: "Columns feature energy, food, water, and culture projects—from Amazon solar canoes to Andean school lunch terraces."
+  depth:
+    - "Solar canoe fleets deliver medicine while training river pilots."
+    - "Andean school terraces blend heritage crops with nutrition."
+    - "Mangrove buffers shield coastal towns and fisheries."
+    - "Favela rain gardens cool streets and harvest water."
+featurettes:
+  - title: "Solar Canoe Lifelines"
+    summary: "In the Rio Negro basin, Indigenous health promoters pilot solar-powered canoes that refrigerate vaccines and carry midwives. Boat crews log rainfall and river levels, sharing data with community radio."
+    data_bites:
+      - label: "Communities served"
+        value: 48
+        unit: "villages"
+      - label: "Fuel savings"
+        value: 72
+        unit: "%"
+    graph:
+      type: "line"
+      notes: "Show fuel use decline vs service expansion"
+  - title: "School Lunch Terraces"
+    summary: "Peruvian and Bolivian schools cultivate steep-slope terraces with quinoa, tarwi, and native tubers. Students monitor soil moisture and use bilingual recipes that honor ancestral diets."
+    data_bites:
+      - label: "Terraces restored"
+        value: 320
+        unit: "plots"
+      - label: "Protein boost"
+        value: 28
+        unit: "%"
+    maplet:
+      type: "chloropleth"
+      projection: "Local equal-area"
+      focus: "Cusco and La Paz highlands"
+      notes: "Shade districts by terrace adoption"
+  - title: "Mangrove Guardian Networks"
+    summary: "Afro-Colombian and Indigenous brigades replant mangroves along the Pacific coast, installing tide gauges and crab-friendly boardwalks. QR codes share evacuation plans in Spanish and Embera."
+    data_bites:
+      - label: "Hectares restored"
+        value: 6500
+        unit: "ha"
+      - label: "Storm surge drop"
+        value: 0.6
+        unit: "m"
+    maplet:
+      type: "dot"
+      projection: "Mercator"
+      focus: "Chocó coast"
+      notes: "Dots sized by restoration teams"
+  - title: "Favela Rain Garden Loops"
+    summary: "Residents of Rio de Janeiro and São Paulo convert stairways into rain gardens and shaded seating. Youth climate clubs monitor heat index, while elders lead storytelling nights under solar lanterns."
+    data_bites:
+      - label: "Heat index drop"
+        value: 4.1
+        unit: "°C"
+      - label: "Rainwater captured"
+        value: 2.8
+        unit: "million L"
+    graph:
+      type: "bar"
+      notes: "Compare neighborhoods participating"
+maps:
+  projection: "Integrated mini-maps"
+  layers:
+    - "Featurette-specific symbology"
+  legend:
+    - "Inline legends per column"
+  labels:
+    - "Community partners and languages"
+  insets: []
+graphs:
+  - title: "Heat Drop by Neighborhood"
+    type: "bar"
+    metrics:
+      - label: "Complexo do Alemão"
+        value: 3.8
+        unit: "°C"
+      - label: "Heliópolis"
+        value: 4.3
+        unit: "°C"
+      - label: "Vila Autódromo"
+        value: 4.1
+        unit: "°C"
+    notes: "Align with Favela Rain Gardens feature"
+images:
+  prompts:
+    - text: "Collage of solar canoe crew, Andean students farming terraces, mangrove planters, and favela rain garden gathering"
+      style: "Photo-real composite"
+      cultural_context: "Authentic attire and tools"
+    - text: "Infographic layout of four featurettes with mini-maps and icons"
+      style: "Clean vector"
+      cultural_context: "Bilingual Spanish-Portuguese"
+  selection_criteria:
+    - "Celebrate collaboration and joy"
+    - "Show accessibility features like ramps and seating"
+    - "Keep data labels crisp for large format"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Featurettes stack with consistent headers"
+  typography:
+    heading_pt: 124
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Pair numbers with icons and plain-language labels"
+    - "Offer tactile mini-maps"
+    - "Provide large-print takeaways"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative values"

@@ -1,0 +1,67 @@
+poster_id: Africa_FEATANIM
+station: Africa
+poster_type: FEATANIM
+title: "The Ground Pangolin’s Night Shift"
+copy:
+  hook: "Armor-plated yet fragile."
+  short: "Ground pangolins forage under moonlight in southern African savannas, balancing ecosystems by eating thousands of termites each night. Guardians from community conservancies track them quietly to deter trafficking."
+  depth:
+    - "Life cycle storyboard follows burrow-making, pup care, and seasonal diet shifts."
+    - "Anatomy panel highlights keratin scales, muscular tail, and scent glands."
+    - "Conservation map traces safe corridors linking Botswana, Zimbabwe, and South Africa."
+maps:
+  projection: "Lambert azimuthal equal-area centered on Kalahari"
+  layers:
+    - "Current range patches"
+    - "Poaching incident hotspots"
+    - "Community conservancy patrol zones"
+  legend:
+    - "Range shading, risk symbols, patrol stations"
+  labels:
+    - "Key reserves: Khama Rhino Sanctuary, Tswalu, Kruger buffer zones"
+    - "Nearby towns supporting pangolin safe houses"
+  insets:
+    - title: "Burrow Cross-Section"
+      projection: "Cutaway"
+      focus: "Sleeping chamber vs. feeding tunnels"
+      notes: "Include scale reference"
+graphs:
+  - title: "Termites Consumed"
+    type: "bar"
+    metrics:
+      - label: "Per night"
+        value: 70000
+        unit: "insects"
+      - label: "Per year"
+        value: 25000000
+        unit: "insects"
+    notes: "Use textured bars"
+images:
+  prompts:
+    - text: "Photo-real image of ground pangolin walking at dusk with tracker at respectful distance"
+      style: "Low-light documentary"
+      cultural_context: "Kalahari community ranger"
+    - text: "Scientific illustration of pangolin anatomy showing scale layering and long tongue"
+      style: "Detailed linework"
+      cultural_context: "Wildlife biology"
+  selection_criteria:
+    - "Avoid handling imagery; show hands-off monitoring"
+    - "Ensure ranger uniforms accurate"
+    - "High resolution for nocturnal lighting"
+design:
+  layout:
+    columns: 2
+    gutters: "1.2 in"
+    keylines: "Left column narrative, right column map/anatomy"
+  typography:
+    heading_pt: 130
+    subheading_pt: 52
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Tactile pangolin scale sample"
+    - "Audio clip featuring Setswana narration"
+    - "Icon + text for conservation actions"
+notes:
+  DATA_TO_VERIFY:
+    - "Estimated termite consumption values"

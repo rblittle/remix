@@ -1,0 +1,82 @@
+poster_id: Africa_WEATHER
+station: Africa
+poster_type: WEATHER
+title: "From Harmattan to Cape Storms"
+copy:
+  hook: "Feel the continent’s seasons sweep from desert dust to coastal rain."
+  short: "Trace six signature weather patterns: the West African monsoon, Ethiopian highland rains, Congo rainforest convection, Harmattan dust, Cape Town cold fronts, and Sahelian line storms. An elevation strip follows a Dakar-to-Addis transect to show how altitude steers rainfall."
+  depth:
+    - "Seasonal arrows reveal when each monsoon cell shifts and why coastal upwelling intensifies."
+    - "Dust plume inset explains how Harmattan affects air travel and solar power."
+    - "Timeline links El Niño phases to drought planning and pastoral mobility."
+maps:
+  projection: "Africa Lambert conformal conic"
+  layers:
+    - "Wind vectors for monsoon and trade flows"
+    - "Isohyets for rainy vs dry seasons"
+    - "Dust plume extents and cyclone tracks"
+  legend:
+    - "Arrow colors for wet/dry phases"
+    - "Patterned overlays for dust vs rain bands"
+  labels:
+    - "Regions: Gulf of Guinea, Ethiopian Plateau, Congo Basin, Kalahari, Cape Peninsula"
+    - "Key cities: Dakar, Accra, Addis Ababa, Kinshasa, Cape Town"
+  insets:
+    - title: "Harmattan in Motion"
+      projection: "Mollweide focused on West Africa"
+      focus: "Dust plume trajectories"
+      notes: "Compare December vs. February extent"
+graphs:
+  - title: "ENSO Impacts on East Africa"
+    type: "line"
+    metrics:
+      - label: "Rainfall anomaly (mm)"
+        value: [120, -40, 80, -60]
+        unit: "mm"
+      - label: "Pastoral mobility index"
+        value: [1.3, 0.8, 1.1, 0.7]
+        unit: "relative scale"
+    notes: "Align with 1997, 2005, 2015, 2019 events"
+  - title: "Dakar-to-Addis Transect"
+    type: "profile"
+    metrics:
+      - label: "Dakar"
+        value: 0
+        unit: "m"
+      - label: "Jos Plateau"
+        value: 1280
+        unit: "m"
+      - label: "Addis Ababa"
+        value: 2355
+        unit: "m"
+    notes: "Overlay rainfall bars at each point"
+images:
+  prompts:
+    - text: "Photo-real image of Sahel pastoralists leading herd under approaching line of monsoon clouds"
+      style: "Documentary"
+      cultural_context: "Niger or Mali"
+    - text: "Illustration of Harmattan dust plume viewed from space with annotated airflow"
+      style: "Scientific visualization"
+      cultural_context: "West Africa"
+  selection_criteria:
+    - "Show weather impacts respectfully, avoiding disaster sensationalism"
+    - "Include varied ages and genders in human imagery"
+    - "Ensure clarity of dust vs cloud forms"
+design:
+  layout:
+    columns: 3
+    gutters: "1.1 in"
+    keylines: "Top band for weather belts, bottom for transect"
+  typography:
+    heading_pt: 150
+    subheading_pt: 62
+    body_pt: 38
+    caption_pt: 30
+  accessibility:
+    - "Use texture plus color to separate phenomena"
+    - "Provide tactile raised transect with braille labels"
+    - "Offer plain-language summary and audio weather glossary"
+notes:
+  DATA_TO_VERIFY:
+    - "Quantitative rainfall anomalies"
+    - "Pastoral mobility index values"

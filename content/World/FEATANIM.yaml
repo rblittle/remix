@@ -1,0 +1,65 @@
+poster_id: World_FEATANIM
+station: World
+poster_type: FEATANIM
+title: "The Resilient Saiga"
+copy:
+  hook: "Meet the antelope with a built-in air filter."
+  short: "Saiga antelope once thundered across Eurasian grasslands in millions. Today their unusual noses help them survive dust storms, while guardians coordinate international corridors from Kazakhstan to Mongolia."
+  depth:
+    - "Lifecycle storyboard shows spring calving aggregations, summer migrations, and winter sheltering."
+    - "Health panel explains the saiga’s nose structure and how it warms frigid air."
+    - "Conservation snapshot maps cross-border patrols, vaccination campaigns, and community ranger training."
+maps:
+  projection: "Lambert azimuthal equal-area centered on Central Asia"
+  layers:
+    - "Historic range vs. current herds"
+    - "Community-managed conservation zones"
+    - "Migration corridors with seasonal arrows"
+  legend:
+    - "Range polygons with transparency"
+    - "Icons for ranger stations, water points"
+  labels:
+    - "Steppe regions: Betpak-Dala, Ustyurt, Dauria"
+    - "Neighboring nations and key towns"
+  insets:
+    - title: "Saiga Nose Anatomy"
+      projection: "None"
+      focus: "Airflow diagram"
+      notes: "Use cutaway illustration"
+graphs:
+  - title: "Population Recovery"
+    type: "line"
+    metrics:
+      - label: "Kazakhstan herd"
+        value: [50000, 90000, 334000]
+        unit: "individuals"
+    notes: "Plot 2005, 2015, 2023 estimates"
+images:
+  prompts:
+    - text: "Photo-real image of saiga antelope herd crossing open steppe with ranger vehicle at respectful distance"
+      style: "Telephoto wildlife"
+      cultural_context: "Kazakhstan steppe, include local ranger"
+    - text: "Scientific illustration of saiga nasal cavity showing airflow warming and filtering dust"
+      style: "Cross-section diagram"
+      cultural_context: "Anatomical"
+  selection_criteria:
+    - "Depict rangers and researchers collaboratively, avoiding stereotypes"
+    - "Ensure animals appear healthy and unstressed"
+    - "Maintain high resolution for fur texture"
+design:
+  layout:
+    columns: 2
+    gutters: "1.5 in"
+    keylines: "Left column for narrative, right for map and anatomy"
+  typography:
+    heading_pt: 140
+    subheading_pt: 58
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Add tactile relief of saiga horn curve"
+    - "Provide audio narration featuring Kazakh language greeting"
+    - "Use icon + text for conservation activities"
+notes:
+  DATA_TO_VERIFY:
+    - "Latest population counts per herd"

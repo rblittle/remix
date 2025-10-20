@@ -1,0 +1,86 @@
+poster_id: Antarctica_LANDFORM_R
+station: Antarctica
+poster_type: LANDFORM_R
+title: "Dry Valleys, Nunataks, and Iceberg Nurseries"
+copy:
+  hook: "Discover the rock and wind beneath the ice."
+  short: "Explore McMurdo Dry Valleys’ permafrost polygons, Antarctic Peninsula nunataks, and iceberg calving fronts in the Weddell S
+ea. Scientists, artists, and Antarctic Treaty stewards document microclimates, lichens, and tabular berg drifts to guide protectio
+n plans."
+  depth:
+    - "Comparative sections show cold desert soils, nunatak habitats, and calving face stratigraphy."
+    - "Surface processes panels track katabatic scouring, sublimation, and tide-driven berg rollovers."
+    - "Profiles spotlight Antarctic artists-in-residence, Chilean climate rangers, and Sámi guest researchers advising permafrost ca
+re."
+maps:
+  projection: "Triptych: Dry Valleys local, Peninsula Lambert, Weddell Sea polar stereographic"
+  layers:
+    - "Dry Valley lakes, glaciers, and protected science zones"
+    - "Nunatak clusters with biodiversity refuges"
+    - "Ice shelf fronts, iceberg drift routes, and shipping lanes"
+  legend:
+    - "Textures for desert pavements, ice cover, and open water"
+    - "Icons for research huts, refuges, and observation buoys"
+  labels:
+    - "Key sites: Lake Fryxell, Mount Erebus, James Ross Island, Larsen C front, A-68 drift path"
+    - "Cultural notes: Kāi Tahu cultural exchange markers, Mapuche research partnerships"
+  insets:
+    - title: "Microclimate Sensor Grid"
+      projection: "Plan diagram"
+      focus: "Fryxell basin instruments"
+      notes: "Highlight solar-powered stations"
+    - title: "Iceberg Lifecycle"
+      projection: "Timeline"
+      focus: "Calving, drift, melt"
+      notes: "Show data buoys and seal tracking tags"
+graphs:
+  - title: "Soil Moisture vs. Depth"
+    type: "line"
+    metrics:
+      - label: "Lake Fryxell terrace"
+        value: null
+        unit: "%"
+      - label: "Beacon Valley"
+        value: null
+        unit: "%"
+    notes: "Include freeze-thaw thresholds"
+  - title: "Iceberg Drift Speed"
+    type: "scatter"
+    metrics:
+      - label: "Tabular bergs"
+        value: null
+        unit: "km/day"
+      - label: "Sea ice floes"
+        value: null
+        unit: "km/day"
+    notes: "Color by season"
+images:
+  prompts:
+    - text: "Wide panorama of Dry Valley polygon soils, nunatak ridge with lichens, and tabular iceberg drifting under golden light"
+      style: "High-resolution composite"
+      cultural_context: "Scientific accuracy for geology and ice"
+    - text: "Photo-real image of multinational researchers and artists sketching and sampling in Dry Valleys with wind-blown snow"
+      style: "Photo-real documentary"
+      cultural_context: "Include proper cold-weather gear and field notebooks"
+  selection_criteria:
+    - "Depict fragile ecosystems respectfully"
+    - "Show minimal disturbance footprints"
+    - "Keep textures distinct for soil, rock, and ice"
+design:
+  layout:
+    columns: 2
+    gutters: "0.9 in"
+    keylines: "Horizontal strata connecting three landform stories"
+  typography:
+    heading_pt: 146
+    subheading_pt: 58
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Use tactile swatches for soil polygons and ice textures"
+    - "Provide audio description with wind cues and cautionary notes"
+    - "Ensure data panels include plain-language definitions"
+notes:
+  DATA_TO_VERIFY:
+    - "Soil moisture values"
+    - "Iceberg drift speeds"

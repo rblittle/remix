@@ -1,0 +1,68 @@
+poster_id: Africa_LANDFORM_R
+station: Africa
+poster_type: LANDFORM_R
+title: "Sahara to Delta"
+copy:
+  hook: "Erosion and deposition shape Africa’s north."
+  short: "See how wind sculpts the Sahara while the Nile Delta builds and erodes its fan. Compare dune seas, rock plateaus, and the watery maze of the delta’s distributaries."
+  depth:
+    - "Process diagrams explain yardang formation, wadi flash floods, and delta siltation."
+    - "Time series maps show shoreline change over the past 50 years."
+    - "Community stories highlight oasis farmers and Alexandria urban planners."
+maps:
+  projection: "Lambert conformal conic focused on North Africa"
+  layers:
+    - "Dune fields, reg deserts, and plateau features"
+    - "Nile Delta land gain/loss zones"
+    - "Groundwater aquifer extents"
+  legend:
+    - "Texture patterns for dune types"
+    - "Color ramp for delta elevation relative to sea level"
+  labels:
+    - "Landmarks: Erg Chech, Tassili n'Ajjer, Qattara Depression, Rosetta, Damietta"
+    - "Key oases and canal systems"
+  insets:
+    - title: "Delta Cross-Section"
+      projection: "Profile"
+      focus: "Sediment layers and levees"
+      notes: "Indicate subsidence zones"
+graphs:
+  - title: "Delta Sediment Budget"
+    type: "stacked_bar"
+    metrics:
+      - label: "Sediment in"
+        value: 120
+        unit: "Mt/yr"
+      - label: "Sediment trapped by dams"
+        value: -90
+        unit: "Mt/yr"
+    notes: "Net shown as thin outline"
+images:
+  prompts:
+    - text: "Photo-real aerial of Nile Delta farmlands meeting Mediterranean with fishing boats"
+      style: "High-resolution"
+      cultural_context: "Egypt"
+    - text: "Desert nomad family tending date palms beside dune with wind ripples"
+      style: "Documentary"
+      cultural_context: "Algerian Sahara"
+  selection_criteria:
+    - "Show livelihoods tied to landforms"
+    - "Avoid romanticizing hardship"
+    - "Ensure geographic authenticity"
+design:
+  layout:
+    columns: 3
+    gutters: "1.2 in"
+    keylines: "Central panorama from dune to delta"
+  typography:
+    heading_pt: 140
+    subheading_pt: 56
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Sandpaper tactile strip for dunes, smooth relief for delta"
+    - "Audio narration available in Arabic and Tamazight"
+    - "Use icons and text for risk messages"
+notes:
+  DATA_TO_VERIFY:
+    - "Sediment budget values"

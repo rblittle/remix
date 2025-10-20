@@ -1,0 +1,88 @@
+poster_id: SouthAmerica_TREASBIO
+station: South America
+poster_type: TREASBIO
+title: "Seed Houses, Clay Banks, and Living Pharmacies"
+copy:
+  hook: "Safeguard the genetic gifts of rainforest and Andes."
+  short: "Explore Kichwa chakra seed houses in Ecuador, quilombola medicinal gardens in Brazil, and Yanomami mushroom libraries. These community networks conserve crops, medicines, and fungi essential for resilience."
+  depth:
+    - "Map shows seed-sharing routes, canoe deliveries, and cloud forest trails."
+    - "Infographic details storage—from clay pots to solar-dehydrated sachets."
+    - "Case notes describe governance protocols rooted in traditional law."
+maps:
+  projection: "South America azimuthal"
+  layers:
+    - "Seed house locations, garden cooperatives, fungal monitoring camps"
+    - "Indigenous territories and quilombola titles"
+    - "Transport corridors (canoe, mule, drone)"
+  legend:
+    - "Icons for seed, medicinal plant, fungi"
+    - "Line styles for exchange frequency"
+  labels:
+    - "Sites: Tena, Vale do Ribeira, Yanomami territory"
+    - "Partners: Community universities, botanical gardens, health clinics"
+  insets:
+    - title: "Clay Pot Storage"
+      projection: "None"
+      focus: "Exploded diagram"
+      notes: "Show humidity control"
+    - title: "Fungal Observation Grid"
+      projection: "Local azimuthal"
+      focus: "Yanomami camps"
+      notes: "Map seasonal rotation"
+graphs:
+  - title: "Seed Viability"
+    type: "line"
+    metrics:
+      - label: "Clay pot"
+        value: null
+        unit: "%"
+      - label: "Metal silo"
+        value: null
+        unit: "%"
+      - label: "Living garden"
+        value: null
+        unit: "%"
+    notes: "Compare storage strategies"
+  - title: "Medicinal Plant Distribution"
+    type: "bar"
+    metrics:
+      - label: "Local clinics"
+        value: null
+        unit: "kits"
+      - label: "Mobile health boats"
+        value: null
+        unit: "kits"
+      - label: "School programs"
+        value: null
+        unit: "kits"
+    notes: "Highlight community health integration"
+images:
+  prompts:
+    - text: "Interior of Kichwa chakra seed house with elders cataloging jars and youth recording data"
+      style: "Photo-real documentary"
+      cultural_context: "Upper Amazon community"
+    - text: "Quilombola women preparing medicinal salves beside herb garden with signage in Portuguese and Guarani"
+      style: "High-resolution photography"
+      cultural_context: "Vale do Ribeira"
+  selection_criteria:
+    - "Show respectful handling of cultural knowledge"
+    - "Highlight intergenerational collaboration"
+    - "Ensure color balance for print clarity"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular exchange diagram linking map and stories"
+  typography:
+    heading_pt: 130
+    subheading_pt: 52
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Offer tactile seed samples in sealed cases with braille labels"
+    - "Provide audio stories in Spanish, Portuguese, Kichwa, and Yanomami"
+    - "Use icon plus text for storage types"
+notes:
+  DATA_TO_VERIFY:
+    - "Viability and distribution figures"

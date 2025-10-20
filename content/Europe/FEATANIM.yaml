@@ -1,0 +1,74 @@
+poster_id: Europe_FEATANIM
+station: Europe
+poster_type: FEATANIM
+title: "Iberian Lynx: Keeper of the Dehesa"
+copy:
+  hook: "Spotted shadows protect Mediterranean woodlands."
+  short: "Iberian lynx roam cork oak dehesa landscapes, relying on rabbit-rich mosaics maintained by ranchers and fire brigades. Community nurseries raise rabbit populations while wildlife crossings reconnect fragmented habitat."
+  depth:
+    - "Life cycle storyboard follows kittens from den to dispersal corridors."
+    - "Anatomy panel explains ear tufts, whisker pads, and silent paw fur."
+    - "Stewardship section showcases rancher agreements, road underpasses, and youth tracking teams."
+maps:
+  projection: "Lambert conformal Iberia"
+  layers:
+    - "Confirmed territories and buffer zones"
+    - "Rabbit restocking sites"
+    - "Crossing structures and fire mosaic areas"
+  legend:
+    - "Icons for dens, crossings, community nurseries"
+  labels:
+    - "Regions: Sierra Morena, Doñana, Guadiana Valley"
+    - "Partner cooperatives and monitoring hubs"
+  insets:
+    - title: "Den Microclimate"
+      projection: "Cutaway"
+      focus: "Cork oak burrow"
+      notes: "Illustrate shade and airflow"
+    - title: "Fire Mosaic"
+      projection: "Matrix"
+      focus: "Patchwork burns"
+      notes: "Show rotation schedule"
+graphs:
+  - title: "Population Rebound"
+    type: "line"
+    metrics:
+      - label: "2002"
+        value: 94
+        unit: "individuals"
+      - label: "2012"
+        value: 326
+        unit: "individuals"
+      - label: "2022"
+        value: 1365
+        unit: "individuals"
+    notes: "Use icons for conservation milestones"
+images:
+  prompts:
+    - text: "Photo-real dusk image of Iberian lynx walking through cork oak grove near stone wall"
+      style: "Documentary"
+      cultural_context: "Andalusia"
+    - text: "Photo-real portrait of ranger and rancher installing wildlife camera near rabbit enclosure"
+      style: "Documentary"
+      cultural_context: "Extremadura"
+  selection_criteria:
+    - "Avoid captive animals"
+    - "Show collaboration between conservationists and landowners"
+    - "Highlight natural light and habitat"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curved branch motif frames life cycle panels"
+  typography:
+    heading_pt: 138
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Raised texture for lynx fur and paw prints"
+    - "Audio narration with Spanish and Portuguese voice options"
+    - "High-contrast captions over imagery"
+notes:
+  DATA_TO_VERIFY:
+    - "Population figures"

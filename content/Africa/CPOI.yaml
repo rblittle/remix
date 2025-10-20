@@ -1,0 +1,73 @@
+poster_id: Africa_CPOI
+station: Africa
+poster_type: CPOI
+title: "Africa: Cradle of Landscapes and Cultures"
+copy:
+  hook: "Step into the continent where humanity began."
+  short: "From the Sahara’s shifting dunes to the forests of the Congo Basin and the peaks of Kilimanjaro, Africa’s landforms fuel rivers, migrations, and innovation. Follow the central ribbon to connect geology, biodiversity, and cultural heritage across five regions."
+  depth:
+    - "Layered relief map highlights major basins and escarpments with interactive lighting."
+    - "Migration timeline tracks journeys from early hominins to contemporary urban networks."
+    - "Regional stories feature artisans, scientists, and guardians sustaining ecosystems."
+maps:
+  projection: "Africa Albers equal-area conic"
+  layers:
+    - "Elevation hypsometry with Rift Valley emphasis"
+    - "Major rivers, lakes, and aquifers"
+    - "Cultural regions overlay (Maghreb, Sahel, Rainforest Belt, Great Lakes, Southern Cape)"
+  legend:
+    - "Elevation color ramp"
+    - "Symbol set for heritage sites, UNESCO biospheres, megacities"
+  labels:
+    - "Landmarks: Atlas Mountains, Niger Bend, Congo Basin, Great Rift, Drakensberg"
+    - "Cities: Marrakech, Lagos, Nairobi, Kinshasa, Cape Town"
+  insets:
+    - title: "Great Rift Overview"
+      projection: "Transect diagram"
+      focus: "From Afar Triangle to Mozambique Channel"
+      notes: "Show volcanic line and lakes"
+graphs:
+  - title: "Hominin Timeline"
+    type: "timeline"
+    metrics:
+      - label: "3.2 Ma: Lucy in Afar"
+        value: null
+        unit: null
+      - label: "0.2 Ma: Homo sapiens in East Africa"
+        value: null
+        unit: null
+      - label: "0 CE: Trans-Saharan trade caravans"
+        value: null
+        unit: null
+      - label: "2020: AfCFTA launch"
+        value: null
+        unit: null
+    notes: "Use icons for archaeology, trade, policy"
+images:
+  prompts:
+    - text: "Panoramic composite of African landscapes from Sahara dunes, Rift Valley escarpment, Congo rainforest canopy"
+      style: "High-resolution photomontage"
+      cultural_context: "Geographically accurate"
+    - text: "Photo-real scene of diverse African visitors interacting with tactile map in museum"
+      style: "Documentary"
+      cultural_context: "Inclusive ages and abilities"
+  selection_criteria:
+    - "Avoid stereotypes; highlight contemporary contexts"
+    - "Ensure clothing and expressions reflect respect"
+    - "Print-ready resolution"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central ribbon linking map to timeline"
+  typography:
+    heading_pt: 170
+    subheading_pt: 70
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Provide braille overlays for key regions"
+    - "Include tactile Relief of Rift Valley"
+    - "Offer audio narration in major regional languages"
+notes:
+  DATA_TO_VERIFY: []

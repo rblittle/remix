@@ -1,0 +1,87 @@
+poster_id: Antarctica_BIOCOLL
+station: Antarctica
+poster_type: BIOCOLL
+title: "Krill, Moss Oases, and Emperor Nursery"
+copy:
+  hook: "Life thrives where light, ice, and patience meet."
+  short: "Compare three Antarctic biomes: Southern Ocean krill swarms, coastal moss oases, and emperor penguin sea-ice nurseries. Each
+ panel pairs keystone species with scientists, Indigenous partners, and policy advocates safeguarding food webs and habitat refuges.
+"
+  depth:
+    - "Climate charts align sea-ice extent, sunlight hours, and temperature swings for each biome."
+    - "Biodiversity indicators track krill biomass, moss chlorophyll, and chick survival with stewardship actions."
+    - "Stories feature CCAMLR fishery delegates, Antarctic Heritage Trust gardeners, and Weddell Sea Indigenous observers."
+maps:
+  projection: "Tri-panel polar mini maps"
+  layers:
+    - "Krill hotspot polygons, fishing zones, and marine protected areas"
+    - "Moss oasis locations, moisture indices, and heritage huts"
+    - "Penguin colony positions, sea-ice stability zones, and monitoring camps"
+  legend:
+    - "Color ramps for biomass, chlorophyll, and chick success"
+    - "Icons for research camps, observation drones, and cultural advisors"
+  labels:
+    - "Key species: Antarctic krill, Ceratodon purpureus moss, Emperor penguin"
+    - "Partners: CCAMLR, Antarctic Heritage Trust, Weddell Sea Inuit and Mapuche delegates"
+  insets:
+    - title: "Krill Food Web"
+      projection: "Sankey diagram"
+      focus: "Energy flow from phytoplankton to whales"
+      notes: "Highlight fishing quota safeguards"
+graphs:
+  - title: "Climate Profiles"
+    type: "radial"
+    metrics:
+      - label: "Sea-ice days"
+        value: null
+        unit: "days"
+      - label: "Sunlight hours"
+        value: null
+        unit: "hrs"
+      - label: "Wind exposure"
+        value: null
+        unit: "index"
+    notes: "Three concentric radials for each biome"
+  - title: "Stewardship Outcomes"
+    type: "bar"
+    metrics:
+      - label: "Krill biomass protected"
+        value: null
+        unit: "%"
+      - label: "Moss health index"
+        value: null
+        unit: "score"
+      - label: "Penguin chick survival"
+        value: null
+        unit: "%"
+    notes: "Color-code to match biome panels"
+images:
+  prompts:
+    - text: "Triptych portraits of CCAMLR delegate reviewing data, botanist tending moss oasis greenhouse, and emperor penguin guardia
+n weighing chick"
+      style: "Photo-real documentary"
+      cultural_context: "Accurate cold-weather gear and cultural representation"
+    - text: "Macro collage of krill, moss spores, and penguin down feathers"
+      style: "High-resolution macro"
+      cultural_context: "True-to-life coloration"
+  selection_criteria:
+    - "Show respectful wildlife distances"
+    - "Highlight cooperation between policy and field teams"
+    - "Ensure textures differentiate water, moss, and feathers"
+design:
+  layout:
+    columns: 2
+    gutters: "0.85 in"
+    keylines: "Circular motif referencing haloed sun dogs"
+  typography:
+    heading_pt: 145
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Pair colors with pattern fills"
+    - "Provide tactile samples of moss replica and penguin feather"
+    - "Offer audio pronunciation of Indigenous and scientific names"
+notes:
+  DATA_TO_VERIFY:
+    - "Biomass and survival percentages"

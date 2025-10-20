@@ -1,0 +1,85 @@
+poster_id: Antarctica_ETHNO
+station: Antarctica
+poster_type: ETHNO
+title: "Polar Knowledge Keepers"
+copy:
+  hook: "Listen to elders, artists, and scientists share polar wisdom."
+  short: "Hear from Māori cultural navigators, Mapuche climate educators, and Antarctic logistics veterans who interpret sky halos, ic
+ e sounds, and aurora alerts. Their practices braid ceremony, satellite feeds, and storytelling to keep expeditions safe and grounde
+d."
+  depth:
+    - "Story excerpts connect natural cues—sun dogs, sastrugi, and auroras—to decision-making."
+    - "Calendars align cultural observances, treaty meetings, and field seasons."
+    - "Youth apprenticeship features highlight remote classrooms and virtual exchanges."
+maps:
+  projection: "Journey diagram linking southern homelands to Antarctic stations"
+  layers:
+    - "Travel routes, cultural exchange hubs, and field camp gatherings"
+    - "Observation landmarks: aurora stations, acoustic ice listening posts"
+  legend:
+    - "Icons for ceremony, observation, data relay, and care protocols"
+  labels:
+    - "Key places: Ōtautahi, Temuco, Punta Arenas, Ross Island, Antarctic Peninsula"
+    - "Partners: Kāi Tahu, Mapuche Territorial Alliance, Antarctic Support Crew"
+  insets:
+    - title: "Halo Reading Guide"
+      projection: "Circular diagram"
+      focus: "Interpreting sun dogs"
+      notes: "Include cultural stories and scientific thresholds"
+    - title: "Aurora Alert Network"
+      projection: "Timeline"
+      focus: "Coordinated radio calls"
+      notes: "Show bilingual call signs"
+graphs:
+  - title: "Seasonal Knowledge Calendar"
+    type: "timeline"
+    metrics:
+      - label: "Ceremonial send-off"
+        value: null
+        unit: null
+      - label: "Field deployment"
+        value: null
+        unit: null
+      - label: "Treaty reporting"
+        value: null
+        unit: null
+    notes: "Braided ribbon linking communities"
+  - title: "Apprentice Participation"
+    type: "line"
+    metrics:
+      - label: "Virtual classrooms"
+        value: null
+        unit: "students"
+      - label: "Field mentorships"
+        value: null
+        unit: "participants"
+    notes: "Highlight gender balance initiatives"
+images:
+  prompts:
+    - text: "Interior of Antarctic field hut with Māori navigator, Mapuche educator, and logistics veteran sharing stories over warm light"
+      style: "Photo-real documentary"
+      cultural_context: "Include carvings, woven cloaks, and station equipment"
+    - text: "Composite of sun dogs above ice runway, Mapuche drum, and radio operator logging aurora alert"
+      style: "Photo-real composite"
+      cultural_context: "Respect ceremonial objects"
+  selection_criteria:
+    - "Show consented cultural items with proper handling"
+    - "Balance technological tools and traditional practices"
+    - "Ensure warm lighting for lip reading"
+design:
+  layout:
+    columns: 2
+    gutters: "0.95 in"
+    keylines: "Aurora arc connecting story panels"
+  typography:
+    heading_pt: 140
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide phonetic guides and audio with captions"
+    - "Offer tactile replicas of halo diagrams and drums"
+    - "Ensure seating with back support and warming pads"
+notes:
+  DATA_TO_VERIFY:
+    - "Apprentice participation counts"

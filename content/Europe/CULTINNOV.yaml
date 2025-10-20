@@ -1,0 +1,78 @@
+poster_id: Europe_CULTINNOV
+station: Europe
+poster_type: CULTINNOV
+title: "Innovation Threads Across Europe"
+copy:
+  hook: "Craft meets technology across the continent."
+  short: "Tour Barcelona’s superblock schools co-designed with street artists, Poland’s coal-town heat pump cooperatives, Rotterdam’s floating farms guided by Maas River pilots, and Greek island microgrids that mix wind, solar, and community-owned ferries."
+  depth:
+    - "Matrix compares challenge, innovation, cultural root, and partners."
+    - "Map traces knowledge exchange among port cities, inland valleys, and islands."
+    - "Quotes show how heritage crafts inform modern engineering."
+maps:
+  projection: "Europe innovation network"
+  layers:
+    - "Innovation hubs and exchange routes"
+    - "Climate risk overlays for heat, flood, and sea-level rise"
+    - "Pilot districts and demonstration vessels"
+  legend:
+    - "Icons for mobility, energy, food, public realm"
+    - "Line weights for partnership frequency"
+  labels:
+    - "Sites: Barcelona, Rybnik, Rotterdam, Tilos"
+    - "Community organizations"
+  insets:
+    - title: "Floating Farm Section"
+      projection: "Axonometric"
+      focus: "Rotterdam harbor"
+      notes: "Show tidal buffers and classrooms"
+    - title: "Island Grid Dashboard"
+      projection: "Interface"
+      focus: "Tilos energy coop"
+      notes: "Visualize citizen voting app"
+graphs:
+  - title: "Impact Radar"
+    type: "radar"
+    metrics:
+      - label: "Emission cuts"
+        value: 82
+        unit: "index"
+      - label: "Cultural continuity"
+        value: 88
+        unit: "index"
+      - label: "Jobs created"
+        value: 76
+        unit: "index"
+      - label: "Shared governance"
+        value: 90
+        unit: "index"
+    notes: "Normalized comparison"
+images:
+  prompts:
+    - text: "Photo-real scenes of European innovators painting street shading, installing heat pumps, tending floating farm, operating island microgrid control room"
+      style: "Documentary"
+      cultural_context: "On-site collaboration"
+    - text: "Infographic collage with innovation matrix and multilingual captions"
+      style: "Vector infographic"
+      cultural_context: "European languages"
+  selection_criteria:
+    - "Highlight co-design with residents"
+    - "Show accurate tools and signage"
+    - "Maintain inclusive representation"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Matrix grid anchors surrounding narratives"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile icons for innovation categories"
+    - "Offer bilingual captions at each site"
+    - "Ensure contrast meets 4.5:1 requirement"
+notes:
+  DATA_TO_VERIFY:
+    - "Impact index values"

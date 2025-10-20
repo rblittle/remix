@@ -1,0 +1,93 @@
+poster_id: Europe_WEATHER
+station: Europe
+poster_type: WEATHER
+title: "Winds and Waters of a Temperate Continent"
+copy:
+  hook: "Feel Atlantic westerlies meet alpine walls."
+  short: "Trace six hallmark systems: North Atlantic storm tracks, Mediterranean mistral and bora winds, Alpine foehn flows, Arctic polar night cyclones, Baltic lake-effect snow, and continental heat domes. An elevation strip from Lisbon across the Pyrenees and Alps to the Danube Plain shows how relief redirects air masses."
+  depth:
+    - "Seasonal NAO dial explains pressure shifts that steer storms."
+    - "Wind rose compares mistral, bora, and sirocco speeds with community adaptations."
+    - "Case studies show vineyard pruning, avalanche forecasting, and urban cooling alerts."
+maps:
+  projection: "Europe Lambert conformal conic"
+  layers:
+    - "Storm tracks with intensity bands"
+    - "Prevailing wind arrows and jet stream cores"
+    - "Heatwave and cold surge zones"
+  legend:
+    - "Color gradients for precipitation and temperature anomalies"
+    - "Arrow styles for wind categories"
+    - "Symbols for adaptation stories"
+  labels:
+    - "Regions: North Atlantic, Bay of Biscay, Alps, Adriatic, Baltic, Carpathians"
+    - "Cities: Lisbon, Marseille, Vienna, Warsaw, Tromsø"
+  insets:
+    - title: "Mediterranean Wind Gate"
+      projection: "Local oblique"
+      focus: "Rhône Valley and Adriatic Coast"
+      notes: "Show mistral and bora funnels"
+    - title: "Baltic Snow Bands"
+      projection: "Polar stereographic"
+      focus: "Baltic Sea"
+      notes: "Depict lake-effect zones"
+  elevation_strip:
+    transect: "Lisbon–Pyrenees–Rhône Valley–Alps–Danube Plain"
+    notes: "Plot altitude, temperature, precipitation"
+graphs:
+  - title: "North Atlantic Oscillation Index"
+    type: "line"
+    metrics:
+      - label: "Jan"
+        value: 1.2
+        unit: "index"
+      - label: "Feb"
+        value: 0.5
+        unit: "index"
+      - label: "Mar"
+        value: -0.3
+        unit: "index"
+    notes: "Sample seasonal swing"
+  - title: "Heat Dome Alerts"
+    type: "bar"
+    metrics:
+      - label: "2010"
+        value: 5
+        unit: "alerts"
+      - label: "2015"
+        value: 9
+        unit: "alerts"
+      - label: "2022"
+        value: 14
+        unit: "alerts"
+    notes: "Highlight urban response expansion"
+images:
+  prompts:
+    - text: "Photo-real image of Provençal farmers securing lavender fields under mistral winds"
+      style: "Documentary"
+      cultural_context: "Southern France"
+    - text: "Scientific visualization of storm over North Atlantic approaching Europe with data overlays"
+      style: "Scientific visualization"
+      cultural_context: "Meteorological"
+  selection_criteria:
+    - "Show adaptation behaviors"
+    - "Avoid sensational storm damage"
+    - "Ensure atmospheric detail is legible"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Elevation strip anchors bottom with wind roses beside map"
+  typography:
+    heading_pt: 150
+    subheading_pt: 66
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Provide tactile ridge for transect peaks"
+    - "Pair colors with textures on anomaly maps"
+    - "Offer audio glossary in multiple European languages"
+notes:
+  DATA_TO_VERIFY:
+    - "NAO index sample values"
+    - "Heat dome alert counts"

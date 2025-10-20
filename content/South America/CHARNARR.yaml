@@ -1,0 +1,54 @@
+poster_id: SouthAmerica_CHARNARR
+station: South America
+poster_type: CHARNARR
+title: "Voices of Rain, Stone, and Tide"
+copy:
+  hook: "Three neighbors share how they read their homelands."
+  short: "An Asháninka radio host, a Mapuche teen forester, and a Quilombola shellfish cook invite visitors into daily routines that tie weather, food, and storytelling together."
+  depth:
+    - "Audio recorded in Asháninka, Mapudungun, and Portuguese with captions."
+    - "Reflection prompts encourage visitors to note their own environmental cues."
+    - "Tactile items—urucum seeds, drone propeller mockup, oyster basket—anchor each story."
+narratives:
+  - name: "Matsiri Yari"
+    identity: "Asháninka community radio host and seed courier"
+    gender: "female"
+    age: 34
+    location: "Rio Ene, Peru"
+    text: "Before dawn I grind urucum to paint weather symbols on our canoe; the color reminds listeners which clouds ride in. I launch the solar radio to announce river levels, then carry seed packets upriver, steering by the smell of flowering guava. When the macaws cry at noon, I schedule our next community planting."
+    ai_prompt: "Photo-real portrait of Asháninka woman broadcasting from solar-powered jungle radio hut with canoe and seed packets"
+  - name: "Ñamko"
+    identity: "Mapuche forestry student and drone pilot"
+    gender: "male"
+    age: 16
+    location: "Temuco, Chile"
+    text: "My grandfather shows me how canelo leaves twist before rain, so I launch the mapping drone to scan the reforested hillside. I tag each araucaria sapling in Mapudungun and Spanish, then upload the data to our community server before evening drumming."
+    ai_prompt: "Photo-real image of Mapuche teen operating small drone over araucaria saplings with elder nearby"
+  - name: "Dona Celeste"
+    identity: "Quilombola shellfish cook and tide scout"
+    gender: "female"
+    age: 59
+    location: "Cananéia, Brazil"
+    text: "The tide drum echoes through our stilt houses at first light, so I wade in to check oyster baskets. If the water tastes sweet, I invite neighbors for a caldo share and send a voice note to the school to bring buckets. When thunder rolls inland, we tighten the mangrove root bridges before the evening feast."
+    ai_prompt: "Photo-real portrait of Afro-Brazilian woman in mangrove kitchen preparing oyster stew with tide drum in background"
+images:
+  selection_criteria:
+    - "Obtain storyteller consent for likeness and language"
+    - "Avoid revealing sacred or restricted locations"
+    - "Ensure warm, even lighting for clear expressions"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "River current motif connecting portraits"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille and large-print transcripts"
+    - "Offer adjustable audio with bone-conduction option"
+    - "Include seating with armrests and clear floor space"
+notes:
+  DATA_TO_VERIFY: []

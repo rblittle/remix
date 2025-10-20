@@ -1,0 +1,78 @@
+poster_id: Europe_LANDFORM_L
+station: Europe
+poster_type: LANDFORM_L
+title: "Glacial North: Fjords and Shield"
+copy:
+  hook: "Ice carved steps, people built harbors."
+  short: "Explore Scandinavia’s fjords, Finland’s lake labyrinth, and Iceland’s volcanic icefields. Glacial scouring, isostatic rebound, and geothermal uplift shape fisheries, forests, and energy systems across the European north."
+  depth:
+    - "Cross-sections compare U-shaped valleys, drumlin fields, and volcanic rift zones."
+    - "Process diagrams show isostatic rebound raising shorelines."
+    - "Community features highlight Sami reindeer herders, Icelandic geothermal engineers, and Finnish lakehouse stewards."
+maps:
+  projection: "Lambert azimuthal polar Europe"
+  layers:
+    - "DEM shaded relief with glacier and ice cap extents"
+    - "Fjord bathymetry and lake basins"
+    - "Geothermal and hydropower infrastructure"
+  legend:
+    - "Color gradients for elevation and depth"
+    - "Symbols for cultural use: herding routes, ports, geothermal plants"
+  labels:
+    - "Regions: Lofoten, Hardanger, Lapland, Thingvellir"
+    - "Key peaks and ice caps"
+  insets:
+    - title: "Isostatic Rebound"
+      projection: "Timeline diagram"
+      focus: "Bothnian Bay"
+      notes: "Show shoreline shift since 1700"
+    - title: "Geothermal Harness"
+      projection: "Cutaway"
+      focus: "Reykjanes"
+      notes: "Steam wells to turbines"
+graphs:
+  - title: "Shoreline Rise"
+    type: "line"
+    metrics:
+      - label: "1900"
+        value: 0.5
+        unit: "m"
+      - label: "1950"
+        value: 1.1
+        unit: "m"
+      - label: "2000"
+        value: 1.8
+        unit: "m"
+      - label: "2050"
+        value: 2.3
+        unit: "m"
+    notes: "Relative uplift around Gulf of Bothnia"
+images:
+  prompts:
+    - text: "Photo-real aerial of Norwegian fjord village with fishing boats and steep glacial walls"
+      style: "Documentary"
+      cultural_context: "Northern Norway"
+    - text: "Illustrated cross-section of isostatic rebound with Sami herder and geothermal plant"
+      style: "Educational illustration"
+      cultural_context: "Nordic region"
+  selection_criteria:
+    - "Balance natural features with human adaptation"
+    - "Ensure accurate depiction of snow, ice, and vegetation"
+    - "Highlight Indigenous presence respectfully"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Curved fjord profile frames content"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Raised relief printing for fjord cross-section"
+    - "Bilingual captions (English + Sámi) for key panels"
+    - "High-contrast overlays on icy imagery"
+notes:
+  DATA_TO_VERIFY:
+    - "Shoreline rise values"

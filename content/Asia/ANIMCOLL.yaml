@@ -1,0 +1,75 @@
+poster_id: Asia_ANIMCOLL
+station: Asia
+poster_type: ANIMCOLL
+title: "Routes of Sky, Steppe, and Sea"
+copy:
+  hook: "Travel alongside Asia’s great migrations."
+  short: "Map bar-headed geese soaring over the Himalaya, saiga antelope crossing Central Asian steppes, snow leopards shifting ranges, whale sharks circling the Coral Triangle, and Amur falcons navigating from India to Africa. The display links animal movement to seasonal cues and conservation corridors."
+  depth:
+    - "Animated arrows show altitude gains and wind assistance for geese and falcons."
+    - "Timeline tracks saiga calving grounds recovering after community-led patrols."
+    - "Citizen science callouts highlight fisher logbooks and school tagging projects."
+maps:
+  projection: "Asia Lambert azimuthal equal-area"
+  layers:
+    - "Migration corridors with seasonal color coding"
+    - "Stopover wetlands, grasslands, and marine hotspots"
+    - "Protected areas and community-managed reserves"
+  legend:
+    - "Line styles for species-specific routes"
+    - "Symbols for tracking technologies"
+  labels:
+    - "Key stopovers: Qinghai Lake, Saryarka, Nagaland, Whale Shark sanctuaries"
+    - "Species names with local translations"
+  insets:
+    - title: "Falcon Night Flight"
+      projection: "Star chart overlay"
+      focus: "Nagaland to Somalia"
+      notes: "Show wind assistance"
+    - title: "Saiga Recovery"
+      projection: "Small multiple"
+      focus: "Betpak-Dala"
+      notes: "Population change by year"
+graphs:
+  - title: "Altitude Profile: Bar-headed Goose"
+    type: "line"
+    metrics:
+      - label: "Tibet Plateau"
+        value: 7000
+        unit: "m"
+      - label: "Himalaya summit pass"
+        value: 8500
+        unit: "m"
+      - label: "Gangetic plains"
+        value: 300
+        unit: "m"
+    notes: "Highlight oxygen efficiency"
+images:
+  prompts:
+    - text: "Photo-real composite of bar-headed geese, saiga, whale shark, Amur falcon with researchers"
+      style: "Documentary montage"
+      cultural_context: "Accurate habitats"
+    - text: "Infographic-style rendering of migration map with community monitors"
+      style: "Vector infographic"
+      cultural_context: "Transboundary collaboration"
+  selection_criteria:
+    - "Show coexistence with people"
+    - "Avoid predator-prey sensational scenes"
+    - "Ensure species anatomy accurate"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Diagonal motion lines echo migratory paths"
+  typography:
+    heading_pt: 140
+    subheading_pt: 58
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Use textured lines plus color for species routes"
+    - "Provide tactile markers for stopovers"
+    - "Add audio bird and marine sounds with captions"
+notes:
+  DATA_TO_VERIFY:
+    - "Altitude values for bar-headed geese"

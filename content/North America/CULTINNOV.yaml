@@ -1,0 +1,89 @@
+poster_id: NorthAmerica_CULTINNOV
+station: North America
+poster_type: CULTINNOV
+title: "Innovation Through Reciprocity"
+copy:
+  hook: "Designing solutions by honoring relationships."
+  short: "Explore community-led innovations: Navajo solar water pumps, Haïti rooftop cistern cooperatives, Toronto Indigenous tech labs, and Baja fishers co-managing data buoys. Each initiative pairs cultural knowledge with modern tools."
+  depth:
+    - "Process diagrams show iterative design grounded in ceremony, consultation, and testing."
+    - "Case cards highlight financing models such as revolving community funds and cooperative ownership."
+    - "QR links provide open-source toolkits translated into local languages."
+maps:
+  projection: "Composite equal-area"
+  layers:
+    - "Innovation sites and partner networks"
+    - "Telecom and energy infrastructure connections"
+    - "Community training hubs and maker spaces"
+  legend:
+    - "Icons for solar, water, data, and food tech"
+    - "Line styles for mentorship exchanges"
+  labels:
+    - "Projects: Diné solar pumps, Port-au-Prince cisterns, Toronto Indigenous Centre, Ensenada fishery buoys"
+    - "Partners: Tribal colleges, diaspora engineers, co-ops"
+  insets:
+    - title: "Open Tech Translation Path"
+      projection: "Flow diagram"
+      focus: "Language co-creation"
+      notes: "Show how toolkits move between communities"
+    - title: "Coastal Sensor Array"
+      projection: "Local bathymetric"
+      focus: "Baja California"
+      notes: "Detail buoy placement"
+graphs:
+  - title: "Community Ownership Share"
+    type: "pie"
+    metrics:
+      - label: "Community members"
+        value: 60
+        unit: "%"
+      - label: "Partner nonprofits"
+        value: 25
+        unit: "%"
+      - label: "Universities"
+        value: 10
+        unit: "%"
+      - label: "Private allies"
+        value: 5
+        unit: "%"
+    notes: "Highlight majority local control"
+  - title: "Training Hours Delivered"
+    type: "line"
+    metrics:
+      - label: "In-person workshops"
+        value: null
+        unit: "hours"
+      - label: "Virtual mentorship"
+        value: null
+        unit: "hours"
+    notes: "Show quarterly growth"
+images:
+  prompts:
+    - text: "Makerspace scene with Indigenous and Afro-Caribbean engineers assembling solar pump components"
+      style: "Photo-real documentary"
+      cultural_context: "Workshop with bilingual signage"
+    - text: "Fisher cooperatives launching smart buoys at dawn with data tablets"
+      style: "High-resolution photography"
+      cultural_context: "Baja California coastal town"
+  selection_criteria:
+    - "Show women and youth in leadership roles"
+    - "Include accessibility features like captioned screens and ramps"
+    - "Avoid extractive depictions—emphasize consent and collaboration"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular reciprocity motif linking case cards"
+  typography:
+    heading_pt: 136
+    subheading_pt: 54
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Caption all process diagrams in English, Spanish, Diné Bizaad, Kreyòl Ayisyen"
+    - "Provide tactile icons for technology categories"
+    - "Ensure QR codes meet size/contrast guidelines"
+notes:
+  DATA_TO_VERIFY:
+    - "Ownership share percentages"
+    - "Training hour trends"

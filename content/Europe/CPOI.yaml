@@ -1,0 +1,73 @@
+poster_id: Europe_CPOI
+station: Europe
+poster_type: CPOI
+title: "Europe: Confluence of Coasts and Cultures"
+copy:
+  hook: "Trace peninsulas that shaped shared stories."
+  short: "Follow glaciers, rivers, and trade winds that knit Europe’s fjords, plains, and peninsulas. This centerpiece connects landforms with centuries of cultural exchange, energy transitions, and ecological restoration from the Arctic to the Mediterranean."
+  depth:
+    - "Layered relief map unites mountain chains, river basins, and coastal shelves."
+    - "Timeline arcs from Ice Age migrations to present-day rail and fiber corridors."
+    - "Spotlights celebrate communities reviving peatlands, vineyards, and urban rivers."
+maps:
+  projection: "Europe Lambert azimuthal equal-area"
+  layers:
+    - "Hypsometry with glaciers and permafrost extent"
+    - "Major river systems and watersheds"
+    - "Cultural regions: Nordics, Atlantic, Central, Mediterranean, Balkans, Caucasus"
+  legend:
+    - "Elevation color ramp"
+    - "Icons for heritage sites, renewable hubs, biodiversity hotspots"
+  labels:
+    - "Landmarks: Alps, Carpathians, Iberian Meseta, Baltic Shield, Black Sea coast"
+    - "Cities: Reykjavík, Lisbon, Berlin, Athens, Tbilisi"
+  insets:
+    - title: "Pan-European Corridor"
+      projection: "Mercator band"
+      focus: "Atlantic ports to Danube Delta"
+      notes: "Highlight energy and mobility nodes"
+graphs:
+  - title: "From Ice Paths to Rail Lines"
+    type: "timeline"
+    metrics:
+      - label: "16 ka: Final glacial retreat"
+        value: null
+        unit: null
+      - label: "800 CE: Viking trade routes"
+        value: null
+        unit: null
+      - label: "1957: Treaty of Rome integration"
+        value: null
+        unit: null
+      - label: "2022: Night train renaissance"
+        value: null
+        unit: null
+    notes: "Use icons for ice, longship, treaty, train"
+images:
+  prompts:
+    - text: "High-resolution collage of Alpine peaks, Rhine vineyards, Baltic bogs, Mediterranean harbor"
+      style: "Photomontage"
+      cultural_context: "Accurate regional mix"
+    - text: "Photo-real museum visitors from across Europe interacting with tactile relief map"
+      style: "Documentary"
+      cultural_context: "Multilingual signage"
+  selection_criteria:
+    - "Show diversity in age and ability"
+    - "Balance natural and urban landscapes"
+    - "Ensure print-ready resolution"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central river spine linking timeline to map"
+  typography:
+    heading_pt: 170
+    subheading_pt: 70
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Include tactile glacier extent overlays"
+    - "Provide audio guides in major European languages"
+    - "Use pattern-plus-color coding for cultural regions"
+notes:
+  DATA_TO_VERIFY: []

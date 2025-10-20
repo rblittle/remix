@@ -1,0 +1,61 @@
+poster_id: Antarctica_CHARNARR
+station: Antarctica
+poster_type: CHARNARR
+title: "Stories from the Southern Ice"
+copy:
+  hook: "Three voices keep the ice, stars, and people in balance."
+  short: "A Mapuche elder, a Māori engineer, and a Chilean teen researcher share how they care for Antarctic crews, wildlife, and clima
+te records across vast distances."
+  depth:
+    - "Audio in Mapudungun, te reo Māori, and Spanish with English captions."
+    - "Tactile objects—kultrún drum rim, braided cable sheath, and ice core slice—anchor each vignette."
+    - "Prompt cards invite visitors to record climate care commitments."
+narratives:
+  - name: "Ñaña Rayen Kurü"
+    identity: "Mapuche elder and climate storyteller"
+    gender: "female"
+    age: 68
+    location: "Temuco, Chile"
+    text: "When the frost paints our window thick, I drum the kultrún four beats to open the bridge south. The researchers call me on s
+ hortwave before sailing, and I remind them to greet the wenu mapu—the sky realm—so storms will listen. I send herbs and recorded la
+ullabies with their cargo; the scent keeps homesickness soft when the aurora is loud."
+    ai_prompt: "Photo-real portrait of Mapuche elder playing kultrún drum beside radio set with frost on window"
+  - name: "Tāne Whaitiri"
+    identity: "Māori renewable engineer at Scott Base"
+    gender: "male"
+    age: 39
+    location: "Ross Island, Antarctica"
+    text: "Before I spin up the wind turbines, I trace their nacelles with kōwhaiwhai chalk so the blades remember the whakapapa of wind.
+ We log each gust in the control hut, then I FaceTime my kids to show them the ice halo. At night I join the Mapuche circle online to r
+eport the turbines are humming steady, and we close with karakia for the seals nearby."
+    ai_prompt: "Photo-real portrait of Māori engineer in polar gear marking wind turbine nacelle with kōwhaiwhai pattern"
+  - name: "Camila Soto"
+    identity: "Chilean teen remote researcher and greenhouse tender"
+    gender: "female"
+    age: 15
+    location: "Punta Arenas, Chile"
+    text: "My science class partners with McMurdo’s greenhouse. Each week I test our twin hydroponic bed and compare data with the Antar
+ctic crew on video. I label the plants in Spanish, English, and Mapudungun so visiting kids see their languages. After homework I edit a
+ podcast episode, inviting polar workers to teach us how they shake off isolation."
+    ai_prompt: "Photo-real image of Chilean teenage girl in lab tending hydroponic bed while video chatting with Antarctic crew"
+images:
+  selection_criteria:
+    - "Confirm storytellers approve scripts and likeness"
+    - "Balance indoor warmth with visible cold-world context"
+    - "Record environmental sounds—drum beats, turbine wind, greenhouse hum"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Aurora arc connecting portraits"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille and large-print transcripts"
+    - "Offer adjustable audio with noise-reduction headphones"
+    - "Ensure seating with warming cushions and clear floor space"
+notes:
+  DATA_TO_VERIFY: []

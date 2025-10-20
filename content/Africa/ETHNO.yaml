@@ -1,0 +1,71 @@
+poster_id: Africa_ETHNO
+station: Africa
+poster_type: ETHNO
+title: "Listening to Land and Sky"
+copy:
+  hook: "Four knowledge keepers share their cues."
+  short: "Tuareg guides, Oromo farmers, Samburu herders, and Xhosa fishers read stars, soils, and tides to sustain their communities."
+  depth:
+    - "Map connects cultural regions with landforms and seasonal markers."
+    - "Quotes in Tamasheq, Afaan Oromo, Maa, and isiXhosa celebrate local expertise."
+    - "Collaboration panel shows joint climate adaptation projects."
+maps:
+  projection: "Lambert azimuthal equal-area"
+  layers:
+    - "Cultural practice regions"
+    - "Seasonal calendars"
+    - "Knowledge exchange centers"
+  legend:
+    - "Icon set for navigation, farming, herding, fishing"
+    - "Color-coded seasonal cues"
+  labels:
+    - "Sahara caravan routes, Bale highlands terraces, Samburu grazing loops, Wild Coast tidal pools"
+    - "Partner institutions"
+  insets:
+    - title: "Afaan Oromo Seasonal Wheel"
+      projection: "Circular calendar"
+      focus: "Bona, Arfaasaa, Birraa, Ganna"
+      notes: "Include phonetics"
+graphs:
+  - title: "Knowledge Collaboration Timeline"
+    type: "timeline"
+    metrics:
+      - label: "2012: Samburu women’s radio network"
+        value: null
+        unit: null
+      - label: "2016: Tuareg navigation school revival"
+        value: null
+        unit: null
+      - label: "2021: Xhosa tide chart co-design"
+        value: null
+        unit: null
+    notes: "Add audio icons"
+images:
+  prompts:
+    - text: "Photo-real portrait of Tuareg guide mapping stars beside caravan"
+      style: "Nighttime documentary"
+      cultural_context: "Sahara"
+    - text: "Image of Xhosa fisher family reading tidal chalkboard on Wild Coast"
+      style: "Daylight documentary"
+      cultural_context: "Eastern Cape"
+  selection_criteria:
+    - "Respect cultural protocols for dress and symbols"
+    - "Ensure participants consent and are credited"
+    - "Avoid exotic framing"
+design:
+  layout:
+    columns: 3
+    gutters: "1.15 in"
+    keylines: "Central quote column with language scripts"
+  typography:
+    heading_pt: 132
+    subheading_pt: 50
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide pronunciation audio via QR"
+    - "Tactile icons for knowledge types"
+    - "High-contrast text on patterned backgrounds"
+notes:
+  DATA_TO_VERIFY:
+    - "Spelling of seasonal terms"

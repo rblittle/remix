@@ -1,0 +1,73 @@
+poster_id: Asia_CPOI
+station: Asia
+poster_type: CPOI
+title: "Asia: Mosaic of Heights and Humanity"
+copy:
+  hook: "Traverse the world’s widest spectrum of climates."
+  short: "From Arctic tundra to equatorial rain belts, Asia’s sheer breadth links towering mountains, fertile deltas, and megacities. Follow this centerpiece ribbon to connect landforms with cultures steering water, trade, and innovation across the continent."
+  depth:
+    - "Layered relief reveals arcs from the Himalaya to island arcs with tectonic annotations."
+    - "Trade-and-tech timeline shows Silk Road caravans beside modern fiber-optic corridors."
+    - "Community spotlights highlight guardians of forests, steppes, and reefs."
+maps:
+  projection: "Asia Lambert azimuthal equal-area"
+  layers:
+    - "Hypsometric elevation with shaded relief"
+    - "Major rivers, monsoon basins, and inland seas"
+    - "Cultural regions: Siberia, Central Asia, South Asia, East Asia, Southeast Asia, Southwest Asia"
+  legend:
+    - "Elevation color ramp"
+    - "Icons for UNESCO sites, megacities, critical biodiversity hotspots"
+  labels:
+    - "Landmarks: Himalaya, Tibetan Plateau, Gobi Desert, Mekong Delta, Malay Archipelago"
+    - "Cities: Tokyo, Delhi, Jakarta, Istanbul, Ulaanbaatar"
+  insets:
+    - title: "Pan-Asian Corridor"
+      projection: "Mercator band"
+      focus: "Northern Sea Route to Maritime Silk Road"
+      notes: "Highlight intermodal trade hubs"
+graphs:
+  - title: "Silk to Silicon Timeline"
+    type: "timeline"
+    metrics:
+      - label: "200 BCE: Han caravans expand Silk Road"
+        value: null
+        unit: null
+      - label: "700 CE: Monsoon dhows link Arabia and India"
+        value: null
+        unit: null
+      - label: "1869: Suez Canal reshapes routes"
+        value: null
+        unit: null
+      - label: "2023: Trans-Asia fiber network"
+        value: null
+        unit: null
+    notes: "Use iconography for caravan, sail, canal, fiber optic"
+images:
+  prompts:
+    - text: "Ultra-wide collage showing Himalaya peaks, Gobi dunes, Mekong rice terraces, neon skyline at night"
+      style: "High-resolution photomontage"
+      cultural_context: "Geographically accurate mix"
+    - text: "Photo-real museum visitors from across Asia interacting with tactile relief map"
+      style: "Documentary"
+      cultural_context: "Intergenerational, inclusive attire"
+  selection_criteria:
+    - "Balance natural and urban scenes with accurate geography"
+    - "Represent multiple cultures respectfully"
+    - "Ensure imagery scales crisply to large format"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Diagonal ribbon linking map core to timeline"
+  typography:
+    heading_pt: 170
+    subheading_pt: 70
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Add tactile overlays for major elevation changes"
+    - "Provide audio narration in Mandarin, Hindi, Arabic, Russian, Bahasa Indonesia"
+    - "Ensure legend uses symbols plus text"
+notes:
+  DATA_TO_VERIFY: []

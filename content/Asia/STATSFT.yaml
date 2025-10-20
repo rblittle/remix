@@ -1,0 +1,117 @@
+poster_id: Asia_STATSFT
+station: Asia
+poster_type: STATSFT
+title: "Asia Systems in Focus"
+copy:
+  hook: "Four fast facts, grounded in place."
+  short: "Each featurette nestles in its column, pairing data with community voices on energy, food, water, and urban cooling."
+  depth:
+    - "Himalayan Microgrids: Yak-wool-clad technicians keep solar-and-hydro hybrids humming."
+    - "Delta Rice Labs: Farmers test flood-ready rice in shared field schools."
+    - "Steppe Water Wheels: Revived karez tunnels recharge oases."
+    - "City Canopy Corridors: Megacities link pocket forests to cool streets."
+featurettes:
+  - title: "Himalayan Microgrids"
+    summary: "In Mustang and Dolpo, cooperatives blend run-of-river turbines with solar rooftops, storing power in yak-hide insulated batteries for health clinics and radio schools. Winter maintenance clinics train teens alongside veteran electricians."
+    data_bites:
+      - label: "Villages powered"
+        value: 68
+        unit: "settlements"
+      - label: "Cold-night uptime"
+        value: 98
+        unit: "%"
+    graph:
+      type: "line"
+      notes: "Show uptime across seasons"
+  - title: "Delta Rice Labs"
+    summary: "Farmers from the Mekong and Ayeyarwady deltas share trial plots for saline- and flood-tolerant rice. Women-led taste panels ensure new varieties honor culinary heritage while extension teams monitor water levels with low-cost sensors."
+    data_bites:
+      - label: "Trial plots"
+        value: 240
+        unit: "hectares"
+      - label: "Yield stability"
+        value: 15
+        unit: "% gain"
+    maplet:
+      type: "chloropleth"
+      projection: "Local equal-area"
+      focus: "Mekong & Ayeyarwady deltas"
+      notes: "Shade communes hosting labs"
+  - title: "Steppe Water Wheels"
+    summary: "Uzbek and Turkmen communities revive underground karez (qanat) tunnels using ceramic liners and wind-powered lifts. Recharged springs irrigate drought-tolerant melons while pastoralists schedule grazing rotations with smartphone alerts."
+    data_bites:
+      - label: "Karez restored"
+        value: 112
+        unit: "systems"
+      - label: "Aquifer rise"
+        value: 1.4
+        unit: "m/year"
+    maplet:
+      type: "dot"
+      projection: "Azimuthal"
+      focus: "Karakum fringe"
+      notes: "Dots sized by flow"
+  - title: "City Canopy Corridors"
+    summary: "Seoul, Singapore, and Ho Chi Minh City weave linear parks and rooftop farms into shaded corridors that cut radiant heat, provide pollinator habitat, and host night markets. Accessible ramps and misting stations invite elders outdoors."
+    data_bites:
+      - label: "Heat reduction"
+        value: 3.5
+        unit: "°C"
+      - label: "Corridor length"
+        value: 62
+        unit: "km"
+    graph:
+      type: "bar"
+      notes: "Compare temperature drops by city"
+maps:
+  projection: "Integrated mini-maps"
+  layers:
+    - "Featurette-specific symbology"
+  legend:
+    - "Inline legend for each column"
+  labels:
+    - "Community names and project partners"
+  insets: []
+graphs:
+  - title: "Cooling Corridor Temperature Drop"
+    type: "bar"
+    metrics:
+      - label: "Seoul"
+        value: 3.2
+        unit: "°C"
+      - label: "Singapore"
+        value: 3.8
+        unit: "°C"
+      - label: "Ho Chi Minh City"
+        value: 3.5
+        unit: "°C"
+    notes: "Align with City Canopy feature"
+images:
+  prompts:
+    - text: "Collage of Himalayan technicians, delta farmers, desert qanat repairers, and Asian urban park stewards"
+      style: "Photo-real composite"
+      cultural_context: "Accurate attire and tools"
+    - text: "Vector layout showing four mini-map featurettes with icons"
+      style: "Clean infographic"
+      cultural_context: "Pan-Asian"
+  selection_criteria:
+    - "Highlight collaboration and joy"
+    - "Ensure technology shown is contextually accurate"
+    - "Maintain clarity at small scale"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Featurettes stack with consistent headers"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Icons plus text for data"
+    - "Tactile mini-map overlays"
+    - "Plain-language summary ribbon"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative values"

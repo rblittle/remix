@@ -1,0 +1,82 @@
+poster_id: SouthAmerica_LANDFORM_L
+station: South America
+poster_type: LANDFORM_L
+title: "Andean Staircases and Volcano Arcs"
+copy:
+  hook: "Climb from fog forests to fumaroles."
+  short: "Follow the Andean spine from Colombia to Chile. Terraces, volcanoes, and high-altitude wetlands show how subduction builds peaks while communities cultivate quinoa, potatoes, and vicuña fiber."
+  depth:
+    - "Cross-sections compare cloud forest slopes, páramo sponges, and arid altiplano basins."
+    - "Hazard icons map lahars, glacial lake outburst risks, and ashfall footprints."
+    - "Profiles honor Kogi mamos, Quechua agronomists, and Mapuche fire brigades."
+maps:
+  projection: "Transverse Mercator spine"
+  layers:
+    - "Elevation bands and slope shading"
+    - "Volcano distribution and tectonic plates"
+    - "Terrace districts, irrigation canals, sacred peaks"
+  legend:
+    - "Textures for rock, glacier, wetland, cropland"
+    - "Icons for monitoring stations and ritual sites"
+  labels:
+    - "Peaks: Chimborazo, Cotopaxi, Ausangate, Licancabur"
+    - "Valleys: Cauca, Sacred Valley, Salar de Uyuni fringe"
+  insets:
+    - title: "Páramo Water Towers"
+      projection: "Local equal-area"
+      focus: "Ecuador-Colombia"
+      notes: "Show sponge bog protection"
+graphs:
+  - title: "Glacier Retreat vs Water Use"
+    type: "line"
+    metrics:
+      - label: "Glacier area"
+        value: null
+        unit: "%"
+      - label: "Irrigation demand"
+        value: null
+        unit: "%"
+    notes: "Dual lines with shared timeline"
+  - title: "Terrace Productivity"
+    type: "bar"
+    metrics:
+      - label: "Traditional terraces"
+        value: null
+        unit: "t/ha"
+      - label: "Modern terraces"
+        value: null
+        unit: "t/ha"
+      - label: "Un-terraced slope"
+        value: null
+        unit: "t/ha"
+    notes: "Highlight soil conservation"
+images:
+  prompts:
+    - text: "Sunrise over Andean terraces with Quechua agronomists checking moisture sensors"
+      style: "Photo-real documentary"
+      cultural_context: "Cusco highlands"
+    - text: "Illustrated cross-section of volcano with lahars, glaciers, and páramo wetland"
+      style: "Scientific illustration"
+      cultural_context: "Andean geology"
+  selection_criteria:
+    - "Respect sacred mountain protocols"
+    - "Show community-led monitoring equipment accurately"
+    - "Balance natural grandeur with human scale"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Vertical summit silhouette splitting narrative bands"
+  typography:
+    heading_pt: 144
+    subheading_pt: 60
+    body_pt: 36
+    caption_pt: 26
+  accessibility:
+    - "Include tactile relief of terrace steps"
+    - "Label sacred peaks bilingually"
+    - "Use pattern fills for hazard zones"
+notes:
+  DATA_TO_VERIFY:
+    - "Glacier retreat and irrigation demand data"
+    - "Terrace productivity values"

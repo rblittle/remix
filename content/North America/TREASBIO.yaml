@@ -1,0 +1,85 @@
+poster_id: NorthAmerica_TREASBIO
+station: North America
+poster_type: TREASBIO
+title: "Seed Vaults, Shellfish Beds, and Arctic Gene Stewards"
+copy:
+  hook: "Safeguard tomorrow’s living libraries."
+  short: "Explore how Indigenous and community labs protect genetic treasures: Anishinaabe manoomin seed vaults, Alaska Native kelp nurseries, and Oaxacan milpa seed exchanges. These treasures anchor food sovereignty and climate resilience."
+  depth:
+    - "Map shows cross-border germplasm sharing and treaty-protected harvest zones."
+    - "Infographic traces seed-to-plate cycles with cultural ceremonies."
+    - "Case notes describe freezers, floating nurseries, and living libraries housed in community centers."
+maps:
+  projection: "Lambert azimuthal equal-area"
+  layers:
+    - "Seed vault locations, kelp farms, seed exchange hubs"
+    - "Cultural harvest territories and legal designations"
+    - "Transport routes for sharing specimens"
+  legend:
+    - "Icons for seed, shellfish, kelp"
+    - "Line styles for treaty pathways"
+  labels:
+    - "Sites: White Earth Nation, Sitka Sound, Oaxaca valleys"
+    - "Partners: Tribal colleges, community NGOs, marine labs"
+  insets:
+    - title: "Floating Kelp Nursery"
+      projection: "Local azimuthal"
+      focus: "Sitka archipelago"
+      notes: "Detail anchor lines and monitoring sensors"
+    - title: "Milpa Seed Exchange Calendar"
+      projection: "None"
+      focus: "Seasonal wheel"
+      notes: "Show festival timing"
+graphs:
+  - title: "Seed Viability Over Time"
+    type: "line"
+    metrics:
+      - label: "Frozen vault"
+        value: null
+        unit: "% viable"
+      - label: "Living garden"
+        value: null
+        unit: "% viable"
+    notes: "Compare storage strategies"
+  - title: "Shellfish Restoration Yield"
+    type: "bar"
+    metrics:
+      - label: "Pre-restoration"
+        value: null
+        unit: "kg/raft"
+      - label: "Year 3"
+        value: null
+        unit: "kg/raft"
+      - label: "Year 5"
+        value: null
+        unit: "kg/raft"
+    notes: "Highlight co-management successes"
+images:
+  prompts:
+    - text: "Interior of community seed vault with Anishinaabe elders labeling jars and youth scanning barcodes"
+      style: "Photo-real documentary"
+      cultural_context: "Upper Midwest community center"
+    - text: "Diverse crew on floating kelp nursery tending lines with snow-capped mountains in background"
+      style: "High-resolution photography"
+      cultural_context: "Southeast Alaska"
+  selection_criteria:
+    - "Show intergenerational collaboration"
+    - "Highlight Indigenous sovereignty signage"
+    - "Ensure lighting reveals texture of seeds and kelp"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular motifs around seed wheel and kelp nursery"
+  typography:
+    heading_pt: 130
+    subheading_pt: 52
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Offer tactile seed samples in sealed pods"
+    - "Provide Spanish and Indigenous-language captions where appropriate"
+    - "Use large icons for storage types"
+notes:
+  DATA_TO_VERIFY:
+    - "Viability and yield figures"

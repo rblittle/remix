@@ -1,0 +1,76 @@
+poster_id: World_LANDFORM_R
+station: World
+poster_type: LANDFORM_R
+title: "Sculpted by Water, Wind, and Ice"
+copy:
+  hook: "Trace how erosion carves the face of every continent."
+  short: "Delve into the processes that shape valleys, dunes, and fjords. Compare glacial chiseling in Patagonia with wind-carved Sahara yardangs and river-built Mekong deltas. Discover how life and communities adapt to these ever-changing edges."
+  depth:
+    - "Process diagrams show mechanical, chemical, and biological weathering side-by-side."
+    - "Case studies map three iconic erosion landscapes with time-lapse imagery."
+    - "Callouts link erosion control strategies—from terraced farming to mangrove restoration—to hazard reduction."
+maps:
+  projection: "Mollweide for equal-area portrayal of erosion hotspots"
+  layers:
+    - "Global sediment transport intensity"
+    - "Glacier coverage with retreat indicators"
+    - "Major river deltas with land gain/loss arrows"
+  legend:
+    - "Sediment flux scale using pattern fills"
+    - "Retreat/growth arrows keyed by rate"
+  labels:
+    - "Highlighted sites: Torres del Paine, Erg Chebbi, Mekong Delta, Norwegian fjords"
+    - "Ocean basins receiving major sediment loads"
+  insets:
+    - title: "Delta Dynamics"
+      projection: "Lambert conformal conic"
+      focus: "Lower Mekong"
+      notes: "Overlay community-built levees and mangrove belts"
+graphs:
+  - title: "Sediment Budget Comparison"
+    type: "stacked_bar"
+    metrics:
+      - label: "Mekong Delta"
+        value: [160, -90]
+        unit: "Mt/yr"
+      - label: "Mississippi Delta"
+        value: [210, -120]
+        unit: "Mt/yr"
+    notes: "Positive bars show deposition, negative show subsidence/erosion"
+  - title: "Glacier Retreat Timeline"
+    type: "line"
+    metrics:
+      - label: "Patagonian Icefield retreat (km²)"
+        value: [0, -150, -320, -500]
+        unit: "km² change"
+    notes: "Tie to decades since 1950"
+images:
+  prompts:
+    - text: "High-resolution panorama of Mekong Delta farmers maintaining mangrove nurseries at sunset"
+      style: "Documentary photography"
+      cultural_context: "Vietnamese communities"
+    - text: "Scientific illustration showing wind erosion forming yardangs and dune migration"
+      style: "Infographic linework"
+      cultural_context: "North African desert"
+  selection_criteria:
+    - "Highlight community stewardship and expertise"
+    - "Avoid exoticizing language or imagery"
+    - "Ensure textures of sediment and ice remain legible at scale"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Central column reserved for erosion process flow"
+  typography:
+    heading_pt: 150
+    subheading_pt: 64
+    body_pt: 38
+    caption_pt: 30
+  accessibility:
+    - "Colorblind-safe palettes for sediment intensity"
+    - "Tactile sandpaper strip on dune illustration"
+    - "QR audio describing erosion processes"
+notes:
+  DATA_TO_VERIFY:
+    - "Sediment flux magnitudes per delta"
+    - "Exact glacier retreat figures"

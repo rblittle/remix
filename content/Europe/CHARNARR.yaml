@@ -1,0 +1,54 @@
+poster_id: Europe_CHARNARR
+station: Europe
+poster_type: CHARNARR
+title: "Signals Across Peninsulas"
+copy:
+  hook: "Three Europeans describe their daily cues."
+  short: "From Arctic reindeer grounds to Dutch polders and Sicilian terraces, storytellers share the sounds, scents, and textures that guide their routines."
+  depth:
+    - "Narrations recorded in Northern Sámi, Dutch, and Sicilian Italian with subtitles."
+    - "Visitor prompts invite reflection on personal weather and land cues."
+    - "Audio alcove pairs stories with tactile shoreline, dune, and terrace models."
+narratives:
+  - name: "Elle-Rávná"
+    identity: "Sámi reindeer herder and joik singer"
+    gender: "female"
+    age: 42
+    location: "Kautokeino Plateau, Norway"
+    text: "When the snow crystals clink like tiny glass beads, I know the crust will hold the herd and we can travel without injuring their hooves. I press my palm to the birch bark; if sap starts tasting sweet, calving time is near. I hum the joik of this valley so the calves learn the safe river crossing."
+    ai_prompt: "Photo-real portrait of Sámi woman in gákti clothing touching birch tree beside reindeer under northern light"
+  - name: "Milan"
+    identity: "Dutch polder student engineer"
+    gender: "male"
+    age: 14
+    location: "Almere, Netherlands"
+    text: "Before school I bike the dike and listen for the turbine blades—slow whoosh means north wind and the floating classroom will tilt a bit. I scan the canal gauge; if it dips below the green marker, our team messages the water board to ease the pumps. After class we test our flood sensors on the playground bridge."
+    ai_prompt: "Photo-real image of Dutch teenage boy on bike checking water gauge near turbines and floating classroom"
+  - name: "Lucia"
+    identity: "Sicilian terraced citrus grower"
+    gender: "female"
+    age: 63
+    location: "Valle dei Templi, Italy"
+    text: "At dawn the air smells of fennel and sea salt; that means the scirocco is gentle enough to shake the irrigation ropes loose. I rest my hand on the stone terrace—if it still holds night’s cool, the oranges will keep their shine. My grandson notes the cistern level while I whistle the pruning rhythm my mother taught me."
+    ai_prompt: "Photo-real portrait of older Sicilian woman tending terraced citrus with grandson checking cistern"
+images:
+  selection_criteria:
+    - "Obtain storyteller consent for portrait use"
+    - "Show authentic attire, tools, and settings"
+    - "Warm, natural lighting to emphasize connection"
+design:
+  layout:
+    columns: 2
+    gutters: "1.1 in"
+    keylines: "Waveform icons connect audio buttons to each vignette"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille transcripts and tactile models of landscapes"
+    - "Offer adjustable audio levels and caption screens"
+    - "Include seating with back support"
+notes:
+  DATA_TO_VERIFY: []

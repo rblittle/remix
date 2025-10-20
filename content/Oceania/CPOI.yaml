@@ -1,0 +1,75 @@
+poster_id: Oceania_CPOI
+station: Oceania
+poster_type: CPOI
+title: "Oceania: Constellations of Sea, Story, and Stewardship"
+copy:
+  hook: "Navigate a mosaic of islands bound by ocean highways."
+  short: "From Micronesian wayfinding canoes to Aotearoa’s alpine volcanoes and Australia’s desert heart, Oceania’s peoples stewar
+d thousands of reefs, forests, and freshwater springs. Trace how tectonics, trade winds, and cultural exchange bind this watery c
+ontinent."
+  depth:
+    - "Layered basemap shows tectonic arcs, coral shelves, and voyaging corridors."
+    - "Cultural annotations spotlight Indigenous navigation guilds, customary marine tenure, and bilingual place names."
+    - "Systems panels link climate adaptation, circular economies, and guardianship agreements across island nations."
+maps:
+  projection: "Pacific-centered Winkel Tripel with stitched local enlargements"
+  layers:
+    - "Bathymetry and hypsometry with volcanic chains highlighted"
+    - "Major ocean currents, prevailing winds, and voyaging routes"
+    - "Cultural regions: Micronesia, Melanesia, Polynesia, Torres Strait, Western Australia"
+  legend:
+    - "Color ramp for elevation/bathymetry"
+    - "Symbols for World Heritage sites, Indigenous protected areas, and blue carbon reserves"
+  labels:
+    - "Landmarks: Great Barrier Reef, Mauna Kea, Puncak Jaya, Torres Strait, Rapa Nui"
+    - "Cities: Port Vila, Suva, Honolulu, Port Moresby, Apia"
+  insets:
+    - title: "Voyaging Networks"
+      projection: "Lambert azimuthal local hubs"
+      focus: "Hawaiki-Nui dispersal and Micronesian stick chart paths"
+      notes: "Overlay star compass quadrants and swell patterns"
+graphs:
+  - title: "Ocean-Linked Economies Timeline"
+    type: "timeline"
+    metrics:
+      - label: "Lapita exchange nodes (c. 1500 BCE)"
+        value: null
+        unit: null
+      - label: "Traditional voyaging renaissance (1976 Hōkūleʻa)"
+        value: null
+        unit: null
+      - label: "Pacific Regional Environment Programme (1982)"
+        value: null
+        unit: null
+      - label: "Blue Pacific 2050 climate pledges"
+        value: null
+        unit: null
+    notes: "Combine canoe silhouettes with policy icons"
+images:
+  prompts:
+    - text: "Aerial collage spanning volcanic archipelago, atoll lagoon, and desert monolith with ocean currents sketched"
+      style: "High-resolution photomontage"
+      cultural_context: "Respect accurate island geography and lighting"
+    - text: "Community meeting of Polynesian, Melanesian, and Aboriginal Australian guardians around large navigation chart"
+      style: "Photo-real documentary"
+      cultural_context: "Authentic attire, carved implements, bilingual signage"
+  selection_criteria:
+    - "Balance marine and terrestrial perspectives"
+    - "Depict collaborative stewardship and intergenerational knowledge"
+    - "Ensure fine textures stay crisp at mural scale"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Curved swell linking navigation inset to systems callouts"
+  typography:
+    heading_pt: 170
+    subheading_pt: 72
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Pair ocean current colors with arrow textures"
+    - "Provide tactile raised routes for voyaging paths"
+    - "Offer audio narration in English, Tok Pisin, te reo Māori, and Hawaiian"
+notes:
+  DATA_TO_VERIFY: []

@@ -1,0 +1,76 @@
+poster_id: Antarctica_CPOI
+station: Antarctica
+poster_type: CPOI
+title: "Antarctica: Ice, Atmosphere, and Global Commons"
+copy:
+  hook: "Stand at Earth’s cold engine room."
+  short: "Antarctica’s ice sheets, polar deserts, and penguin coasts regulate global oceans and climate. Explore research stations, c
+ollaborative treaties, and Indigenous southern connections that steward this shared continent under the Antarctic Treaty System."
+  depth:
+    - "Basemap layers show ice thickness, subglacial lakes, and key scientific corridors."
+    - "Cultural and treaty annotations highlight international stations and Indigenous Māori and Mapuche relationships."
+    - "Systems panels connect katabatic winds, circumpolar currents, and biodiversity refuges to global change."
+maps:
+  projection: "South Polar stereographic"
+  layers:
+    - "Ice sheet elevation, grounding lines, and ice shelf extents"
+    - "Ocean bathymetry with Antarctic Circumpolar Current"
+    - "Research stations, protected areas, and cultural waypoints"
+  legend:
+    - "Color ramp for ice thickness and bathymetry"
+    - "Icons for stations, heritage huts, and collaborative research zones"
+  labels:
+    - "Landmarks: Ross Ice Shelf, Amundsen Sea, Dome A, Dry Valleys, Antarctic Peninsula"
+    - "Stations: McMurdo, Scott Base, Palmer, Dumont d’Urville, Great Wall"
+  insets:
+    - title: "Subglacial Lake Network"
+      projection: "Inset equal-area"
+      focus: "Lake Vostok, Whillans Ice Stream, Lake Ellsworth"
+      notes: "Show drilling projects and contamination safeguards"
+    - title: "Antarctic Treaty Milestones"
+      projection: "Timeline strip"
+      focus: "1959 treaty to present-day protocols"
+      notes: "Highlight Māori and Mapuche advisory delegations"
+graphs:
+  - title: "Ice Mass Balance"
+    type: "line"
+    metrics:
+      - label: "East Antarctica"
+        value: null
+        unit: "Gt"
+      - label: "West Antarctica"
+        value: null
+        unit: "Gt"
+      - label: "Antarctic Peninsula"
+        value: null
+        unit: "Gt"
+    notes: "Include uncertainty bands and satellite mission icons"
+images:
+  prompts:
+    - text: "Panoramic view of Antarctic plateau with aurora, research stations, and ice shelf edge connected by data overlays"
+      style: "High-resolution photomontage"
+      cultural_context: "Reflect accurate station architecture and lighting"
+    - text: "Collaborative scene of international scientists and Māori advisors reviewing treaty map inside warm-lit hub"
+      style: "Photo-real documentary"
+      cultural_context: "Authentic cold-weather gear and cultural adornments"
+  selection_criteria:
+    - "Balance pristine landscapes with human presence"
+    - "Highlight cooperation and stewardship"
+    - "Maintain crisp detail for ice features"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Circular katabatic flow motif radiating from pole"
+  typography:
+    heading_pt: 170
+    subheading_pt: 72
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Provide tactile ice thickness relief and braided treaty timeline"
+    - "Offer audio narration in English, Spanish, te reo Māori, and simplified Mandarin"
+    - "Use textures plus color for data gradients"
+notes:
+  DATA_TO_VERIFY:
+    - "Ice mass balance values"

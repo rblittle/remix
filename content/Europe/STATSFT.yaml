@@ -1,0 +1,117 @@
+poster_id: Europe_STATSFT
+station: Europe
+poster_type: STATSFT
+title: "Europe Systems in Focus"
+copy:
+  hook: "Four quick dives into resilient futures."
+  short: "Each featurette sits within its column, pairing lived experience with data on energy, food, mobility, and restoration."
+  depth:
+    - "North Sea Wind Hubs: Ports share maintenance crews and shellfish farms."
+    - "Alpine Freight Shift: Night trains replace truck convoys through mountain passes."
+    - "Mediterranean Water Commons: Rain gardens and cistern revival stabilize supplies."
+    - "Baltic Peat Rewetting: Communities turn bogs into carbon sinks and ecotourism classrooms."
+featurettes:
+  - title: "North Sea Wind Hubs"
+    summary: "Dockworkers in Esbjerg, Oostende, and Cuxhaven co-manage offshore turbines with mussel farmers, scheduling maintenance boats alongside aquaculture harvests to reduce fuel trips."
+    data_bites:
+      - label: "Shared service runs"
+        value: 42
+        unit: "per month"
+      - label: "Dual-use platforms"
+        value: 18
+        unit: "sites"
+    maplet:
+      type: "flow"
+      projection: "Azimuthal"
+      focus: "North Sea"
+      notes: "Arrows show vessel sharing"
+  - title: "Alpine Freight Shift"
+    summary: "Logistics cooperatives move freight to electrified night trains through the Brenner and Lötschberg corridors, cutting diesel on alpine roads while providing quiet hours in valley towns."
+    data_bites:
+      - label: "Trucks replaced"
+        value: 8600
+        unit: "per month"
+      - label: "CO₂ saved"
+        value: 21000
+        unit: "t/month"
+    graph:
+      type: "line"
+      notes: "Emissions drop post-upgrade"
+  - title: "Mediterranean Water Commons"
+    summary: "Barcelona, Palermo, and Thessaloniki revive cisterns and rain gardens with resident councils, pairing smart meters with traditional water festivals to track savings and equity."
+    data_bites:
+      - label: "Households engaged"
+        value: 52000
+        unit: "homes"
+      - label: "Water saved"
+        value: 18
+        unit: "%"
+    maplet:
+      type: "dot"
+      projection: "Lambert"
+      focus: "Mediterranean cities"
+      notes: "Dot size = households"
+  - title: "Baltic Peat Rewetting"
+    summary: "Latvian and Estonian communities plug drainage ditches, raise water tables, and build boardwalk classrooms that train youth guides in bog ecology and safe access."
+    data_bites:
+      - label: "Hectares rewetted"
+        value: 14500
+        unit: "ha"
+      - label: "Carbon stored"
+        value: 0.9
+        unit: "Mt/year"
+    graph:
+      type: "bar"
+      notes: "Compare sites by carbon uptake"
+maps:
+  projection: "Integrated mini-maps"
+  layers:
+    - "Featurette-specific overlays"
+  legend:
+    - "Inline keys per column"
+  labels:
+    - "Port, corridor, city, bog names"
+  insets: []
+graphs:
+  - title: "Freight Shift Emissions"
+    type: "line"
+    metrics:
+      - label: "2015"
+        value: 32000
+        unit: "t/month"
+      - label: "2018"
+        value: 26000
+        unit: "t/month"
+      - label: "2022"
+        value: 21000
+        unit: "t/month"
+    notes: "Aligns with Alpine Freight feature"
+images:
+  prompts:
+    - text: "Photo-real collage of wind technicians, train operators, neighborhood water stewards, and peatland guides"
+      style: "Documentary composite"
+      cultural_context: "Across Europe"
+    - text: "Vector infographic layout of four mini-map featurettes"
+      style: "Clean infographic"
+      cultural_context: "Pan-European"
+  selection_criteria:
+    - "Show collaborative labor and community pride"
+    - "Ensure equipment depicted is accurate"
+    - "Maintain clarity for small-format prints"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Featurettes stack with consistent headers"
+  typography:
+    heading_pt: 128
+    subheading_pt: 48
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Icons plus text for every data point"
+    - "Tactile overlays for mini-maps"
+    - "Plain-language summary bar at bottom"
+notes:
+  DATA_TO_VERIFY:
+    - "All quantitative values"

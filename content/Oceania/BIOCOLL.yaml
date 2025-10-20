@@ -1,0 +1,87 @@
+poster_id: Oceania_BIOCOLL
+station: Oceania
+poster_type: BIOCOLL
+title: "Reef, Rainforest, and Savanna Kinships"
+copy:
+  hook: "Three biomes, countless kinship responsibilities."
+  short: "Compare Great Barrier Reef coral nurseries, Papua New Guinea cloud forests, and Northern Territory savannas. Each biome p
+airs keystone species with guardians revitalizing customary law, science dives, and mosaic fire to balance biodiversity and livel
+ ihoods."
+  depth:
+    - "Climate charts align temperature, rainfall, and cyclone/fire seasons across the three biomes."
+    - "Biodiversity indicators track coral cover, bird diversity, and savanna carbon with stewardship milestones."
+    - "Stories feature Yirrganydji sea rangers, Bosmun forest weavers, and Tiwi fire crews."
+maps:
+  projection: "Tri-panel equal-area mini maps"
+  layers:
+    - "Reef zoning, coral nurseries, and turtle nesting beaches"
+    - "Cloud forest canopy height, cultural use zones, and watershed boundaries"
+    - "Savanna burn mosaics, monsoon vine thickets, and freshwater billabongs"
+  legend:
+    - "Color ramps for habitat health indexes"
+    - "Icons for guardian teams, research stations, and cultural harvest areas"
+  labels:
+    - "Key species: Manta rays, Birds-of-paradise, Agile wallabies"
+    - "Communities: Yirrganydji, Bosmun, Tiwi, Yolŋu"
+  insets:
+    - title: "Biocultural Accord Timeline"
+      projection: "Horizontal ribbon"
+      focus: "Co-management agreements 1990–present"
+      notes: "Flag bilingual legal milestones"
+graphs:
+  - title: "Climate Profiles"
+    type: "radial"
+    metrics:
+      - label: "Reef sea surface temp"
+        value: null
+        unit: null
+      - label: "Cloud forest rainfall"
+        value: null
+        unit: null
+      - label: "Savanna dry-season length"
+        value: null
+        unit: null
+    notes: "Use three concentric radials with color-pattern pairing"
+  - title: "Stewardship Outcomes"
+    type: "bar"
+    metrics:
+      - label: "Coral cover rebound"
+        value: null
+        unit: "%"
+      - label: "Forest species recorded"
+        value: null
+        unit: "count"
+      - label: "Savanna carbon stored"
+        value: null
+        unit: "t CO₂e"
+    notes: "Stacked bars with narrative captions"
+images:
+  prompts:
+    - text: "Triptych portraits of Yirrganydji sea ranger underwater, Bosmun weaver cataloguing orchids, and Tiwi fire crew lighting co
+ntrolled burn"
+      style: "Photo-real documentary"
+      cultural_context: "Include customary dress, tools, and respect protocols"
+    - text: "Macro collage of coral polyps, bird-of-paradise feathers, and savanna grass seeds"
+      style: "High-resolution macro"
+      cultural_context: "True-to-life coloration"
+  selection_criteria:
+    - "Celebrate guardianship and biodiversity without sensationalism"
+    - "Maintain clarity between biome textures"
+    - "Ensure imagery works with bilingual labels"
+design:
+  layout:
+    columns: 2
+    gutters: "0.85 in"
+    keylines: "Circular motif echoing coral, canopy, and fire wheels"
+  typography:
+    heading_pt: 145
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Use icon plus color encoding for data"
+    - "Provide tactile leaf, coral, and grass samples"
+    - "Offer audio glossary of Indigenous species names"
+notes:
+  DATA_TO_VERIFY:
+    - "Quantitative values for coral cover, species counts, and carbon storage"

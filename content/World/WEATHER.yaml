@@ -1,0 +1,81 @@
+poster_id: World_WEATHER
+station: World
+poster_type: WEATHER
+title: "Weather Highways of the Planet"
+copy:
+  hook: "Follow the winds that stitch the hemispheres together."
+  short: "See how jet streams, monsoons, and trade winds orchestrate the planet’s daily forecast. The elevation strip compares a Himalaya-to-Pacific transect, showing how mountains redirect moisture. Learn when each pattern peaks and why it matters for travelers and wildlife."
+  depth:
+    - "Hadley, Ferrel, and Polar cells explain why trade winds blow steadily toward the equator while westerlies steer storms in mid-latitudes."
+    - "Seasonal monsoon arrows emphasize the June–September South Asian wet surge and the December–March Australian counterpart."
+    - "The timeline correlates El Niño–Southern Oscillation phases with coral bleaching alerts and crop yield shifts."
+maps:
+  projection: "Robinson projection for balanced world climate view"
+  layers:
+    - "Wind belts shaded with directional hatching"
+    - "Jet stream ribbons with altitude labels"
+    - "Storm tracks for cyclones, hurricanes, typhoons (max five exemplars)"
+  legend:
+    - "Wind speed categories using line weight and texture"
+    - "Seasonal monsoon arrows coded with dual-color tips for wet/dry phases"
+  labels:
+    - "Key atmospheric rivers: Pineapple Express, South American low-level jet"
+    - "Pressure centers: Icelandic Low, Pacific High"
+  insets:
+    - title: "Equatorial Cloud Belt"
+      projection: "Cylindrical equal-area"
+      focus: "Intertropical Convergence Zone migration"
+      notes: "Show boreal summer vs. boreal winter positions"
+graphs:
+  - title: "ENSO Cycle Impacts"
+    type: "line"
+    metrics:
+      - label: "Niño 3.4 anomaly (°C)"
+        value: [1.5, 0.2, -1.2, 0.8]
+        unit: "°C anomaly"
+      - label: "Global crop yield deviation (%)"
+        value: [-5, 1, 3, -2]
+        unit: "% change"
+    notes: "Align peaks with coral bleaching watchlist icons"
+  - title: "Elevation Moisture Transect"
+    type: "profile"
+    metrics:
+      - label: "Kathmandu Valley"
+        value: 1400
+        unit: "m"
+      - label: "Mount Everest summit"
+        value: 8849
+        unit: "m"
+      - label: "Western Pacific atoll"
+        value: 2
+        unit: "m"
+    notes: "Overlay precipitation bars at key transect points"
+images:
+  prompts:
+    - text: "Global atmospheric circulation diagram with sweeping cloud bands and labeled wind belts"
+      style: "Scientific illustration with vivid gradients"
+      cultural_context: "Global"
+    - text: "Photograph of travelers on Himalayan ridge watching monsoon clouds spill over valleys"
+      style: "High-resolution documentary photo"
+      cultural_context: "Nepal, inclusive representation"
+  selection_criteria:
+    - "Depict weather phenomena respectfully without sensationalizing disasters"
+    - "Include people with varied gear and body types in field imagery"
+    - "Maintain clarity for large-format print"
+design:
+  layout:
+    columns: 3
+    gutters: "1.25 in"
+    keylines: "Top band reserved for wind belt panorama"
+  typography:
+    heading_pt: 150
+    subheading_pt: 66
+    body_pt: 40
+    caption_pt: 30
+  accessibility:
+    - "Texture plus color coding for wind categories"
+    - "Provide tactile raised line for transect profile"
+    - "Include plain-language glossary sidebar"
+notes:
+  DATA_TO_VERIFY:
+    - "Quantitative crop yield deviation values tied to ENSO phases"

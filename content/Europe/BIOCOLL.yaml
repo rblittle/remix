@@ -1,0 +1,75 @@
+poster_id: Europe_BIOCOLL
+station: Europe
+poster_type: BIOCOLL
+title: "Bog, Meadow, Maquis"
+copy:
+  hook: "Three biomes under community care."
+  short: "Compare Baltic raised bogs, Alpine high meadows, and Mediterranean maquis shrublands. Each panel pairs keystone species with local stewardship that restores peat, pollinator corridors, and fire-wise landscapes."
+  depth:
+    - "Climate charts display temperature and rainfall gradients for each biome."
+    - "Biodiversity icons highlight species like bog rosemary, alpine ibex, and cork oak companions."
+    - "Stewardship stories feature Latvian peat re-wetters, Swiss alpine shepherds, and Sardinian prescribed burn crews."
+maps:
+  projection: "Europe equal-area composite"
+  layers:
+    - "Biome extents and protected zones"
+    - "Ecological corridors and pollinator routes"
+    - "Community-managed sites"
+  legend:
+    - "Color swatches for each biome"
+    - "Symbols for stewardship practices"
+  labels:
+    - "Locations: Kemeri bog, Valais meadows, Gallura maquis"
+    - "Species names with local language equivalents"
+  insets:
+    - title: "Peat Depth Profile"
+      projection: "Section"
+      focus: "Kemeri National Park"
+      notes: "Show re-wetting layers"
+    - title: "Fire Mosaic"
+      projection: "Matrix"
+      focus: "Sardinia"
+      notes: "Display rotational burn patches"
+graphs:
+  - title: "Habitat Recovery"
+    type: "line"
+    metrics:
+      - label: "Bog water table"
+        value: 30
+        unit: "cm rise"
+      - label: "Ibex counts"
+        value: 1200
+        unit: "individuals"
+      - label: "Maquis understory diversity"
+        value: 45
+        unit: "species/ha"
+    notes: "Compare progress since restoration start"
+images:
+  prompts:
+    - text: "Photo-real montage of Latvian peatland team, Swiss shepherd, Sardinian fire crew"
+      style: "Documentary collage"
+      cultural_context: "Authentic gear and landscapes"
+    - text: "Macro imagery of bog moss, alpine flowers, maquis herbs"
+      style: "Scientific macro"
+      cultural_context: "Accurate coloration"
+  selection_criteria:
+    - "Show collaborative stewardship"
+    - "Avoid romanticizing fire or overharvesting"
+    - "Ensure color contrast suitable for print"
+design:
+  layout:
+    columns: 3
+    gutters: "1 in"
+    keylines: "Tri-panel arrangement with shared legend"
+  typography:
+    heading_pt: 140
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile icons for each biome"
+    - "Offer audio descriptions with pronunciation guides"
+    - "Use textures plus color for biome distinction"
+notes:
+  DATA_TO_VERIFY:
+    - "Habitat recovery metrics"

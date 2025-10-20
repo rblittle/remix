@@ -1,0 +1,91 @@
+poster_id: SouthAmerica_BIOCOLL
+station: South America
+poster_type: BIOCOLL
+title: "Páramo, Cerrado, and Mangrove Mosaic"
+copy:
+  hook: "Three biomes, shared guardianship."
+  short: "Contrast Andean páramo water towers, Cerrado savanna mosaics, and Guyana–Amazon mangrove belts. Each panel pairs flagship species with Indigenous, Afro-descendant, and farmer alliances restoring balance."
+  depth:
+    - "Climate charts align temperature and rainfall gradients."
+    - "Biodiversity indicators highlight pollinator networks, fire regimes, and carbon storage."
+    - "Stories feature Misak páramo tenders, Xavante fire brigades, and Wapichan mangrove fishers."
+maps:
+  projection: "Regional equal-area composites"
+  layers:
+    - "Biome extents and transition zones"
+    - "Community-managed areas and protected sites"
+    - "Species migration corridors linking biomes"
+  legend:
+    - "Textures for high Andean grass, savanna shrub, mangrove"
+    - "Icons for stewardship practices"
+  labels:
+    - "Species: Spectacled bear, Maned wolf, Scarlet ibis"
+    - "Community hubs: Silvia Cauca, Marãiwatsédé, Waini River"
+  insets:
+    - title: "Fire Mosaic Wheel"
+      projection: "None"
+      focus: "Cerrado burn rotations"
+      notes: "Show cultural burn schedule"
+    - title: "Mangrove Carbon Vaults"
+      projection: "Azimuthal"
+      focus: "Guianas coast"
+      notes: "Map blue carbon plots"
+graphs:
+  - title: "Biome Climate Profiles"
+    type: "radar"
+    metrics:
+      - label: "Mean temperature"
+        value: null
+        unit: "°C"
+      - label: "Annual rainfall"
+        value: null
+        unit: "mm"
+      - label: "Dry season length"
+        value: null
+        unit: "months"
+      - label: "Carbon density"
+        value: null
+        unit: "t/ha"
+    notes: "Plot three lines with distinct textures"
+  - title: "Stewardship Outcomes"
+    type: "bar"
+    metrics:
+      - label: "Water yield increase"
+        value: null
+        unit: "%"
+      - label: "Pollinator return"
+        value: null
+        unit: "%"
+      - label: "Mangrove expansion"
+        value: null
+        unit: "%"
+    notes: "Baseline vs current bars"
+images:
+  prompts:
+    - text: "Portrait triptych of Misak water guardian, Xavante fire practitioner, and Wapichan fisher among mangroves"
+      style: "Photo-real documentary"
+      cultural_context: "Authentic attire and tools"
+    - text: "Macro montage of frailejón rosettes, Cerrado wildflowers, and mangrove roots with crabs"
+      style: "High-macro photography"
+      cultural_context: "Accurate coloration"
+  selection_criteria:
+    - "Secure community approval for portrait contexts"
+    - "Highlight active stewardship rather than extraction"
+    - "Maintain clarity at large print scale"
+design:
+  layout:
+    columns: 3
+    gutters: "0.9 in"
+    keylines: "Curved corridors linking biome panels"
+  typography:
+    heading_pt: 138
+    subheading_pt: 56
+    body_pt: 34
+    caption_pt: 24
+  accessibility:
+    - "Provide tactile icons for each biome texture"
+    - "Offer multilingual glossaries (Spanish, Portuguese, Quechua, Xavante, Wapichan)"
+    - "Use pattern fills with color for charts"
+notes:
+  DATA_TO_VERIFY:
+    - "Climate and outcome values"

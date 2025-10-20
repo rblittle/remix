@@ -1,0 +1,91 @@
+poster_id: Antarctica_ANIMCOLL
+station: Antarctica
+poster_type: ANIMCOLL
+title: "Polar Highways of Wing, Fin, and Fur"
+copy:
+  hook: "Follow globe-spanning migrations that hinge on Antarctic ice."
+  short: "Track humpback whales, Antarctic terns, Weddell seals, and light-mantled albatrosses as they depend on sea-ice edges, upwell
+ing fronts, and protected rookeries. Indigenous navigators, treaty monitors, and citizen scientists keep watch from Patagonia to t
+he Ross Sea."
+  depth:
+    - "Great-circle maps trace migratory routes with seasonal timing and rest sites."
+    - "Callouts highlight Indigenous knowledge—from Mapuche whale observers to Māori albatross guardians."
+    - "Data frames connect threats like krill harvest, plastic drift, and vessel noise with mitigation alliances."
+maps:
+  projection: "Bipolar network combining South Polar stereographic and global inset"
+  layers:
+    - "Migration corridors, feeding zones, and breeding sites"
+    - "Marine protected areas and shipping exclusion routes"
+    - "Community monitoring hubs and acoustic arrays"
+  legend:
+    - "Arrow styles for species and direction"
+    - "Icons for observation posts, satellite tags, and cultural guardians"
+  labels:
+    - "Routes: Antarctica to Chile humpbacks, circumpolar tern loop, Weddell seal under-ice circuits, Campbell Island albatross sweep"
+    - "Communities: Ushuaia, Puerto Williams, Bluff, Ross Island"
+  insets:
+    - title: "Ross Sea Marine Protected Area"
+      projection: "Regional map"
+      focus: "Seal and penguin overlap with fishing zones"
+      notes: "Annotate seasonal closures"
+    - title: "Albatross Flyway"
+      projection: "Great-circle strip"
+      focus: "Campbell Island to South Atlantic"
+      notes: "Show wind belts and storm avoidance"
+graphs:
+  - title: "Migration Distances"
+    type: "bar"
+    metrics:
+      - label: "Humpback whale"
+        value: null
+        unit: "km"
+      - label: "Antarctic tern"
+        value: null
+        unit: "km"
+      - label: "Light-mantled albatross"
+        value: null
+        unit: "km"
+      - label: "Weddell seal"
+        value: null
+        unit: "km"
+    notes: "Use split bars for outbound and return"
+  - title: "Acoustic Monitoring Hours"
+    type: "line"
+    metrics:
+      - label: "Hydrophone arrays"
+        value: null
+        unit: "hours"
+      - label: "Community logbooks"
+        value: null
+        unit: "entries"
+    notes: "Highlight Indigenous-led observation peaks"
+images:
+  prompts:
+    - text: "Dynamic collage of breaching humpback, flock of Antarctic terns over pack ice, Weddell seal surfacing by breathing hole, and albatross soaring above Southern Ocean"
+      style: "Photo-real composite"
+      cultural_context: "Accurate species proportions and environments"
+    - text: "Night watch scene with Mapuche observers, Māori guardians, and polar scientists tracking migrations on shared digital map"
+      style: "Photo-real documentary"
+      cultural_context: "Authentic clothing, red-safe lighting, multilingual interfaces"
+  selection_criteria:
+    - "Depict safe wildlife distances"
+    - "Emphasize cross-cultural teamwork"
+    - "Maintain clarity of migration arrows"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Circular compass connecting hemispheres"
+  typography:
+    heading_pt: 150
+    subheading_pt: 60
+    body_pt: 34
+    caption_pt: 26
+  accessibility:
+    - "Provide tactile cords showing routes"
+    - "Offer layered audio mixing whale song and wind at safe volume"
+    - "Use icon plus text for species identifiers"
+notes:
+  DATA_TO_VERIFY:
+    - "Migration distances"
+    - "Monitoring hour counts"

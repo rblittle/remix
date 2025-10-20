@@ -1,0 +1,71 @@
+poster_id: Africa_BIOCOLL
+station: Africa
+poster_type: BIOCOLL
+title: "Rainforest, Savanna, Fynbos"
+copy:
+  hook: "Three biodiversity tapestries, one continent."
+  short: "Compare the Congo rainforest, the Serengeti savanna, and South Africa’s fynbos shrublands. Each biome is shown with keystone species, Indigenous knowledge, and restoration efforts."
+  depth:
+    - "Tri-panel illustrations pair climate graphs with flagship species and human stewards."
+    - "Map highlights biodiversity hotspots and community conservancies."
+    - "Callouts share seed banking, fire management, and anti-poaching innovations."
+maps:
+  projection: "Equal-area conic for sub-Saharan Africa"
+  layers:
+    - "Biome extents"
+    - "Hotspot polygons (Eastern Arc, Cape Floristic, Upper Guinea)"
+    - "Community-managed conservation areas"
+  legend:
+    - "Biome colors with icons"
+    - "Pattern overlays for community stewardship"
+  labels:
+    - "Key sites: Salonga, Ngorongoro, Table Mountain, Okavango"
+    - "Indigenous nations: BaAka, Maasai, Khoi communities"
+  insets:
+    - title: "Fire Stewardship"
+      projection: "None"
+      focus: "Savanna burn calendar"
+      notes: "Combine pictographs with months"
+graphs:
+  - title: "Biome Climate Profiles"
+    type: "line"
+    metrics:
+      - label: "Congo rainfall"
+        value: [250, 240, 230, 260]
+        unit: "cm/yr"
+      - label: "Serengeti rainfall"
+        value: [90, 70, 120, 60]
+        unit: "cm/yr"
+      - label: "Fynbos rainfall"
+        value: [50, 30, 60, 80]
+        unit: "cm/yr"
+    notes: "Seasonal bars behind lines"
+images:
+  prompts:
+    - text: "Photo-real montage: Congolese botanist logging tree data, Maasai women managing grassland firebreak, South African botanist cataloging proteas"
+      style: "Documentary composite"
+      cultural_context: "Regional accuracy"
+    - text: "Macro photo of pollinators on fynbos flowers"
+      style: "High-resolution macro"
+      cultural_context: "Cape Floristic Region"
+  selection_criteria:
+    - "Ensure representation of local experts"
+    - "Depict species native to each biome"
+    - "Maintain color accuracy for educational clarity"
+design:
+  layout:
+    columns: 3
+    gutters: "1.2 in"
+    keylines: "Tri-panel arrangement with shared legend"
+  typography:
+    heading_pt: 140
+    subheading_pt: 56
+    body_pt: 36
+    caption_pt: 28
+  accessibility:
+    - "Embossed leaf textures for each biome"
+    - "Audio descriptions in Lingala, Maa, Afrikaans"
+    - "Use icons plus text for conservation practices"
+notes:
+  DATA_TO_VERIFY:
+    - "Rainfall values per biome"

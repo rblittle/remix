@@ -1,0 +1,61 @@
+poster_id: Oceania_CHARNARR
+station: Oceania
+poster_type: CHARNARR
+title: "Voices of Sea Roads and Fire Trails"
+copy:
+  hook: "Three islanders share how they read change."
+  short: "A navigator, a mangrove guardian, and a village coder describe daily rhythms that keep voyagers safe, reefs breathing, and yo
+uth connected across oceans."
+  depth:
+    - "Audio in Palauan, Roviana, and Hawaiian with English captions."
+    - "Visitors handle tactile wayfinding shell, mangrove seedling, and braided charging cord."
+    - "Prompt cards invite guests to map their own weather or care routines."
+narratives:
+  - name: "Dilong Sengebau"
+    identity: "Palauan master navigator and canoe carpenter"
+    gender: "male"
+    age: 57
+    location: "Ngarchelong, Palau"
+    text: "When the swell from the northeast beats three heartbeats faster than the southern swell, I know the reef pass is clearing. I
+ set my students to tapping the etak sticks while I align the canoe bow with the star Dilang. Before we launch, I radio the weather
+ office, then switch it off so we can listen for flying fish skipping—a sign the current favors us."
+    ai_prompt: "Photo-real portrait of Palauan navigator aboard traditional canoe at dusk aligning star compass with ocean swells"
+  - name: "Marita Gaomae"
+    identity: "Roviana mangrove guardian and science teacher"
+    gender: "female"
+    age: 34
+    location: "Munda, Solomon Islands"
+    text: "I wade to my knees before class to check the crab pots and the drone battery. The mangrove seedlings we plant with Year 8 stude
+nts follow the moon, so I sing the planting song while logging salinity on the tablet. After school the aunties join us to weave nee
+dle mats that mark no-cut zones, and we stream the data to cousins upriver."
+    ai_prompt: "Photo-real image of Solomon Islands woman in mangrove shallows holding tablet and woven marker with students"
+  - name: "Keola Akeakamai"
+    identity: "Native Hawaiian teen coder and fishpond caretaker"
+    gender: "male"
+    age: 16
+    location: "Heʻeia, Oʻahu"
+    text: "My tutu lets me bike the shoreline before sunrise if I stop to feel the sluice gate stones. Their warmth tells me how long the
+ tide has rested. I patch the AI sensor code on my phone, then scan the limu beds for the first ʻamaʻama flashes. At school I stream t
+he pond readings into our language app so classmates can learn Hawaiian words for each change."
+    ai_prompt: "Photo-real portrait of Native Hawaiian teen checking fishpond sensor with smartphone at dawn"
+images:
+  selection_criteria:
+    - "Secure storytellers’ approval of scripts and visuals"
+    - "Balance low-light scenes with clear facial cues for lip reading"
+    - "Include environmental sounds in audio capture"
+design:
+  layout:
+    columns: 2
+    gutters: "1 in"
+    keylines: "Wave-and-root motif linking portraits"
+  typography:
+    heading_pt: 130
+    subheading_pt: 50
+    body_pt: 32
+    caption_pt: 24
+  accessibility:
+    - "Provide braille and large-print transcripts"
+    - "Offer bone-conduction and over-ear audio options"
+    - "Ensure benches with backrests and wheelchair clearance"
+notes:
+  DATA_TO_VERIFY: []
